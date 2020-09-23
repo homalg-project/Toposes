@@ -1,0 +1,145 @@
+  
+  [1X3 [33X[0;0YToposes[133X[101X
+  
+  
+  [1X3.1 [33X[0;0YSubobject Classifier[133X[101X
+  
+  [1X3.1-1 SubobjectClassifier[101X
+  
+  [33X[1;0Y[29X[2XSubobjectClassifier[102X( [3XC[103X ) [32X attribute[133X
+  [6XReturns:[106X  [33X[0;10Yan object[133X
+  
+  [33X[0;0YThe  property  of [3XC[103X being an elementary topos. A subobject classifier object
+  consists of three parts:[133X
+  
+  [30X    [33X[0;6Yan object [23X\Omega[123X,[133X
+  
+  [30X    [33X[0;6Ya   function  [23X\mathrm{true}[123X  providing  a  morphism  [23X\mathrm{true}:  1
+        \rightarrow \Omega[123X,[133X
+  
+  [30X    [33X[0;6Ya  function  [23X\chi[123X  mapping  each monomorphism [23Xi : A \rightarrow S[123X to a
+        morphism [23X\chi_i : S \to \Omega[123X.[133X
+  
+  [33X[0;0YThe  triple  [23X(\Omega,\mathrm{true},\chi)[123X is called a [13Xsubobject classifier[113X if
+  for each monomorphism [23Xi : A \to S[123X, the morphism [23X\chi_i : S \to \Omega[123X is the
+  unique  morphism  such  that  [23X\chi_i  \circ  i  =  \mathrm{true}  \circ \ast[123X
+  determine  a pullback diagram. The argument is a category [23XC[123X. The output is a
+  subobject classifier object [23X\Omega[123X of [23XC[123X.[133X
+  
+  [1X3.1-2 SubobjectClassifier[101X
+  
+  [33X[1;0Y[29X[2XSubobjectClassifier[102X( [3Xc[103X ) [32X attribute[133X
+  [6XReturns:[106X  [33X[0;10Yan object[133X
+  
+  [33X[0;0YThis  is  a  convenience  method.  The argument is a cell [23Xc[123X. The output is a
+  subobject classifier [23X\Omega[123X of the category [23XC[123X for which [23Xc \in C[123X.[133X
+  
+  [1X3.1-3 TruthMorphismIntoSubobjectClassifierWithGivenObjects[101X
+  
+  [33X[1;0Y[29X[2XTruthMorphismIntoSubobjectClassifierWithGivenObjects[102X( [3XT[103X, [3XW[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ya    morphism    in    [23X\mathrm{Hom}(   \mathrm{TerminalObject}   ,
+            \mathrm{SubobjectClassifier} )[123X[133X
+  
+  [33X[0;0YThe  arguments  are  a  terminal  object  of  the  category  and a subobject
+  classifier.  The  output  is  the truth morphism to the subobject classifier
+  [23X\mathrm{true}:              \mathrm{TerminalObject}              \rightarrow
+  \mathrm{SubobjectClassifier}[123X.[133X
+  
+  [1X3.1-4 TruthMorphismIntoSubobjectClassifier[101X
+  
+  [33X[1;0Y[29X[2XTruthMorphismIntoSubobjectClassifier[102X( [3XC[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ya    morphism    in    [23X\mathrm{Hom}(   \mathrm{TerminalObject}   ,
+            \mathrm{SubobjectClassifier} )[123X[133X
+  
+  [33X[0;0YThe  argument  is  a  category  [23XC[123X.  The  output is the truth morphism to the
+  subobject   classifier  [23X\mathrm{true}:  \mathrm{TerminalObject}  \rightarrow
+  \mathrm{SubobjectClassifier}[123X.[133X
+  
+  [1X3.1-5 TruthMorphismIntoSubobjectClassifier[101X
+  
+  [33X[1;0Y[29X[2XTruthMorphismIntoSubobjectClassifier[102X( [3Xc[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ya    morphism    in    [23X\mathrm{Hom}(   \mathrm{TerminalObject}   ,
+            \mathrm{SubobjectClassifier} )[123X[133X
+  
+  [33X[0;0YThis  is  a  convenience method. The argument is a cell [23Xc[123X. The output is the
+  truth     morphism    to    the    subobject    classifier    [23X\mathrm{true}:
+  \mathrm{TerminalObject}   \rightarrow  \mathrm{SubobjectClassifier}[123X  of  the
+  category [23XC[123X for which [23Xc \in C[123X.[133X
+  
+  [1X3.1-6 ClassifyingMorphismOfSubobject[101X
+  
+  [33X[1;0Y[29X[2XClassifyingMorphismOfSubobject[102X( [3Xm[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ya     morphism     in     [23X\mathrm{Hom}(     \mathrm{Range}(m)    ,
+            \mathrm{SubobjectClassifier} )[123X[133X
+  
+  [33X[0;0YThe  argument  is  a  monomorphism  [23Xm  :  A \rightarrow S[123X. The output is its
+  classifying morphism [23X\chi_m : S \rightarrow \mathrm{SubobjectClassifier}[123X.[133X
+  
+  [1X3.1-7 ClassifyingMorphismOfSubobjectWithGivenSubobjectClassifier[101X
+  
+  [33X[1;0Y[29X[2XClassifyingMorphismOfSubobjectWithGivenSubobjectClassifier[102X( [3Xm[103X, [3Xomega[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ya     morphism     in     [23X\mathrm{Hom}(     \mathrm{Range}(m)    ,
+            \mathrm{SubobjectClassifier} )[123X[133X
+  
+  [33X[0;0YThe  arguments  are  a  monomorphism  [23Xm  :  A  \rightarrow S[123X and a subobject
+  classifier   [23X\Omega[123X.   The   output  is  the  classifying  morphism  of  the
+  monomorphism [23X\chi_m : S \rightarrow \mathrm{SubobjectClassifier}[123X.[133X
+  
+  [1X3.1-8 SubobjectOfClassifyingMorphism[101X
+  
+  [33X[1;0Y[29X[2XSubobjectOfClassifyingMorphism[102X( [3Xchi[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ya monomorphism in [23X\mathrm{Hom}( A , S )[123X[133X
+  
+  [33X[0;0YThe  argument  is  a  classifying  morphism [23X\chi : S \rightarrow \Omega[123X. The
+  output  is  the  subobject  monomorphism  of the classifying morphism, [23Xm : A
+  \rightarrow S[123X.[133X
+  
+  [1X3.1-9 AddSubobjectClassifier[101X
+  
+  [33X[1;0Y[29X[2XAddSubobjectClassifier[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe arguments are a category and a function [23XF[123X. This operation adds the given
+  function  [23XF[123X to the category for the basic operation [10XSubobjectClassifier[110X. [23XF :
+  () \mapsto \mathrm{SubobjectClassifier}[123X.[133X
+  
+  [1X3.1-10 AddClassifyingMorphismOfSubobject[101X
+  
+  [33X[1;0Y[29X[2XAddClassifyingMorphismOfSubobject[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XClassifyingMorphismOfSubobject[110X.         [23XF         :         m        \mapsto
+  \mathrm{ClassifyingMorphism}(m)[123X.[133X
+  
+  [1X3.1-11 AddClassifyingMorphismOfSubobjectWithGivenSubobjectClassifier[101X
+  
+  [33X[1;0Y[29X[2XAddClassifyingMorphismOfSubobjectWithGivenSubobjectClassifier[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XClassifyingMorphismOfSubobjectWithGivenSubobjectClassifier[110X.  [23XF : (m, \Omega)
+  \mapsto \mathrm{ClassifyingMorphism}(m)[123X.[133X
+  
+  [1X3.1-12 AddTruthMorphismIntoSubobjectClassifierWithGivenObjects[101X
+  
+  [33X[1;0Y[29X[2XAddTruthMorphismIntoSubobjectClassifierWithGivenObjects[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XTruthMorphismIntoSubobjectClassifierWithGivenObjects[110X.   [23XF   :   (1,  \Omega)
+  \mapsto \mathrm{true}[123X.[133X
+  
+  [1X3.1-13 AddSubobjectOfClassifyingMorphism[101X
+  
+  [33X[1;0Y[29X[2XAddSubobjectOfClassifyingMorphism[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XSubobjectOfClassifyingMorphism[110X.         [23XF         :         m        \mapsto
+  \mathrm{SubobjectOfClassifyingMorphism}(m)[123X.[133X
+  

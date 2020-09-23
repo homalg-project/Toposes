@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<script type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<title>GAP (Toposes) - Chapter 3: Toposes</title>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="GAPDoc2HTML" />
+<link rel="stylesheet" type="text/css" href="manual.css" />
+<script src="manual.js" type="text/javascript"></script>
+<script type="text/javascript">overwriteStyle();</script>
+</head>
+<body class="chap3"  onload="jscontent()">
+
+
+<div class="chlinktop"><span class="chlink1">Goto Chapter: </span><a href="chap0_mj.html">Top</a>  <a href="chap1_mj.html">1</a>  <a href="chap2_mj.html">2</a>  <a href="chap3_mj.html">3</a>  <a href="chapInd_mj.html">Ind</a>  </div>
+
+<div class="chlinkprevnexttop">&nbsp;<a href="chap0_mj.html">[Top of Book]</a>&nbsp;  <a href="chap0_mj.html#contents">[Contents]</a>&nbsp;  &nbsp;<a href="chap2_mj.html">[Previous Chapter]</a>&nbsp;  &nbsp;<a href="chapInd_mj.html">[Next Chapter]</a>&nbsp;  </div>
+
+<p id="mathjaxlink" class="pcenter"><a href="chap3.html">[MathJax off]</a></p>
+<p><a id="X857C2D3B8129377F" name="X857C2D3B8129377F"></a></p>
+<div class="ChapSects"><a href="chap3_mj.html#X857C2D3B8129377F">3 <span class="Heading">Toposes</span></a>
+<div class="ContSect"><span class="tocline"><span class="nocss">&nbsp;</span><a href="chap3_mj.html#X87DA77E487F951EF">3.1 <span class="Heading">Subobject Classifier</span></a>
+</span>
+<div class="ContSSBlock">
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3_mj.html#X7D33F6ED85FC23BC">3.1-1 SubobjectClassifier</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3_mj.html#X7DB6F01F7ACEDD5C">3.1-2 SubobjectClassifier</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3_mj.html#X82A2DD007FCA428A">3.1-3 TruthMorphismIntoSubobjectClassifierWithGivenObjects</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3_mj.html#X8055E0238533E4CC">3.1-4 TruthMorphismIntoSubobjectClassifier</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3_mj.html#X7BF5428B7FFA2222">3.1-5 TruthMorphismIntoSubobjectClassifier</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3_mj.html#X7E86ACBB830223AC">3.1-6 ClassifyingMorphismOfSubobject</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3_mj.html#X874A09FD7A8FB706">3.1-7 ClassifyingMorphismOfSubobjectWithGivenSubobjectClassifier</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3_mj.html#X85AA59EA7D780BAB">3.1-8 SubobjectOfClassifyingMorphism</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3_mj.html#X7F91B1417B647CBA">3.1-9 AddSubobjectClassifier</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3_mj.html#X7CB2F66B8022D23C">3.1-10 AddClassifyingMorphismOfSubobject</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3_mj.html#X7EA4360E79D92811">3.1-11 AddClassifyingMorphismOfSubobjectWithGivenSubobjectClassifier</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3_mj.html#X7E01F89979FAA32C">3.1-12 AddTruthMorphismIntoSubobjectClassifierWithGivenObjects</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3_mj.html#X814CF88C850C8077">3.1-13 AddSubobjectOfClassifyingMorphism</a></span>
+</div></div>
+</div>
+
+<h3>3 <span class="Heading">Toposes</span></h3>
+
+<p><a id="X87DA77E487F951EF" name="X87DA77E487F951EF"></a></p>
+
+<h4>3.1 <span class="Heading">Subobject Classifier</span></h4>
+
+<p><a id="X7D33F6ED85FC23BC" name="X7D33F6ED85FC23BC"></a></p>
+
+<h5>3.1-1 SubobjectClassifier</h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; SubobjectClassifier</code>( <var class="Arg">C</var> )</td><td class="tdright">(&nbsp;attribute&nbsp;)</td></tr></table></div>
+<p>Returns: an object</p>
+
+<p>The property of <var class="Arg">C</var> being an elementary topos. A subobject classifier object consists of three parts:</p>
+
+
+<ul>
+<li><p>an object <span class="SimpleMath">\(\Omega\)</span>,</p>
+
+</li>
+<li><p>a function <span class="SimpleMath">\(\mathrm{true}\)</span> providing a morphism <span class="SimpleMath">\(\mathrm{true}: 1 \rightarrow \Omega\)</span>,</p>
+
+</li>
+<li><p>a function <span class="SimpleMath">\(\chi\)</span> mapping each monomorphism <span class="SimpleMath">\(i : A \rightarrow S\)</span> to a morphism <span class="SimpleMath">\(\chi_i : S \to \Omega\)</span>.</p>
+
+</li>
+</ul>
+<p>The triple <span class="SimpleMath">\((\Omega,\mathrm{true},\chi)\)</span> is called a <em>subobject classifier</em> if for each monomorphism <span class="SimpleMath">\(i : A \to S\)</span>, the morphism <span class="SimpleMath">\(\chi_i : S \to \Omega\)</span> is the unique morphism such that <span class="SimpleMath">\(\chi_i \circ i = \mathrm{true} \circ \ast\)</span> determine a pullback diagram. The argument is a category <span class="SimpleMath">\(C\)</span>. The output is a subobject classifier object <span class="SimpleMath">\(\Omega\)</span> of <span class="SimpleMath">\(C\)</span>.</p>
+
+<p><a id="X7DB6F01F7ACEDD5C" name="X7DB6F01F7ACEDD5C"></a></p>
+
+<h5>3.1-2 SubobjectClassifier</h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; SubobjectClassifier</code>( <var class="Arg">c</var> )</td><td class="tdright">(&nbsp;attribute&nbsp;)</td></tr></table></div>
+<p>Returns: an object</p>
+
+<p>This is a convenience method. The argument is a cell <span class="SimpleMath">\(c\)</span>. The output is a subobject classifier <span class="SimpleMath">\(\Omega\)</span> of the category <span class="SimpleMath">\(C\)</span> for which <span class="SimpleMath">\(c \in C\)</span>.</p>
+
+<p><a id="X82A2DD007FCA428A" name="X82A2DD007FCA428A"></a></p>
+
+<h5>3.1-3 TruthMorphismIntoSubobjectClassifierWithGivenObjects</h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; TruthMorphismIntoSubobjectClassifierWithGivenObjects</code>( <var class="Arg">T</var>, <var class="Arg">W</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
+<p>Returns: a morphism in <span class="SimpleMath">\(\mathrm{Hom}( \mathrm{TerminalObject} , \mathrm{SubobjectClassifier} )\)</span></p>
+
+<p>The arguments are a terminal object of the category and a subobject classifier. The output is the truth morphism to the subobject classifier <span class="SimpleMath">\(\mathrm{true}: \mathrm{TerminalObject} \rightarrow \mathrm{SubobjectClassifier}\)</span>.</p>
+
+<p><a id="X8055E0238533E4CC" name="X8055E0238533E4CC"></a></p>
+
+<h5>3.1-4 TruthMorphismIntoSubobjectClassifier</h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; TruthMorphismIntoSubobjectClassifier</code>( <var class="Arg">C</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
+<p>Returns: a morphism in <span class="SimpleMath">\(\mathrm{Hom}( \mathrm{TerminalObject} , \mathrm{SubobjectClassifier} )\)</span></p>
+
+<p>The argument is a category <span class="SimpleMath">\(C\)</span>. The output is the truth morphism to the subobject classifier <span class="SimpleMath">\(\mathrm{true}: \mathrm{TerminalObject} \rightarrow \mathrm{SubobjectClassifier}\)</span>.</p>
+
+<p><a id="X7BF5428B7FFA2222" name="X7BF5428B7FFA2222"></a></p>
+
+<h5>3.1-5 TruthMorphismIntoSubobjectClassifier</h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; TruthMorphismIntoSubobjectClassifier</code>( <var class="Arg">c</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
+<p>Returns: a morphism in <span class="SimpleMath">\(\mathrm{Hom}( \mathrm{TerminalObject} , \mathrm{SubobjectClassifier} )\)</span></p>
+
+<p>This is a convenience method. The argument is a cell <span class="SimpleMath">\(c\)</span>. The output is the truth morphism to the subobject classifier <span class="SimpleMath">\(\mathrm{true}: \mathrm{TerminalObject} \rightarrow \mathrm{SubobjectClassifier}\)</span> of the category <span class="SimpleMath">\(C\)</span> for which <span class="SimpleMath">\(c \in C\)</span>.</p>
+
+<p><a id="X7E86ACBB830223AC" name="X7E86ACBB830223AC"></a></p>
+
+<h5>3.1-6 ClassifyingMorphismOfSubobject</h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; ClassifyingMorphismOfSubobject</code>( <var class="Arg">m</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
+<p>Returns: a morphism in <span class="SimpleMath">\(\mathrm{Hom}( \mathrm{Range}(m) , \mathrm{SubobjectClassifier} )\)</span></p>
+
+<p>The argument is a monomorphism <span class="SimpleMath">\(m : A \rightarrow S\)</span>. The output is its classifying morphism <span class="SimpleMath">\(\chi_m : S \rightarrow \mathrm{SubobjectClassifier}\)</span>.</p>
+
+<p><a id="X874A09FD7A8FB706" name="X874A09FD7A8FB706"></a></p>
+
+<h5>3.1-7 ClassifyingMorphismOfSubobjectWithGivenSubobjectClassifier</h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; ClassifyingMorphismOfSubobjectWithGivenSubobjectClassifier</code>( <var class="Arg">m</var>, <var class="Arg">omega</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
+<p>Returns: a morphism in <span class="SimpleMath">\(\mathrm{Hom}( \mathrm{Range}(m) , \mathrm{SubobjectClassifier} )\)</span></p>
+
+<p>The arguments are a monomorphism <span class="SimpleMath">\(m : A \rightarrow S\)</span> and a subobject classifier <span class="SimpleMath">\(\Omega\)</span>. The output is the classifying morphism of the monomorphism <span class="SimpleMath">\(\chi_m : S \rightarrow \mathrm{SubobjectClassifier}\)</span>.</p>
+
+<p><a id="X85AA59EA7D780BAB" name="X85AA59EA7D780BAB"></a></p>
+
+<h5>3.1-8 SubobjectOfClassifyingMorphism</h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; SubobjectOfClassifyingMorphism</code>( <var class="Arg">chi</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
+<p>Returns: a monomorphism in <span class="SimpleMath">\(\mathrm{Hom}( A , S )\)</span></p>
+
+<p>The argument is a classifying morphism <span class="SimpleMath">\(\chi : S \rightarrow \Omega\)</span>. The output is the subobject monomorphism of the classifying morphism, <span class="SimpleMath">\(m : A \rightarrow S\)</span>.</p>
+
+<p><a id="X7F91B1417B647CBA" name="X7F91B1417B647CBA"></a></p>
+
+<h5>3.1-9 AddSubobjectClassifier</h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; AddSubobjectClassifier</code>( <var class="Arg">C</var>, <var class="Arg">F</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
+<p>Returns: nothing</p>
+
+<p>The arguments are a category and a function <span class="SimpleMath">\(F\)</span>. This operation adds the given function <span class="SimpleMath">\(F\)</span> to the category for the basic operation <code class="code">SubobjectClassifier</code>. <span class="SimpleMath">\(F : () \mapsto \mathrm{SubobjectClassifier}\)</span>.</p>
+
+<p><a id="X7CB2F66B8022D23C" name="X7CB2F66B8022D23C"></a></p>
+
+<h5>3.1-10 AddClassifyingMorphismOfSubobject</h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; AddClassifyingMorphismOfSubobject</code>( <var class="Arg">C</var>, <var class="Arg">F</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
+<p>Returns: nothing</p>
+
+<p>The arguments are a category <span class="SimpleMath">\(C\)</span> and a function <span class="SimpleMath">\(F\)</span>. This operation adds the given function <span class="SimpleMath">\(F\)</span> to the category for the basic operation <code class="code">ClassifyingMorphismOfSubobject</code>. <span class="SimpleMath">\(F : m \mapsto \mathrm{ClassifyingMorphism}(m)\)</span>.</p>
+
+<p><a id="X7EA4360E79D92811" name="X7EA4360E79D92811"></a></p>
+
+<h5>3.1-11 AddClassifyingMorphismOfSubobjectWithGivenSubobjectClassifier</h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; AddClassifyingMorphismOfSubobjectWithGivenSubobjectClassifier</code>( <var class="Arg">C</var>, <var class="Arg">F</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
+<p>Returns: nothing</p>
+
+<p>The arguments are a category <span class="SimpleMath">\(C\)</span> and a function <span class="SimpleMath">\(F\)</span>. This operation adds the given function <span class="SimpleMath">\(F\)</span> to the category for the basic operation <code class="code">ClassifyingMorphismOfSubobjectWithGivenSubobjectClassifier</code>. <span class="SimpleMath">\(F : (m, \Omega) \mapsto \mathrm{ClassifyingMorphism}(m)\)</span>.</p>
+
+<p><a id="X7E01F89979FAA32C" name="X7E01F89979FAA32C"></a></p>
+
+<h5>3.1-12 AddTruthMorphismIntoSubobjectClassifierWithGivenObjects</h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; AddTruthMorphismIntoSubobjectClassifierWithGivenObjects</code>( <var class="Arg">C</var>, <var class="Arg">F</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
+<p>Returns: nothing</p>
+
+<p>The arguments are a category <span class="SimpleMath">\(C\)</span> and a function <span class="SimpleMath">\(F\)</span>. This operation adds the given function <span class="SimpleMath">\(F\)</span> to the category for the basic operation <code class="code">TruthMorphismIntoSubobjectClassifierWithGivenObjects</code>. <span class="SimpleMath">\(F : (1, \Omega) \mapsto \mathrm{true}\)</span>.</p>
+
+<p><a id="X814CF88C850C8077" name="X814CF88C850C8077"></a></p>
+
+<h5>3.1-13 AddSubobjectOfClassifyingMorphism</h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; AddSubobjectOfClassifyingMorphism</code>( <var class="Arg">C</var>, <var class="Arg">F</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
+<p>Returns: nothing</p>
+
+<p>The arguments are a category <span class="SimpleMath">\(C\)</span> and a function <span class="SimpleMath">\(F\)</span>. This operation adds the given function <span class="SimpleMath">\(F\)</span> to the category for the basic operation <code class="code">SubobjectOfClassifyingMorphism</code>. <span class="SimpleMath">\(F : m \mapsto \mathrm{SubobjectOfClassifyingMorphism}(m)\)</span>.</p>
+
+
+<div class="chlinkprevnextbot">&nbsp;<a href="chap0_mj.html">[Top of Book]</a>&nbsp;  <a href="chap0_mj.html#contents">[Contents]</a>&nbsp;  &nbsp;<a href="chap2_mj.html">[Previous Chapter]</a>&nbsp;  &nbsp;<a href="chapInd_mj.html">[Next Chapter]</a>&nbsp;  </div>
+
+
+<div class="chlinkbot"><span class="chlink1">Goto Chapter: </span><a href="chap0_mj.html">Top</a>  <a href="chap1_mj.html">1</a>  <a href="chap2_mj.html">2</a>  <a href="chap3_mj.html">3</a>  <a href="chapInd_mj.html">Ind</a>  </div>
+
+<hr />
+<p class="foot">generated by <a href="http://www.math.rwth-aachen.de/~Frank.Luebeck/GAPDoc">GAPDoc2HTML</a></p>
+</body>
+</html>
