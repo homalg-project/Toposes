@@ -1,7 +1,7 @@
 name: Toposes
-version: "2020.07.03"
+version: "2020.10-01"
 license: "GPL-2.0-or-later"
-date: 2020-07-03
+date: 2020-10-22
 description: |
     Elementary toposes
 
@@ -46,7 +46,11 @@ packageinfo: https://homalg-project.github.io/Toposes/PackageInfo.g
 
 downloads:
     - name: .tar.gz
-      url: https://github.com/homalg-project/Toposes/releases/download/v2020.07.03/Toposes-2020.07.03.tar.gz
+      url: https://github.com/homalg-project/Toposes/releases/download/v2020.10-01/Toposes-2020.10-01.tar.gz
+    - name: .zip
+      url: https://github.com/homalg-project/Toposes/releases/download/v2020.10-01/Toposes-2020.10-01.zip
+
+pdf: https://github.com/homalg-project/Toposes/releases/download/v2020.10-01/Toposes-2020.10-01.pdf
 
 abstract: |
 
@@ -59,7 +63,7 @@ citeas: |
     <p class='BibEntry'>
     [<span class='BibKey'>BZRK20</span>]   <b class='BibAuthor'>Barakat, M., Zickgraf, F., Román, M. and Kuhmichel, T.</b>,
      <i class='BibTitle'>Toposes, Elementary toposes,
-             Version 2020.07.03</i>
+             Version 2020.10-01</i>
      (<span class='BibYear'>2020</span>)<br />
     (<span class='BibNote'>GAP package</span>),
     <span class='BibHowpublished'><a href="https://homalg-project.github.io/Toposes">https://homalg-project.github.io/Toposes</a></span>.
@@ -67,13 +71,16 @@ citeas: |
     
 
 bibtex: |
-    @misc{ Toposes2020.07.03,
-      author =           {Barakat, M. and Zickgraf, F. and Rom{\a'a}n, M. and Kuhmichel, T.},
-      title =            {{Toposes}, Elementary toposes, {V}ersion 2020.07.03},
-      month =            {Jul},
+    @misc{ Toposes2020.10-01,
+      author =           {Barakat,  M.  and  Zickgraf, F. and Rom{\a'a}n, M. and
+                          Kuhmichel, T.},
+      title =            {{Toposes}, Elementary toposes, {V}ersion 2020.10-01},
+      month =            {Oct},
       year =             {2020},
       note =             {GAP package},
-      howpublished =     {\href {https://homalg-project.github.io/Toposes} {\texttt{https://homalg-project.github.io/}\discretionary {}{}{}\texttt{Toposes}}},
+      howpublished =     {\href       {https://homalg-project.github.io/Toposes}
+                          {\texttt{https://homalg-project.github.io/}\discretionary
+                          {}{}{}\texttt{Toposes}}},
       keywords =         {elementary toposes},
       printedkey =       {BZRK20}
     }
