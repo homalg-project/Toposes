@@ -1,7 +1,7 @@
 name: Toposes
-version: "2020.11-01"
+version: "2021.03-01"
 license: "GPL-2.0-or-later"
-date: 2020-11-04
+date: 2021-04-13
 description: |
     Elementary toposes
 
@@ -32,25 +32,25 @@ needed-pkgs:
       version: ">= 1.5"
       url: "http://www.math.rwth-aachen.de/~Frank.Luebeck/GAPDoc"
     - name: "CAP"
-      version: ">= 2020.05.16"
-      url: "https://homalg-project.github.io/CAP_project/CAP"
+      version: ">= 2021.03-01"
+      url: "https://homalg-project.github.io/pkg/CAP"
 
 suggested-pkgs:
     - name: "MonoidalCategories"
-      version: ">= 2019.03.16"
-      url: "https://homalg-project.github.io/CAP_project/MonoidalCategories"
+      version: ">= 2021.03-01"
+      url: "https://homalg-project.github.io/pkg/MonoidalCategories"
 
-www: https://homalg-project.github.io/Toposes
+www: https://homalg-project.github.io/pkg/Toposes
 readme: README.md
 packageinfo: https://homalg-project.github.io/Toposes/PackageInfo.g
 
 downloads:
     - name: .tar.gz
-      url: https://github.com/homalg-project/Toposes/releases/download/v2020.11-01/Toposes-2020.11-01.tar.gz
+      url: https://github.com/homalg-project/Toposes/releases/download/v2021.03-01/Toposes-2021.03-01.tar.gz
     - name: .zip
-      url: https://github.com/homalg-project/Toposes/releases/download/v2020.11-01/Toposes-2020.11-01.zip
+      url: https://github.com/homalg-project/Toposes/releases/download/v2021.03-01/Toposes-2021.03-01.zip
 
-pdf: https://github.com/homalg-project/Toposes/releases/download/v2020.11-01/Toposes-2020.11-01.pdf
+pdf: https://github.com/homalg-project/Toposes/releases/download/v2021.03-01/Toposes-2021.03-01.pdf
 
 abstract: |
 
@@ -61,27 +61,28 @@ keywords: |
     elementary toposes.
 citeas: |
     <p class='BibEntry'>
-    [<span class='BibKey'>BZRK20</span>]   <b class='BibAuthor'>Barakat, M., Zickgraf, F., Román, M. and Kuhmichel, T.</b>,
+    [<span class='BibKey'>BZRK21</span>]   <b class='BibAuthor'>Barakat, M., Zickgraf, F., Román, M. and Kuhmichel, T.</b>,
      <i class='BibTitle'>Toposes, Elementary toposes,
-             Version 2020.11-01</i>
-     (<span class='BibYear'>2020</span>)<br />
+             Version 2021.03-01</i>
+     (<span class='BibYear'>2021</span>)<br />
     (<span class='BibNote'>GAP package</span>),
-    <span class='BibHowpublished'><a href="https://homalg-project.github.io/Toposes">https://homalg-project.github.io/Toposes</a></span>.
+    <span class='BibHowpublished'><a href="https://homalg-project.github.io/pkg/Toposes">https://homalg-project.github.io/pkg/Toposes</a></span>.
     </p>
     
 
 bibtex: |
-    @misc{ Toposes2020.11-01,
+    @misc{ Toposes2021.03-01,
       author =           {Barakat,  M.  and  Zickgraf, F. and Rom{\a'a}n, M. and
                           Kuhmichel, T.},
-      title =            {{Toposes}, Elementary toposes, {V}ersion 2020.11-01},
-      month =            {Nov},
-      year =             {2020},
+      title =            {{Toposes}, Elementary toposes, {V}ersion 2021.03-01},
+      month =            {Apr},
+      year =             {2021},
       note =             {GAP package},
-      howpublished =     {\href       {https://homalg-project.github.io/Toposes}
+      howpublished =     {\href   {https://homalg-project.github.io/pkg/Toposes}
                           {\texttt{https://homalg-project.github.io/}\discretionary
+                          {}{}{}\texttt{pkg/}\discretionary
                           {}{}{}\texttt{Toposes}}},
       keywords =         {elementary toposes},
-      printedkey =       {BZRK20}
+      printedkey =       {BZRK21}
     }
 

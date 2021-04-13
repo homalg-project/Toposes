@@ -17,13 +17,13 @@ Version := Maximum( [
                    ## this line prevents merge conflicts
                    "2019.01-29", ## Mario's version
                    ## this line prevents merge conflicts
-                   "2020.04-27", ## Fabian's version
+                   "2021.03-01", ## Fabian's version
                    ## this line prevents merge conflicts
                    "2019.09-17", ## Sepp's version
                    ] ),
 
-Date := "04/11/2020",
-Date := "04/11/2020",
+Date := "13/04/2021",
+Date := "13/04/2021",
 License := "GPL-2.0-or-later",
 
 Persons := [
@@ -91,7 +91,7 @@ SourceRepository := rec(
     URL := "https://github.com/homalg-project/Toposes",
 ),
 IssueTrackerURL := Concatenation( ~.SourceRepository.URL, "/issues" ),
-PackageWWWHome  := "https://homalg-project.github.io/Toposes",
+PackageWWWHome  := "https://homalg-project.github.io/pkg/Toposes",
 PackageInfoURL  := "https://homalg-project.github.io/Toposes/PackageInfo.g",
 README_URL      := "https://homalg-project.github.io/Toposes/README.md",
 ArchiveURL      := Concatenation( "https://github.com/homalg-project/Toposes/releases/download/v", ~.Version, "/Toposes-", ~.Version ),
@@ -124,10 +124,10 @@ Dependencies := rec(
   GAP := ">= 4.9.1",
   NeededOtherPackages := [
                    [ "GAPDoc", ">= 1.5" ],
-                   [ "CAP", ">= 2020.05.16" ],
+                   [ "CAP", ">= 2021.03-01" ],
                    ],
   SuggestedOtherPackages := [
-                   [ "MonoidalCategories", ">= 2019.03.16" ],
+                   [ "MonoidalCategories", ">= 2021.03-01" ],
                    ],
   ExternalConditions := [ ],
 ),
