@@ -702,18 +702,18 @@
   
   [1X2.2-30 MorphismFromCocartesianBidual[101X
   
-  [33X[1;0Y[29X[2XMorphismFromCocartesianBidual[102X( [3Xavv[103X ) [32X attribute[133X
+  [33X[1;0Y[29X[2XMorphismFromCocartesianBidual[102X( [3Xa[103X ) [32X attribute[133X
   [6XReturns:[106X  [33X[0;10Ya morphism in [23X\mathrm{Hom}((a_{\vee})_{\vee}, a)[123X.[133X
   
-  [33X[0;0YThe  argument  is  a  cobidual  object  [23X(a_{\vee})_{\vee}[123X. The output is the
-  morphism from the cobidual [23X(a_{\vee})_{\vee} \rightarrow a[123X.[133X
+  [33X[0;0YThe  argument is a an object [23Xa[123X. The output is the morphism from the cobidual
+  [23X(a_{\vee})_{\vee} \rightarrow a[123X.[133X
   
   [1X2.2-31 MorphismFromCocartesianBidualWithGivenCocartesianBidual[101X
   
-  [33X[1;0Y[29X[2XMorphismFromCocartesianBidualWithGivenCocartesianBidual[102X( [3Xs[103X, [3Xa[103X ) [32X operation[133X
+  [33X[1;0Y[29X[2XMorphismFromCocartesianBidualWithGivenCocartesianBidual[102X( [3Xa[103X, [3Xs[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ya morphism in [23X\mathrm{Hom}((a_{\vee})_{\vee}, a)[123X.[133X
   
-  [33X[0;0YThe  arguments  are  an  object  [23Xs = (a_{\vee})_{\vee}[123X, and an object [23Xa[123X. The
+  [33X[0;0YThe  arguments  are  an  object  [23Xa[123X, and an object [23Xs = (a_{\vee})_{\vee}[123X. The
   output is the morphism from the cobidual [23X(a_{\vee})_{\vee} \rightarrow a[123X.[133X
   
   [1X2.2-32 AddMorphismFromCocartesianBidualWithGivenCocartesianBidual[101X
@@ -723,8 +723,8 @@
   
   [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
   given    function    [23XF[123X   to   the   category   for   the   basic   operation
-  [10XMorphismFromCocartesianBidualWithGivenCocartesianBidual[110X.                  [23XF:
-  ((a_{\vee})_{\vee}, a) \mapsto ((a_{\vee})_{\vee} \rightarrow a)[123X.[133X
+  [10XMorphismFromCocartesianBidualWithGivenCocartesianBidual[110X.        [23XF:       (a,
+  (a_{\vee})_{\vee}) \mapsto ((a_{\vee})_{\vee} \rightarrow a)[123X.[133X
   
   [1X2.2-33 CoexponentialCoproductCompatibilityMorphism[101X
   

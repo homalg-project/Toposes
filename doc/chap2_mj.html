@@ -793,19 +793,19 @@
 
 <h5>2.2-30 MorphismFromCocartesianBidual</h5>
 
-<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; MorphismFromCocartesianBidual</code>( <var class="Arg">avv</var> )</td><td class="tdright">(&nbsp;attribute&nbsp;)</td></tr></table></div>
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; MorphismFromCocartesianBidual</code>( <var class="Arg">a</var> )</td><td class="tdright">(&nbsp;attribute&nbsp;)</td></tr></table></div>
 <p>Returns: a morphism in <span class="SimpleMath">\(\mathrm{Hom}((a_{\vee})_{\vee}, a)\)</span>.</p>
 
-<p>The argument is a cobidual object <span class="SimpleMath">\((a_{\vee})_{\vee}\)</span>. The output is the morphism from the cobidual <span class="SimpleMath">\((a_{\vee})_{\vee} \rightarrow a\)</span>.</p>
+<p>The argument is a an object <span class="SimpleMath">\(a\)</span>. The output is the morphism from the cobidual <span class="SimpleMath">\((a_{\vee})_{\vee} \rightarrow a\)</span>.</p>
 
 <p><a id="X80BB47FE784859AA" name="X80BB47FE784859AA"></a></p>
 
 <h5>2.2-31 MorphismFromCocartesianBidualWithGivenCocartesianBidual</h5>
 
-<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; MorphismFromCocartesianBidualWithGivenCocartesianBidual</code>( <var class="Arg">s</var>, <var class="Arg">a</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; MorphismFromCocartesianBidualWithGivenCocartesianBidual</code>( <var class="Arg">a</var>, <var class="Arg">s</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
 <p>Returns: a morphism in <span class="SimpleMath">\(\mathrm{Hom}((a_{\vee})_{\vee}, a)\)</span>.</p>
 
-<p>The arguments are an object <span class="SimpleMath">\(s = (a_{\vee})_{\vee}\)</span>, and an object <span class="SimpleMath">\(a\)</span>. The output is the morphism from the cobidual <span class="SimpleMath">\((a_{\vee})_{\vee} \rightarrow a\)</span>.</p>
+<p>The arguments are an object <span class="SimpleMath">\(a\)</span>, and an object <span class="SimpleMath">\(s = (a_{\vee})_{\vee}\)</span>. The output is the morphism from the cobidual <span class="SimpleMath">\((a_{\vee})_{\vee} \rightarrow a\)</span>.</p>
 
 <p><a id="X7D0B496678146095" name="X7D0B496678146095"></a></p>
 
@@ -814,7 +814,7 @@
 <div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; AddMorphismFromCocartesianBidualWithGivenCocartesianBidual</code>( <var class="Arg">C</var>, <var class="Arg">F</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
 <p>Returns: nothing</p>
 
-<p>The arguments are a category <span class="SimpleMath">\(C\)</span> and a function <span class="SimpleMath">\(F\)</span>. This operation adds the given function <span class="SimpleMath">\(F\)</span> to the category for the basic operation <code class="code">MorphismFromCocartesianBidualWithGivenCocartesianBidual</code>. <span class="SimpleMath">\(F: ((a_{\vee})_{\vee}, a) \mapsto ((a_{\vee})_{\vee} \rightarrow a)\)</span>.</p>
+<p>The arguments are a category <span class="SimpleMath">\(C\)</span> and a function <span class="SimpleMath">\(F\)</span>. This operation adds the given function <span class="SimpleMath">\(F\)</span> to the category for the basic operation <code class="code">MorphismFromCocartesianBidualWithGivenCocartesianBidual</code>. <span class="SimpleMath">\(F: (a, (a_{\vee})_{\vee}) \mapsto ((a_{\vee})_{\vee} \rightarrow a)\)</span>.</p>
 
 <p><a id="X81CFB62D8017D224" name="X81CFB62D8017D224"></a></p>
 
