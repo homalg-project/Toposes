@@ -34,35 +34,35 @@
   [33X[0;0YThis  is  a  convenience  method.  The argument is a cell [23Xc[123X. The output is a
   subobject classifier [23X\Omega[123X of the category [23XC[123X for which [23Xc \in C[123X.[133X
   
-  [1X3.1-3 TruthMorphismIntoSubobjectClassifierWithGivenObjects[101X
+  [1X3.1-3 TruthMorphismOfTrueWithGivenObjects[101X
   
-  [33X[1;0Y[29X[2XTruthMorphismIntoSubobjectClassifierWithGivenObjects[102X( [3XT[103X, [3XW[103X ) [32X operation[133X
+  [33X[1;0Y[29X[2XTruthMorphismOfTrueWithGivenObjects[102X( [3XT[103X, [3XW[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ya    morphism    in    [23X\mathrm{Hom}(   \mathrm{TerminalObject}   ,
             \mathrm{SubobjectClassifier} )[123X[133X
   
   [33X[0;0YThe  arguments  are  a  terminal  object  of  the  category  and a subobject
-  classifier.  The  output  is  the truth morphism to the subobject classifier
-  [23X\mathrm{true}:              \mathrm{TerminalObject}              \rightarrow
+  classifier.  The  output  is  the  truth morphism of true into the subobject
+  classifier      [23X\mathrm{true}:      \mathrm{TerminalObject}      \rightarrow
   \mathrm{SubobjectClassifier}[123X.[133X
   
-  [1X3.1-4 TruthMorphismIntoSubobjectClassifier[101X
+  [1X3.1-4 TruthMorphismOfTrue[101X
   
-  [33X[1;0Y[29X[2XTruthMorphismIntoSubobjectClassifier[102X( [3XC[103X ) [32X operation[133X
+  [33X[1;0Y[29X[2XTruthMorphismOfTrue[102X( [3XC[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ya    morphism    in    [23X\mathrm{Hom}(   \mathrm{TerminalObject}   ,
             \mathrm{SubobjectClassifier} )[123X[133X
   
-  [33X[0;0YThe  argument  is  a  category  [23XC[123X.  The  output is the truth morphism to the
-  subobject   classifier  [23X\mathrm{true}:  \mathrm{TerminalObject}  \rightarrow
+  [33X[0;0YThe  argument is a category [23XC[123X. The output is the truth morphism of true into
+  the  subobject classifier [23X\mathrm{true}: \mathrm{TerminalObject} \rightarrow
   \mathrm{SubobjectClassifier}[123X.[133X
   
-  [1X3.1-5 TruthMorphismIntoSubobjectClassifier[101X
+  [1X3.1-5 TruthMorphismOfTrue[101X
   
-  [33X[1;0Y[29X[2XTruthMorphismIntoSubobjectClassifier[102X( [3Xc[103X ) [32X operation[133X
+  [33X[1;0Y[29X[2XTruthMorphismOfTrue[102X( [3Xc[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ya    morphism    in    [23X\mathrm{Hom}(   \mathrm{TerminalObject}   ,
             \mathrm{SubobjectClassifier} )[123X[133X
   
   [33X[0;0YThis  is  a  convenience method. The argument is a cell [23Xc[123X. The output is the
-  truth     morphism    to    the    subobject    classifier    [23X\mathrm{true}:
+  truth   morphism  of  true  into  the  subobject  classifier  [23X\mathrm{true}:
   \mathrm{TerminalObject}   \rightarrow  \mathrm{SubobjectClassifier}[123X  of  the
   category [23XC[123X for which [23Xc \in C[123X.[133X
   
@@ -123,15 +123,14 @@
   [10XClassifyingMorphismOfSubobjectWithGivenSubobjectClassifier[110X.  [23XF : (m, \Omega)
   \mapsto \mathrm{ClassifyingMorphism}(m)[123X.[133X
   
-  [1X3.1-12 AddTruthMorphismIntoSubobjectClassifierWithGivenObjects[101X
+  [1X3.1-12 AddTruthMorphismOfTrueWithGivenObjects[101X
   
-  [33X[1;0Y[29X[2XAddTruthMorphismIntoSubobjectClassifierWithGivenObjects[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [33X[1;0Y[29X[2XAddTruthMorphismOfTrueWithGivenObjects[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
   
   [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
   given    function    [23XF[123X   to   the   category   for   the   basic   operation
-  [10XTruthMorphismIntoSubobjectClassifierWithGivenObjects[110X.   [23XF   :   (1,  \Omega)
-  \mapsto \mathrm{true}[123X.[133X
+  [10XTruthMorphismOfTrueWithGivenObjects[110X. [23XF : (1, \Omega) \mapsto \mathrm{true}[123X.[133X
   
   [1X3.1-13 AddSubobjectOfClassifyingMorphism[101X
   
