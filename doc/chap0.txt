@@ -6,7 +6,7 @@
                               [1X Elementary toposes [101X
   
   
-                                   2021.11-03
+                                   2021.11-04
   
   
                                 12 November 2021
@@ -260,19 +260,20 @@
       2.2-57 AddIsomorphismFromCoexponentialToObjectWithGivenCoexponential
   3 [33X[0;0YToposes[133X
     3.1 [33X[0;0YSubobject Classifier[133X
-      3.1-1 SubobjectClassifier
-      3.1-2 SubobjectClassifier
-      3.1-3 TruthMorphismOfTrueWithGivenObjects
-      3.1-4 TruthMorphismOfTrue
-      3.1-5 TruthMorphismOfTrue
-      3.1-6 ClassifyingMorphismOfSubobject
-      3.1-7 ClassifyingMorphismOfSubobjectWithGivenSubobjectClassifier
-      3.1-8 SubobjectOfClassifyingMorphism
-      3.1-9 AddSubobjectClassifier
-      3.1-10 AddClassifyingMorphismOfSubobject
-      3.1-11 AddClassifyingMorphismOfSubobjectWithGivenSubobjectClassifier
-      3.1-12 AddTruthMorphismOfTrueWithGivenObjects
-      3.1-13 AddSubobjectOfClassifyingMorphism
+      3.1-1 AddClassifyingMorphismOfSubobject
+      3.1-2 AddClassifyingMorphismOfSubobjectWithGivenSubobjectClassifier
+      3.1-3 AddSubobjectClassifier
+      3.1-4 AddSubobjectOfClassifyingMorphism
+      3.1-5 AddTruthMorphismOfTrue
+      3.1-6 AddTruthMorphismOfTrueWithGivenObjects
+      3.1-7 SubobjectClassifier
+      3.1-8 SubobjectClassifier
+      3.1-9 TruthMorphismOfTrueWithGivenObjects
+      3.1-10 TruthMorphismOfTrue
+      3.1-11 TruthMorphismOfTrue
+      3.1-12 ClassifyingMorphismOfSubobject
+      3.1-13 ClassifyingMorphismOfSubobjectWithGivenSubobjectClassifier
+      3.1-14 SubobjectOfClassifyingMorphism
   
   
   [32X
