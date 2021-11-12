@@ -32,13 +32,11 @@
 <span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3.html#X7D8C4128863D21D8">3.1-5 AddTruthMorphismOfTrue</a></span>
 <span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3.html#X87604F3D86857559">3.1-6 AddTruthMorphismOfTrueWithGivenObjects</a></span>
 <span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3.html#X7D33F6ED85FC23BC">3.1-7 SubobjectClassifier</a></span>
-<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3.html#X7DB6F01F7ACEDD5C">3.1-8 SubobjectClassifier</a></span>
-<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3.html#X7A07E4A77D332E3C">3.1-9 TruthMorphismOfTrueWithGivenObjects</a></span>
-<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3.html#X7B1CCA0E78597D08">3.1-10 TruthMorphismOfTrue</a></span>
-<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3.html#X7CC87872876B83E8">3.1-11 TruthMorphismOfTrue</a></span>
-<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3.html#X7E86ACBB830223AC">3.1-12 ClassifyingMorphismOfSubobject</a></span>
-<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3.html#X874A09FD7A8FB706">3.1-13 ClassifyingMorphismOfSubobjectWithGivenSubobjectClassifier</a></span>
-<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3.html#X85AA59EA7D780BAB">3.1-14 SubobjectOfClassifyingMorphism</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3.html#X7A07E4A77D332E3C">3.1-8 TruthMorphismOfTrueWithGivenObjects</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3.html#X7B1CCA0E78597D08">3.1-9 TruthMorphismOfTrue</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3.html#X7E86ACBB830223AC">3.1-10 ClassifyingMorphismOfSubobject</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3.html#X874A09FD7A8FB706">3.1-11 ClassifyingMorphismOfSubobjectWithGivenSubobjectClassifier</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3.html#X85AA59EA7D780BAB">3.1-12 SubobjectOfClassifyingMorphism</a></span>
 </div></div>
 </div>
 
@@ -125,45 +123,27 @@
 </ul>
 <p>The triple <span class="Math">(\Omega,\mathrm{true},\chi)</span> is called a <em>subobject classifier</em> if for each monomorphism <span class="Math">i : A \to S</span>, the morphism <span class="Math">\chi_i : S \to \Omega</span> is the unique morphism such that <span class="Math">\chi_i \circ i = \mathrm{true} \circ \ast</span> determine a pullback diagram. The argument is a category <span class="Math">C</span>. The output is a subobject classifier object <span class="Math">\Omega</span> of <span class="Math">C</span>.</p>
 
-<p><a id="X7DB6F01F7ACEDD5C" name="X7DB6F01F7ACEDD5C"></a></p>
-
-<h5>3.1-8 SubobjectClassifier</h5>
-
-<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; SubobjectClassifier</code>( <var class="Arg">c</var> )</td><td class="tdright">(&nbsp;attribute&nbsp;)</td></tr></table></div>
-<p>Returns: an object</p>
-
-<p>This is a convenience method. The argument is a cell <span class="Math">c</span>. The output is a subobject classifier <span class="Math">\Omega</span> of the category <span class="Math">C</span> for which <span class="Math">c \in C</span>.</p>
-
 <p><a id="X7A07E4A77D332E3C" name="X7A07E4A77D332E3C"></a></p>
 
-<h5>3.1-9 TruthMorphismOfTrueWithGivenObjects</h5>
+<h5>3.1-8 TruthMorphismOfTrueWithGivenObjects</h5>
 
-<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; TruthMorphismOfTrueWithGivenObjects</code>( <var class="Arg">T</var>, <var class="Arg">W</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
-<p>Returns: a morphism in <span class="Math">\mathrm{Hom}( \mathrm{TerminalObject} , \mathrm{SubobjectClassifier} )</span></p>
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; TruthMorphismOfTrueWithGivenObjects</code>( <var class="Arg">T</var>, <var class="Arg">Omega</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
+<p>Returns: a morphism in <span class="Math">\mathrm{Hom}( \mathrm{TerminalObject}, \Omega )</span></p>
 
-<p>The arguments are a terminal object of the category and a subobject classifier. The output is the truth morphism of true into the subobject classifier <span class="Math">\mathrm{true}: \mathrm{TerminalObject} \rightarrow \mathrm{SubobjectClassifier}</span>.</p>
+<p>The arguments are a terminal object of the category and a subobject classifier. The output is the truth morphism of true into the subobject classifier <var class="Arg">Omega</var> <span class="Math">\mathrm{true}: \mathrm{TerminalObject} \rightarrow \Omega</span>.</p>
 
 <p><a id="X7B1CCA0E78597D08" name="X7B1CCA0E78597D08"></a></p>
 
-<h5>3.1-10 TruthMorphismOfTrue</h5>
+<h5>3.1-9 TruthMorphismOfTrue</h5>
 
 <div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; TruthMorphismOfTrue</code>( <var class="Arg">C</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
-<p>Returns: a morphism in <span class="Math">\mathrm{Hom}( \mathrm{TerminalObject} , \mathrm{SubobjectClassifier} )</span></p>
+<p>Returns: a morphism in <span class="Math">\mathrm{Hom}( \mathrm{TerminalObject}, \mathrm{SubobjectClassifier} )</span></p>
 
 <p>The argument is a category <span class="Math">C</span>. The output is the truth morphism of true into the subobject classifier <span class="Math">\mathrm{true}: \mathrm{TerminalObject} \rightarrow \mathrm{SubobjectClassifier}</span>.</p>
 
-<p><a id="X7CC87872876B83E8" name="X7CC87872876B83E8"></a></p>
-
-<h5>3.1-11 TruthMorphismOfTrue</h5>
-
-<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; TruthMorphismOfTrue</code>( <var class="Arg">c</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
-<p>Returns: a morphism in <span class="Math">\mathrm{Hom}( \mathrm{TerminalObject} , \mathrm{SubobjectClassifier} )</span></p>
-
-<p>This is a convenience method. The argument is a cell <span class="Math">c</span>. The output is the truth morphism of true into the subobject classifier <span class="Math">\mathrm{true}: \mathrm{TerminalObject} \rightarrow \mathrm{SubobjectClassifier}</span> of the category <span class="Math">C</span> for which <span class="Math">c \in C</span>.</p>
-
 <p><a id="X7E86ACBB830223AC" name="X7E86ACBB830223AC"></a></p>
 
-<h5>3.1-12 ClassifyingMorphismOfSubobject</h5>
+<h5>3.1-10 ClassifyingMorphismOfSubobject</h5>
 
 <div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; ClassifyingMorphismOfSubobject</code>( <var class="Arg">m</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
 <p>Returns: a morphism in <span class="Math">\mathrm{Hom}( \mathrm{Range}(m) , \mathrm{SubobjectClassifier} )</span></p>
@@ -172,7 +152,7 @@
 
 <p><a id="X874A09FD7A8FB706" name="X874A09FD7A8FB706"></a></p>
 
-<h5>3.1-13 ClassifyingMorphismOfSubobjectWithGivenSubobjectClassifier</h5>
+<h5>3.1-11 ClassifyingMorphismOfSubobjectWithGivenSubobjectClassifier</h5>
 
 <div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; ClassifyingMorphismOfSubobjectWithGivenSubobjectClassifier</code>( <var class="Arg">m</var>, <var class="Arg">omega</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
 <p>Returns: a morphism in <span class="Math">\mathrm{Hom}( \mathrm{Range}(m) , \mathrm{SubobjectClassifier} )</span></p>
@@ -181,7 +161,7 @@
 
 <p><a id="X85AA59EA7D780BAB" name="X85AA59EA7D780BAB"></a></p>
 
-<h5>3.1-14 SubobjectOfClassifyingMorphism</h5>
+<h5>3.1-12 SubobjectOfClassifyingMorphism</h5>
 
 <div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; SubobjectOfClassifyingMorphism</code>( <var class="Arg">chi</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
 <p>Returns: a monomorphism in <span class="Math">\mathrm{Hom}( A , S )</span></p>

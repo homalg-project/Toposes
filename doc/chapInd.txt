@@ -109,8 +109,8 @@
   [2XCartesianRightUnitorInverse[102X, for IsCapCategoryObject 1.1-25 
   [2XCartesianRightUnitorInverseWithGivenDirectProduct[102X, for IsCapCategoryObject, IsCapCategoryObject 1.1-26 
   [2XCartesianRightUnitorWithGivenDirectProduct[102X, for IsCapCategoryObject, IsCapCategoryObject 1.1-23 
-  [2XClassifyingMorphismOfSubobject[102X, for IsCapCategoryMorphism 3.1-12 
-  [2XClassifyingMorphismOfSubobjectWithGivenSubobjectClassifier[102X, for IsCapCategoryMorphism , IsCapCategoryObject 3.1-13 
+  [2XClassifyingMorphismOfSubobject[102X, for IsCapCategoryMorphism 3.1-10 
+  [2XClassifyingMorphismOfSubobjectWithGivenSubobjectClassifier[102X, for IsCapCategoryMorphism , IsCapCategoryObject 3.1-11 
   [2XCocartesianAssociatorLeftToRight[102X, for IsCapCategoryObject, IsCapCategoryObject, IsCapCategoryObject 2.1-13 
   [2XCocartesianAssociatorLeftToRightWithGivenCoproducts[102X, for IsCapCategoryObject, IsCapCategoryObject, IsCapCategoryObject, IsCapCategoryObject, IsCapCategoryObject 2.1-14 
   [2XCocartesianAssociatorRightToLeft[102X, for IsCapCategoryObject, IsCapCategoryObject, IsCapCategoryObject 2.1-10 
@@ -201,11 +201,9 @@
   [2XRightCocartesianDistributivityFactoring[102X, for IsList, IsCapCategoryObject 2.1-37 
   [2XRightCocartesianDistributivityFactoringWithGivenObjects[102X, for IsCapCategoryObject, IsList, IsCapCategoryObject, IsCapCategoryObject 2.1-38 
   [2XSubobjectClassifier[102X, for IsCapCategory 3.1-7 
-      for IsCapCategoryCell 3.1-8 
-  [2XSubobjectOfClassifyingMorphism[102X, for IsCapCategoryMorphism 3.1-14 
-  [2XTruthMorphismOfTrue[102X, for IsCapCategory 3.1-10 
-      for IsCapCategoryCell 3.1-11 
-  [2XTruthMorphismOfTrueWithGivenObjects[102X, for IsCapCategoryObject , IsCapCategoryObject 3.1-9 
+  [2XSubobjectOfClassifyingMorphism[102X, for IsCapCategoryMorphism 3.1-12 
+  [2XTruthMorphismOfTrue[102X, for IsCapCategory 3.1-9 
+  [2XTruthMorphismOfTrueWithGivenObjects[102X, for IsCapCategoryObject , IsCapCategoryObject 3.1-8 
   [2XUniversalPropertyOfCartesianDual[102X, for IsCapCategoryObject, IsCapCategoryObject, IsCapCategoryMorphism 1.2-46 
   [2XUniversalPropertyOfCocartesianDual[102X, for IsCapCategoryObject, IsCapCategoryObject, IsCapCategoryMorphism 2.2-46 
   

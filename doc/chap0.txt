@@ -6,7 +6,7 @@
                               [1X Elementary toposes [101X
   
   
-                                   2021.11-04
+                                   2021.11-05
   
   
                                 12 November 2021
@@ -267,13 +267,11 @@
       3.1-5 AddTruthMorphismOfTrue
       3.1-6 AddTruthMorphismOfTrueWithGivenObjects
       3.1-7 SubobjectClassifier
-      3.1-8 SubobjectClassifier
-      3.1-9 TruthMorphismOfTrueWithGivenObjects
-      3.1-10 TruthMorphismOfTrue
-      3.1-11 TruthMorphismOfTrue
-      3.1-12 ClassifyingMorphismOfSubobject
-      3.1-13 ClassifyingMorphismOfSubobjectWithGivenSubobjectClassifier
-      3.1-14 SubobjectOfClassifyingMorphism
+      3.1-8 TruthMorphismOfTrueWithGivenObjects
+      3.1-9 TruthMorphismOfTrue
+      3.1-10 ClassifyingMorphismOfSubobject
+      3.1-11 ClassifyingMorphismOfSubobjectWithGivenSubobjectClassifier
+      3.1-12 SubobjectOfClassifyingMorphism
   
   
   [32X
