@@ -19,8 +19,9 @@
   [2XAddCartesianPreComposeMorphismWithGivenObjects[102X, for IsCapCategory, IsFunction 1.2-18 
   [2XAddCartesianRightUnitorInverseWithGivenDirectProduct[102X, for IsCapCategory, IsFunction 1.1-27 
   [2XAddCartesianRightUnitorWithGivenDirectProduct[102X, for IsCapCategory, IsFunction 1.1-24 
-  [2XAddClassifyingMorphismOfSubobject[102X, for IsCapCategory, IsFunction 3.1-1 
-  [2XAddClassifyingMorphismOfSubobjectWithGivenSubobjectClassifier[102X, for IsCapCategory, IsFunction 3.1-2 
+  [2XAddCartesianSquareOfSubobjectClassifier[102X, for IsCapCategory, IsFunction 3.1-1 
+  [2XAddClassifyingMorphismOfSubobject[102X, for IsCapCategory, IsFunction 3.1-2 
+  [2XAddClassifyingMorphismOfSubobjectWithGivenSubobjectClassifier[102X, for IsCapCategory, IsFunction 3.1-3 
   [2XAddCocartesianAssociatorLeftToRightWithGivenCoproducts[102X, for IsCapCategory, IsFunction 2.1-15 
   [2XAddCocartesianAssociatorRightToLeftWithGivenCoproducts[102X, for IsCapCategory, IsFunction 2.1-12 
   [2XAddCocartesianBraidingInverseWithGivenCoproducts[102X, for IsCapCategory, IsFunction 2.1-6 
@@ -72,10 +73,20 @@
   [2XAddRightCartesianDistributivityFactoringWithGivenObjects[102X, for IsCapCategory, IsFunction 1.1-39 
   [2XAddRightCocartesianDistributivityExpandingWithGivenObjects[102X, for IsCapCategory, IsFunction 2.1-36 
   [2XAddRightCocartesianDistributivityFactoringWithGivenObjects[102X, for IsCapCategory, IsFunction 2.1-39 
-  [2XAddSubobjectClassifier[102X, for IsCapCategory, IsFunction 3.1-3 
-  [2XAddSubobjectOfClassifyingMorphism[102X, for IsCapCategory, IsFunction 3.1-4 
-  [2XAddTruthMorphismOfTrue[102X, for IsCapCategory, IsFunction 3.1-5 
-  [2XAddTruthMorphismOfTrueWithGivenObjects[102X, for IsCapCategory, IsFunction 3.1-6 
+  [2XAddSubobjectClassifier[102X, for IsCapCategory, IsFunction 3.1-4 
+  [2XAddSubobjectOfClassifyingMorphism[102X, for IsCapCategory, IsFunction 3.1-5 
+  [2XAddTruthMorphismOfAnd[102X, for IsCapCategory, IsFunction 3.1-6 
+  [2XAddTruthMorphismOfAndWithGivenObjects[102X, for IsCapCategory, IsFunction 3.1-7 
+  [2XAddTruthMorphismOfFalse[102X, for IsCapCategory, IsFunction 3.1-8 
+  [2XAddTruthMorphismOfFalseWithGivenObjects[102X, for IsCapCategory, IsFunction 3.1-9 
+  [2XAddTruthMorphismOfImplies[102X, for IsCapCategory, IsFunction 3.1-10 
+  [2XAddTruthMorphismOfImpliesWithGivenObjects[102X, for IsCapCategory, IsFunction 3.1-11 
+  [2XAddTruthMorphismOfNot[102X, for IsCapCategory, IsFunction 3.1-12 
+  [2XAddTruthMorphismOfNotWithGivenObjects[102X, for IsCapCategory, IsFunction 3.1-13 
+  [2XAddTruthMorphismOfOr[102X, for IsCapCategory, IsFunction 3.1-14 
+  [2XAddTruthMorphismOfOrWithGivenObjects[102X, for IsCapCategory, IsFunction 3.1-15 
+  [2XAddTruthMorphismOfTrue[102X, for IsCapCategory, IsFunction 3.1-16 
+  [2XAddTruthMorphismOfTrueWithGivenObjects[102X, for IsCapCategory, IsFunction 3.1-17 
   [2XAddUniversalPropertyOfCartesianDual[102X, for IsCapCategory, IsFunction 1.2-47 
   [2XAddUniversalPropertyOfCocartesianDual[102X, for IsCapCategory, IsFunction 2.2-47 
   [2XCartesianAssociatorLeftToRight[102X, for IsCapCategoryObject, IsCapCategoryObject, IsCapCategoryObject 1.1-13 
@@ -109,8 +120,9 @@
   [2XCartesianRightUnitorInverse[102X, for IsCapCategoryObject 1.1-25 
   [2XCartesianRightUnitorInverseWithGivenDirectProduct[102X, for IsCapCategoryObject, IsCapCategoryObject 1.1-26 
   [2XCartesianRightUnitorWithGivenDirectProduct[102X, for IsCapCategoryObject, IsCapCategoryObject 1.1-23 
-  [2XClassifyingMorphismOfSubobject[102X, for IsCapCategoryMorphism 3.1-10 
-  [2XClassifyingMorphismOfSubobjectWithGivenSubobjectClassifier[102X, for IsCapCategoryMorphism , IsCapCategoryObject 3.1-11 
+  [2XCartesianSquareOfSubobjectClassifier[102X, for IsCapCategory 3.1-19 
+  [2XClassifyingMorphismOfSubobject[102X, for IsCapCategoryMorphism 3.1-32 
+  [2XClassifyingMorphismOfSubobjectWithGivenSubobjectClassifier[102X, for IsCapCategoryMorphism , IsCapCategoryObject 3.1-33 
   [2XCocartesianAssociatorLeftToRight[102X, for IsCapCategoryObject, IsCapCategoryObject, IsCapCategoryObject 2.1-13 
   [2XCocartesianAssociatorLeftToRightWithGivenCoproducts[102X, for IsCapCategoryObject, IsCapCategoryObject, IsCapCategoryObject, IsCapCategoryObject, IsCapCategoryObject 2.1-14 
   [2XCocartesianAssociatorRightToLeft[102X, for IsCapCategoryObject, IsCapCategoryObject, IsCapCategoryObject 2.1-10 
@@ -200,10 +212,20 @@
   [2XRightCocartesianDistributivityExpandingWithGivenObjects[102X, for IsCapCategoryObject, IsList, IsCapCategoryObject, IsCapCategoryObject 2.1-35 
   [2XRightCocartesianDistributivityFactoring[102X, for IsList, IsCapCategoryObject 2.1-37 
   [2XRightCocartesianDistributivityFactoringWithGivenObjects[102X, for IsCapCategoryObject, IsList, IsCapCategoryObject, IsCapCategoryObject 2.1-38 
-  [2XSubobjectClassifier[102X, for IsCapCategory 3.1-7 
-  [2XSubobjectOfClassifyingMorphism[102X, for IsCapCategoryMorphism 3.1-12 
-  [2XTruthMorphismOfTrue[102X, for IsCapCategory 3.1-9 
-  [2XTruthMorphismOfTrueWithGivenObjects[102X, for IsCapCategoryObject , IsCapCategoryObject 3.1-8 
+  [2XSubobjectClassifier[102X, for IsCapCategory 3.1-18 
+  [2XSubobjectOfClassifyingMorphism[102X, for IsCapCategoryMorphism 3.1-34 
+  [2XTruthMorphismOfAnd[102X, for IsCapCategory 3.1-27 
+  [2XTruthMorphismOfAndWithGivenObjects[102X, for IsCapCategoryObject , IsCapCategoryObject 3.1-26 
+  [2XTruthMorphismOfFalse[102X, for IsCapCategory 3.1-23 
+  [2XTruthMorphismOfFalseWithGivenObjects[102X, for IsCapCategoryObject , IsCapCategoryObject 3.1-22 
+  [2XTruthMorphismOfImplies[102X, for IsCapCategory 3.1-31 
+  [2XTruthMorphismOfImpliesWithGivenObjects[102X, for IsCapCategoryObject , IsCapCategoryObject 3.1-30 
+  [2XTruthMorphismOfNot[102X, for IsCapCategory 3.1-25 
+  [2XTruthMorphismOfNotWithGivenObjects[102X, for IsCapCategoryObject, IsCapCategoryObject 3.1-24 
+  [2XTruthMorphismOfOr[102X, for IsCapCategory 3.1-29 
+  [2XTruthMorphismOfOrWithGivenObjects[102X, for IsCapCategoryObject , IsCapCategoryObject 3.1-28 
+  [2XTruthMorphismOfTrue[102X, for IsCapCategory 3.1-21 
+  [2XTruthMorphismOfTrueWithGivenObjects[102X, for IsCapCategoryObject , IsCapCategoryObject 3.1-20 
   [2XUniversalPropertyOfCartesianDual[102X, for IsCapCategoryObject, IsCapCategoryObject, IsCapCategoryMorphism 1.2-46 
   [2XUniversalPropertyOfCocartesianDual[102X, for IsCapCategoryObject, IsCapCategoryObject, IsCapCategoryMorphism 2.2-46 
   

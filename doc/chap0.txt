@@ -6,10 +6,10 @@
                               [1X Elementary toposes [101X
   
   
-                                   2021.11-05
+                                   2021.11-11
   
   
-                                12 November 2021
+                                13 November 2021
   
   
                                 Mohamed Barakat
@@ -260,18 +260,40 @@
       2.2-57 AddIsomorphismFromCoexponentialToObjectWithGivenCoexponential
   3 [33X[0;0YToposes[133X
     3.1 [33X[0;0YSubobject Classifier[133X
-      3.1-1 AddClassifyingMorphismOfSubobject
-      3.1-2 AddClassifyingMorphismOfSubobjectWithGivenSubobjectClassifier
-      3.1-3 AddSubobjectClassifier
-      3.1-4 AddSubobjectOfClassifyingMorphism
-      3.1-5 AddTruthMorphismOfTrue
-      3.1-6 AddTruthMorphismOfTrueWithGivenObjects
-      3.1-7 SubobjectClassifier
-      3.1-8 TruthMorphismOfTrueWithGivenObjects
-      3.1-9 TruthMorphismOfTrue
-      3.1-10 ClassifyingMorphismOfSubobject
-      3.1-11 ClassifyingMorphismOfSubobjectWithGivenSubobjectClassifier
-      3.1-12 SubobjectOfClassifyingMorphism
+      3.1-1 AddCartesianSquareOfSubobjectClassifier
+      3.1-2 AddClassifyingMorphismOfSubobject
+      3.1-3 AddClassifyingMorphismOfSubobjectWithGivenSubobjectClassifier
+      3.1-4 AddSubobjectClassifier
+      3.1-5 AddSubobjectOfClassifyingMorphism
+      3.1-6 AddTruthMorphismOfAnd
+      3.1-7 AddTruthMorphismOfAndWithGivenObjects
+      3.1-8 AddTruthMorphismOfFalse
+      3.1-9 AddTruthMorphismOfFalseWithGivenObjects
+      3.1-10 AddTruthMorphismOfImplies
+      3.1-11 AddTruthMorphismOfImpliesWithGivenObjects
+      3.1-12 AddTruthMorphismOfNot
+      3.1-13 AddTruthMorphismOfNotWithGivenObjects
+      3.1-14 AddTruthMorphismOfOr
+      3.1-15 AddTruthMorphismOfOrWithGivenObjects
+      3.1-16 AddTruthMorphismOfTrue
+      3.1-17 AddTruthMorphismOfTrueWithGivenObjects
+      3.1-18 SubobjectClassifier
+      3.1-19 CartesianSquareOfSubobjectClassifier
+      3.1-20 TruthMorphismOfTrueWithGivenObjects
+      3.1-21 TruthMorphismOfTrue
+      3.1-22 TruthMorphismOfFalseWithGivenObjects
+      3.1-23 TruthMorphismOfFalse
+      3.1-24 TruthMorphismOfNotWithGivenObjects
+      3.1-25 TruthMorphismOfNot
+      3.1-26 TruthMorphismOfAndWithGivenObjects
+      3.1-27 TruthMorphismOfAnd
+      3.1-28 TruthMorphismOfOrWithGivenObjects
+      3.1-29 TruthMorphismOfOr
+      3.1-30 TruthMorphismOfImpliesWithGivenObjects
+      3.1-31 TruthMorphismOfImplies
+      3.1-32 ClassifyingMorphismOfSubobject
+      3.1-33 ClassifyingMorphismOfSubobjectWithGivenSubobjectClassifier
+      3.1-34 SubobjectOfClassifyingMorphism
   
   
   [32X
