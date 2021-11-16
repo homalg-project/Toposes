@@ -4,172 +4,7 @@
   
   [1X3.1 [33X[0;0YSubobject Classifier[133X[101X
   
-  [1X3.1-1 AddCartesianSquareOfSubobjectClassifier[101X
-  
-  [33X[1;0Y[29X[2XAddCartesianSquareOfSubobjectClassifier[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
-  [6XReturns:[106X  [33X[0;10Ynothing[133X
-  
-  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
-  given    function    [23XF[123X   to   the   category   for   the   basic   operation
-  [10XCartesianSquareOfSubobjectClassifier[110X.       [23XF:       (       )       \mapsto
-  \mathtt{CartesianSquareOfSubobjectClassifier}()[123X.[133X
-  
-  [1X3.1-2 AddClassifyingMorphismOfSubobject[101X
-  
-  [33X[1;0Y[29X[2XAddClassifyingMorphismOfSubobject[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
-  [6XReturns:[106X  [33X[0;10Ynothing[133X
-  
-  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
-  given    function    [23XF[123X   to   the   category   for   the   basic   operation
-  [10XClassifyingMorphismOfSubobject[110X.      [23XF:      (      alpha      )     \mapsto
-  \mathtt{ClassifyingMorphismOfSubobject}(alpha)[123X.[133X
-  
-  [1X3.1-3 AddClassifyingMorphismOfSubobjectWithGivenSubobjectClassifier[101X
-  
-  [33X[1;0Y[29X[2XAddClassifyingMorphismOfSubobjectWithGivenSubobjectClassifier[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
-  [6XReturns:[106X  [33X[0;10Ynothing[133X
-  
-  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
-  given    function    [23XF[123X   to   the   category   for   the   basic   operation
-  [10XClassifyingMorphismOfSubobjectWithGivenSubobjectClassifier[110X.   [23XF:   (  alpha,
-  Omega                                )                               \mapsto
-  \mathtt{ClassifyingMorphismOfSubobjectWithGivenSubobjectClassifier}(alpha,
-  Omega)[123X.[133X
-  
-  [1X3.1-4 AddSubobjectClassifier[101X
-  
-  [33X[1;0Y[29X[2XAddSubobjectClassifier[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
-  [6XReturns:[106X  [33X[0;10Ynothing[133X
-  
-  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
-  given    function    [23XF[123X   to   the   category   for   the   basic   operation
-  [10XSubobjectClassifier[110X. [23XF: ( ) \mapsto \mathtt{SubobjectClassifier}()[123X.[133X
-  
-  [1X3.1-5 AddSubobjectOfClassifyingMorphism[101X
-  
-  [33X[1;0Y[29X[2XAddSubobjectOfClassifyingMorphism[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
-  [6XReturns:[106X  [33X[0;10Ynothing[133X
-  
-  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
-  given    function    [23XF[123X   to   the   category   for   the   basic   operation
-  [10XSubobjectOfClassifyingMorphism[110X.      [23XF:      (      alpha      )     \mapsto
-  \mathtt{SubobjectOfClassifyingMorphism}(alpha)[123X.[133X
-  
-  [1X3.1-6 AddTruthMorphismOfAnd[101X
-  
-  [33X[1;0Y[29X[2XAddTruthMorphismOfAnd[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
-  [6XReturns:[106X  [33X[0;10Ynothing[133X
-  
-  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
-  given function [23XF[123X to the category for the basic operation [10XTruthMorphismOfAnd[110X.
-  [23XF: ( ) \mapsto \mathtt{TruthMorphismOfAnd}()[123X.[133X
-  
-  [1X3.1-7 AddTruthMorphismOfAndWithGivenObjects[101X
-  
-  [33X[1;0Y[29X[2XAddTruthMorphismOfAndWithGivenObjects[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
-  [6XReturns:[106X  [33X[0;10Ynothing[133X
-  
-  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
-  given    function    [23XF[123X   to   the   category   for   the   basic   operation
-  [10XTruthMorphismOfAndWithGivenObjects[110X.   [23XF:   (   Omega2,   Omega   )   \mapsto
-  \mathtt{TruthMorphismOfAndWithGivenObjects}(Omega2, Omega)[123X.[133X
-  
-  [1X3.1-8 AddTruthMorphismOfFalse[101X
-  
-  [33X[1;0Y[29X[2XAddTruthMorphismOfFalse[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
-  [6XReturns:[106X  [33X[0;10Ynothing[133X
-  
-  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
-  given    function    [23XF[123X   to   the   category   for   the   basic   operation
-  [10XTruthMorphismOfFalse[110X. [23XF: ( ) \mapsto \mathtt{TruthMorphismOfFalse}()[123X.[133X
-  
-  [1X3.1-9 AddTruthMorphismOfFalseWithGivenObjects[101X
-  
-  [33X[1;0Y[29X[2XAddTruthMorphismOfFalseWithGivenObjects[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
-  [6XReturns:[106X  [33X[0;10Ynothing[133X
-  
-  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
-  given    function    [23XF[123X   to   the   category   for   the   basic   operation
-  [10XTruthMorphismOfFalseWithGivenObjects[110X.    [23XF:    (    T,   Omega   )   \mapsto
-  \mathtt{TruthMorphismOfFalseWithGivenObjects}(T, Omega)[123X.[133X
-  
-  [1X3.1-10 AddTruthMorphismOfImplies[101X
-  
-  [33X[1;0Y[29X[2XAddTruthMorphismOfImplies[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
-  [6XReturns:[106X  [33X[0;10Ynothing[133X
-  
-  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
-  given    function    [23XF[123X   to   the   category   for   the   basic   operation
-  [10XTruthMorphismOfImplies[110X. [23XF: ( ) \mapsto \mathtt{TruthMorphismOfImplies}()[123X.[133X
-  
-  [1X3.1-11 AddTruthMorphismOfImpliesWithGivenObjects[101X
-  
-  [33X[1;0Y[29X[2XAddTruthMorphismOfImpliesWithGivenObjects[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
-  [6XReturns:[106X  [33X[0;10Ynothing[133X
-  
-  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
-  given    function    [23XF[123X   to   the   category   for   the   basic   operation
-  [10XTruthMorphismOfImpliesWithGivenObjects[110X.   [23XF:   (  Omega2,  Omega  )  \mapsto
-  \mathtt{TruthMorphismOfImpliesWithGivenObjects}(Omega2, Omega)[123X.[133X
-  
-  [1X3.1-12 AddTruthMorphismOfNot[101X
-  
-  [33X[1;0Y[29X[2XAddTruthMorphismOfNot[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
-  [6XReturns:[106X  [33X[0;10Ynothing[133X
-  
-  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
-  given function [23XF[123X to the category for the basic operation [10XTruthMorphismOfNot[110X.
-  [23XF: ( ) \mapsto \mathtt{TruthMorphismOfNot}()[123X.[133X
-  
-  [1X3.1-13 AddTruthMorphismOfNotWithGivenObjects[101X
-  
-  [33X[1;0Y[29X[2XAddTruthMorphismOfNotWithGivenObjects[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
-  [6XReturns:[106X  [33X[0;10Ynothing[133X
-  
-  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
-  given    function    [23XF[123X   to   the   category   for   the   basic   operation
-  [10XTruthMorphismOfNotWithGivenObjects[110X.   [23XF:   (   Omega,   Omega1   )   \mapsto
-  \mathtt{TruthMorphismOfNotWithGivenObjects}(Omega, Omega1)[123X.[133X
-  
-  [1X3.1-14 AddTruthMorphismOfOr[101X
-  
-  [33X[1;0Y[29X[2XAddTruthMorphismOfOr[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
-  [6XReturns:[106X  [33X[0;10Ynothing[133X
-  
-  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
-  given  function [23XF[123X to the category for the basic operation [10XTruthMorphismOfOr[110X.
-  [23XF: ( ) \mapsto \mathtt{TruthMorphismOfOr}()[123X.[133X
-  
-  [1X3.1-15 AddTruthMorphismOfOrWithGivenObjects[101X
-  
-  [33X[1;0Y[29X[2XAddTruthMorphismOfOrWithGivenObjects[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
-  [6XReturns:[106X  [33X[0;10Ynothing[133X
-  
-  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
-  given    function    [23XF[123X   to   the   category   for   the   basic   operation
-  [10XTruthMorphismOfOrWithGivenObjects[110X.    [23XF:   (   Omega2,   Omega   )   \mapsto
-  \mathtt{TruthMorphismOfOrWithGivenObjects}(Omega2, Omega)[123X.[133X
-  
-  [1X3.1-16 AddTruthMorphismOfTrue[101X
-  
-  [33X[1;0Y[29X[2XAddTruthMorphismOfTrue[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
-  [6XReturns:[106X  [33X[0;10Ynothing[133X
-  
-  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
-  given    function    [23XF[123X   to   the   category   for   the   basic   operation
-  [10XTruthMorphismOfTrue[110X. [23XF: ( ) \mapsto \mathtt{TruthMorphismOfTrue}()[123X.[133X
-  
-  [1X3.1-17 AddTruthMorphismOfTrueWithGivenObjects[101X
-  
-  [33X[1;0Y[29X[2XAddTruthMorphismOfTrueWithGivenObjects[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
-  [6XReturns:[106X  [33X[0;10Ynothing[133X
-  
-  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
-  given    function    [23XF[123X   to   the   category   for   the   basic   operation
-  [10XTruthMorphismOfTrueWithGivenObjects[110X.    [23XF:    (    T,    Omega   )   \mapsto
-  \mathtt{TruthMorphismOfTrueWithGivenObjects}(T, Omega)[123X.[133X
-  
-  [1X3.1-18 SubobjectClassifier[101X
+  [1X3.1-1 SubobjectClassifier[101X
   
   [33X[1;0Y[29X[2XSubobjectClassifier[102X( [3XC[103X ) [32X attribute[133X
   [6XReturns:[106X  [33X[0;10Yan object[133X
@@ -191,7 +26,7 @@
   determine  a pullback diagram. The argument is a category [23XC[123X. The output is a
   subobject classifier object [23X\Omega[123X of [23XC[123X.[133X
   
-  [1X3.1-19 CartesianSquareOfSubobjectClassifier[101X
+  [1X3.1-2 CartesianSquareOfSubobjectClassifier[101X
   
   [33X[1;0Y[29X[2XCartesianSquareOfSubobjectClassifier[102X( [3XC[103X ) [32X attribute[133X
   [6XReturns:[106X  [33X[0;10Yan object[133X
@@ -199,7 +34,7 @@
   [33X[0;0YThe  argument is a category [23XC[123X. The output is cartesian square of a subobject
   classifier object [23X\Omega[123X of [23XC[123X.[133X
   
-  [1X3.1-20 TruthMorphismOfTrueWithGivenObjects[101X
+  [1X3.1-3 TruthMorphismOfTrueWithGivenObjects[101X
   
   [33X[1;0Y[29X[2XTruthMorphismOfTrueWithGivenObjects[102X( [3XT[103X, [3XOmega[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ya morphism in [23X\mathrm{Hom}( \mathrm{TerminalObject}, \Omega )[123X[133X
@@ -208,7 +43,7 @@
   classifier.  The  output  is  the  truth morphism of true into the subobject
   classifier [3XOmega[103X [23X\mathrm{true}: \mathrm{TerminalObject} \rightarrow \Omega[123X.[133X
   
-  [1X3.1-21 TruthMorphismOfTrue[101X
+  [1X3.1-4 TruthMorphismOfTrue[101X
   
   [33X[1;0Y[29X[2XTruthMorphismOfTrue[102X( [3XC[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ya     morphism     in    [23X\mathrm{Hom}(    \mathrm{TerminalObject},
@@ -218,7 +53,7 @@
   the  subobject classifier [23X\mathrm{true}: \mathrm{TerminalObject} \rightarrow
   \mathrm{SubobjectClassifier}[123X.[133X
   
-  [1X3.1-22 TruthMorphismOfFalseWithGivenObjects[101X
+  [1X3.1-5 TruthMorphismOfFalseWithGivenObjects[101X
   
   [33X[1;0Y[29X[2XTruthMorphismOfFalseWithGivenObjects[102X( [3XT[103X, [3XOmega[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ya morphism in [23X\mathrm{Hom}( \mathrm{TerminalObject}, \Omega )[123X[133X
@@ -227,7 +62,7 @@
   classifier.  The  output  is  the truth morphism of false into the subobject
   classifier [3XOmega[103X [23X\mathrm{false}: \mathrm{TerminalObject} \rightarrow \Omega[123X.[133X
   
-  [1X3.1-23 TruthMorphismOfFalse[101X
+  [1X3.1-6 TruthMorphismOfFalse[101X
   
   [33X[1;0Y[29X[2XTruthMorphismOfFalse[102X( [3XC[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ya     morphism     in    [23X\mathrm{Hom}(    \mathrm{TerminalObject},
@@ -237,7 +72,7 @@
   the subobject classifier [23X\mathrm{false}: \mathrm{TerminalObject} \rightarrow
   \mathrm{SubobjectClassifier}[123X.[133X
   
-  [1X3.1-24 TruthMorphismOfNotWithGivenObjects[101X
+  [1X3.1-7 TruthMorphismOfNotWithGivenObjects[101X
   
   [33X[1;0Y[29X[2XTruthMorphismOfNotWithGivenObjects[102X( [3XOmega[103X, [3XOmega[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ya morphism in [23X\mathrm{Hom}( \Omega, \Omega )[123X[133X
@@ -246,7 +81,7 @@
   of  [21Xnot[121X  of  the subobject classifier [3XOmega[103X [23X\mathrm{not}: \Omega \rightarrow
   \Omega[123X.[133X
   
-  [1X3.1-25 TruthMorphismOfNot[101X
+  [1X3.1-8 TruthMorphismOfNot[101X
   
   [33X[1;0Y[29X[2XTruthMorphismOfNot[102X( [3XC[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ya    morphism   in   [23X\mathrm{Hom}(   \mathrm{SubobjectClassifier},
@@ -256,7 +91,7 @@
   subobject  classifier [23X\mathrm{not}: \mathrm{SubobjectClassifier} \rightarrow
   \mathrm{SubobjectClassifier}[123X.[133X
   
-  [1X3.1-26 TruthMorphismOfAndWithGivenObjects[101X
+  [1X3.1-9 TruthMorphismOfAndWithGivenObjects[101X
   
   [33X[1;0Y[29X[2XTruthMorphismOfAndWithGivenObjects[102X( [3XOmega2[103X, [3XOmega[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ya morphism in [23X\mathrm{Hom}( \Omega^{\times 2}, \Omega )[123X[133X
@@ -266,7 +101,7 @@
   into   the   subobject  classifier  [3XOmega[103X  [23X\mathrm{and}:  \Omega^{\times  2}
   \rightarrow \Omega[123X.[133X
   
-  [1X3.1-27 TruthMorphismOfAnd[101X
+  [1X3.1-10 TruthMorphismOfAnd[101X
   
   [33X[1;0Y[29X[2XTruthMorphismOfAnd[102X( [3XC[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ya              morphism              in              [23X\mathrm{Hom}(
@@ -278,7 +113,7 @@
   \mathrm{CartesianSquareOfSubobjectClassifier}                    \rightarrow
   \mathrm{SubobjectClassifier}[123X.[133X
   
-  [1X3.1-28 TruthMorphismOfOrWithGivenObjects[101X
+  [1X3.1-11 TruthMorphismOfOrWithGivenObjects[101X
   
   [33X[1;0Y[29X[2XTruthMorphismOfOrWithGivenObjects[102X( [3XOmega2[103X, [3XOmega[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ya morphism in [23X\mathrm{Hom}( \Omega^{\times 2}, \Omega )[123X[133X
@@ -288,7 +123,7 @@
   into   the   subobject   classifier  [3XOmega[103X  [23X\mathrm{or}:  \Omega^{\times  2}
   \rightarrow \Omega[123X.[133X
   
-  [1X3.1-29 TruthMorphismOfOr[101X
+  [1X3.1-12 TruthMorphismOfOr[101X
   
   [33X[1;0Y[29X[2XTruthMorphismOfOr[102X( [3XC[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ya              morphism              in              [23X\mathrm{Hom}(
@@ -300,7 +135,7 @@
   \mathrm{CartesianSquareOfSubobjectClassifier}                    \rightarrow
   \mathrm{SubobjectClassifier}[123X.[133X
   
-  [1X3.1-30 TruthMorphismOfImpliesWithGivenObjects[101X
+  [1X3.1-13 TruthMorphismOfImpliesWithGivenObjects[101X
   
   [33X[1;0Y[29X[2XTruthMorphismOfImpliesWithGivenObjects[102X( [3XOmega2[103X, [3XOmega[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ya morphism in [23X\mathrm{Hom}( \Omega^{\times 2}, \Omega )[123X[133X
@@ -310,7 +145,7 @@
   [21Ximplies[121X into the subobject classifier [3XOmega[103X [23X\mathrm{implies}: \Omega^{\times
   2} \rightarrow \Omega[123X.[133X
   
-  [1X3.1-31 TruthMorphismOfImplies[101X
+  [1X3.1-14 TruthMorphismOfImplies[101X
   
   [33X[1;0Y[29X[2XTruthMorphismOfImplies[102X( [3XC[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ya              morphism              in              [23X\mathrm{Hom}(
@@ -322,31 +157,199 @@
   \mathrm{CartesianSquareOfSubobjectClassifier}                    \rightarrow
   \mathrm{SubobjectClassifier}[123X.[133X
   
-  [1X3.1-32 ClassifyingMorphismOfSubobject[101X
+  [1X3.1-15 ClassifyingMorphismOfSubobject[101X
   
   [33X[1;0Y[29X[2XClassifyingMorphismOfSubobject[102X( [3Xm[103X ) [32X operation[133X
-  [6XReturns:[106X  [33X[0;10Ya     morphism     in     [23X\mathrm{Hom}(     \mathrm{Range}(m)    ,
+  [6XReturns:[106X  [33X[0;10Ya      morphism      in      [23X\mathrm{Hom}(      \mathrm{Range}(m),
             \mathrm{SubobjectClassifier} )[123X[133X
   
   [33X[0;0YThe  argument  is  a  monomorphism  [23Xm  :  A \rightarrow S[123X. The output is its
   classifying morphism [23X\chi_m : S \rightarrow \mathrm{SubobjectClassifier}[123X.[133X
   
-  [1X3.1-33 ClassifyingMorphismOfSubobjectWithGivenSubobjectClassifier[101X
+  [1X3.1-16 ClassifyingMorphismOfSubobjectWithGivenSubobjectClassifier[101X
   
   [33X[1;0Y[29X[2XClassifyingMorphismOfSubobjectWithGivenSubobjectClassifier[102X( [3Xm[103X, [3Xomega[103X ) [32X operation[133X
-  [6XReturns:[106X  [33X[0;10Ya     morphism     in     [23X\mathrm{Hom}(     \mathrm{Range}(m)    ,
+  [6XReturns:[106X  [33X[0;10Ya      morphism      in      [23X\mathrm{Hom}(      \mathrm{Range}(m),
             \mathrm{SubobjectClassifier} )[123X[133X
   
   [33X[0;0YThe  arguments  are  a  monomorphism  [23Xm  :  A  \rightarrow S[123X and a subobject
   classifier   [23X\Omega[123X.   The   output  is  the  classifying  morphism  of  the
   monomorphism [23X\chi_m : S \rightarrow \mathrm{SubobjectClassifier}[123X.[133X
   
-  [1X3.1-34 SubobjectOfClassifyingMorphism[101X
+  [1X3.1-17 SubobjectOfClassifyingMorphism[101X
   
   [33X[1;0Y[29X[2XSubobjectOfClassifyingMorphism[102X( [3Xchi[103X ) [32X operation[133X
-  [6XReturns:[106X  [33X[0;10Ya monomorphism in [23X\mathrm{Hom}( A , S )[123X[133X
+  [6XReturns:[106X  [33X[0;10Ya monomorphism in [23X\mathrm{Hom}( A, S )[123X[133X
   
   [33X[0;0YThe  argument  is  a  classifying  morphism [23X\chi : S \rightarrow \Omega[123X. The
   output  is  the  subobject  monomorphism  of the classifying morphism, [23Xm : A
   \rightarrow S[123X.[133X
+  
+  
+  [1X3.2 [33X[0;0YAdd-methods[133X[101X
+  
+  [1X3.2-1 AddCartesianSquareOfSubobjectClassifier[101X
+  
+  [33X[1;0Y[29X[2XAddCartesianSquareOfSubobjectClassifier[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XCartesianSquareOfSubobjectClassifier[110X.       [23XF:       (       )       \mapsto
+  \mathtt{CartesianSquareOfSubobjectClassifier}()[123X.[133X
+  
+  [1X3.2-2 AddClassifyingMorphismOfSubobject[101X
+  
+  [33X[1;0Y[29X[2XAddClassifyingMorphismOfSubobject[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XClassifyingMorphismOfSubobject[110X.      [23XF:      (      alpha      )     \mapsto
+  \mathtt{ClassifyingMorphismOfSubobject}(alpha)[123X.[133X
+  
+  [1X3.2-3 AddClassifyingMorphismOfSubobjectWithGivenSubobjectClassifier[101X
+  
+  [33X[1;0Y[29X[2XAddClassifyingMorphismOfSubobjectWithGivenSubobjectClassifier[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XClassifyingMorphismOfSubobjectWithGivenSubobjectClassifier[110X.   [23XF:   (  alpha,
+  Omega                                )                               \mapsto
+  \mathtt{ClassifyingMorphismOfSubobjectWithGivenSubobjectClassifier}(alpha,
+  Omega)[123X.[133X
+  
+  [1X3.2-4 AddSubobjectClassifier[101X
+  
+  [33X[1;0Y[29X[2XAddSubobjectClassifier[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XSubobjectClassifier[110X. [23XF: ( ) \mapsto \mathtt{SubobjectClassifier}()[123X.[133X
+  
+  [1X3.2-5 AddSubobjectOfClassifyingMorphism[101X
+  
+  [33X[1;0Y[29X[2XAddSubobjectOfClassifyingMorphism[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XSubobjectOfClassifyingMorphism[110X.      [23XF:      (      alpha      )     \mapsto
+  \mathtt{SubobjectOfClassifyingMorphism}(alpha)[123X.[133X
+  
+  [1X3.2-6 AddTruthMorphismOfAnd[101X
+  
+  [33X[1;0Y[29X[2XAddTruthMorphismOfAnd[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given function [23XF[123X to the category for the basic operation [10XTruthMorphismOfAnd[110X.
+  [23XF: ( ) \mapsto \mathtt{TruthMorphismOfAnd}()[123X.[133X
+  
+  [1X3.2-7 AddTruthMorphismOfAndWithGivenObjects[101X
+  
+  [33X[1;0Y[29X[2XAddTruthMorphismOfAndWithGivenObjects[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XTruthMorphismOfAndWithGivenObjects[110X.   [23XF:   (   Omega2,   Omega   )   \mapsto
+  \mathtt{TruthMorphismOfAndWithGivenObjects}(Omega2, Omega)[123X.[133X
+  
+  [1X3.2-8 AddTruthMorphismOfFalse[101X
+  
+  [33X[1;0Y[29X[2XAddTruthMorphismOfFalse[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XTruthMorphismOfFalse[110X. [23XF: ( ) \mapsto \mathtt{TruthMorphismOfFalse}()[123X.[133X
+  
+  [1X3.2-9 AddTruthMorphismOfFalseWithGivenObjects[101X
+  
+  [33X[1;0Y[29X[2XAddTruthMorphismOfFalseWithGivenObjects[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XTruthMorphismOfFalseWithGivenObjects[110X.    [23XF:    (    T,   Omega   )   \mapsto
+  \mathtt{TruthMorphismOfFalseWithGivenObjects}(T, Omega)[123X.[133X
+  
+  [1X3.2-10 AddTruthMorphismOfImplies[101X
+  
+  [33X[1;0Y[29X[2XAddTruthMorphismOfImplies[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XTruthMorphismOfImplies[110X. [23XF: ( ) \mapsto \mathtt{TruthMorphismOfImplies}()[123X.[133X
+  
+  [1X3.2-11 AddTruthMorphismOfImpliesWithGivenObjects[101X
+  
+  [33X[1;0Y[29X[2XAddTruthMorphismOfImpliesWithGivenObjects[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XTruthMorphismOfImpliesWithGivenObjects[110X.   [23XF:   (  Omega2,  Omega  )  \mapsto
+  \mathtt{TruthMorphismOfImpliesWithGivenObjects}(Omega2, Omega)[123X.[133X
+  
+  [1X3.2-12 AddTruthMorphismOfNot[101X
+  
+  [33X[1;0Y[29X[2XAddTruthMorphismOfNot[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given function [23XF[123X to the category for the basic operation [10XTruthMorphismOfNot[110X.
+  [23XF: ( ) \mapsto \mathtt{TruthMorphismOfNot}()[123X.[133X
+  
+  [1X3.2-13 AddTruthMorphismOfNotWithGivenObjects[101X
+  
+  [33X[1;0Y[29X[2XAddTruthMorphismOfNotWithGivenObjects[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XTruthMorphismOfNotWithGivenObjects[110X.   [23XF:   (   Omega,   Omega1   )   \mapsto
+  \mathtt{TruthMorphismOfNotWithGivenObjects}(Omega, Omega1)[123X.[133X
+  
+  [1X3.2-14 AddTruthMorphismOfOr[101X
+  
+  [33X[1;0Y[29X[2XAddTruthMorphismOfOr[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given  function [23XF[123X to the category for the basic operation [10XTruthMorphismOfOr[110X.
+  [23XF: ( ) \mapsto \mathtt{TruthMorphismOfOr}()[123X.[133X
+  
+  [1X3.2-15 AddTruthMorphismOfOrWithGivenObjects[101X
+  
+  [33X[1;0Y[29X[2XAddTruthMorphismOfOrWithGivenObjects[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XTruthMorphismOfOrWithGivenObjects[110X.    [23XF:   (   Omega2,   Omega   )   \mapsto
+  \mathtt{TruthMorphismOfOrWithGivenObjects}(Omega2, Omega)[123X.[133X
+  
+  [1X3.2-16 AddTruthMorphismOfTrue[101X
+  
+  [33X[1;0Y[29X[2XAddTruthMorphismOfTrue[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XTruthMorphismOfTrue[110X. [23XF: ( ) \mapsto \mathtt{TruthMorphismOfTrue}()[123X.[133X
+  
+  [1X3.2-17 AddTruthMorphismOfTrueWithGivenObjects[101X
+  
+  [33X[1;0Y[29X[2XAddTruthMorphismOfTrueWithGivenObjects[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XTruthMorphismOfTrueWithGivenObjects[110X.    [23XF:    (    T,    Omega   )   \mapsto
+  \mathtt{TruthMorphismOfTrueWithGivenObjects}(T, Omega)[123X.[133X
   

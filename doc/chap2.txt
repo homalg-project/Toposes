@@ -4,249 +4,6 @@
   
   [1X2.1 [33X[0;0YCocartesian Categories[133X[101X
   
-  [1X2.1-1 CocartesianBraiding[101X
-  
-  [33X[1;0Y[29X[2XCocartesianBraiding[102X( [3Xa[103X, [3Xb[103X ) [32X operation[133X
-  [6XReturns:[106X  [33X[0;10Ya morphism in [23X\mathrm{Hom}( a \sqcup b, b \sqcup a )[123X.[133X
-  
-  [33X[0;0YThe  arguments  are  two objects [23Xa,b[123X. The output is the braiding [23X B_{a,b}: a
-  \sqcup b \rightarrow b \sqcup a[123X.[133X
-  
-  [1X2.1-2 CocartesianBraidingWithGivenCoproducts[101X
-  
-  [33X[1;0Y[29X[2XCocartesianBraidingWithGivenCoproducts[102X( [3Xs[103X, [3Xa[103X, [3Xb[103X, [3Xr[103X ) [32X operation[133X
-  [6XReturns:[106X  [33X[0;10Ya morphism in [23X\mathrm{Hom}( a \sqcup b, b \sqcup a )[123X.[133X
-  
-  [33X[0;0YThe arguments are an object [23Xs = a \sqcup b[123X, two objects [23Xa,b[123X, and an object [23Xr
-  =  b \sqcup a[123X. The output is the braiding [23X B_{a,b}: a \sqcup b \rightarrow b
-  \sqcup a[123X.[133X
-  
-  [1X2.1-3 AddCocartesianBraidingWithGivenCoproducts[101X
-  
-  [33X[1;0Y[29X[2XAddCocartesianBraidingWithGivenCoproducts[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
-  [6XReturns:[106X  [33X[0;10Ynothing[133X
-  
-  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
-  given    function    [23XF[123X   to   the   category   for   the   basic   operation
-  [10XCocartesianBraidingWithGivenCoproducts[110X.  [23XF:  (a  \sqcup b, a, b, b \sqcup a)
-  \rightarrow B_{a,b}[123X.[133X
-  
-  [1X2.1-4 CocartesianBraidingInverse[101X
-  
-  [33X[1;0Y[29X[2XCocartesianBraidingInverse[102X( [3Xa[103X, [3Xb[103X ) [32X operation[133X
-  [6XReturns:[106X  [33X[0;10Ya morphism in [23X\mathrm{Hom}( b \sqcup a, a \sqcup b )[123X.[133X
-  
-  [33X[0;0YThe arguments are two objects [23Xa,b[123X. The output is the inverse of the braiding
-  [23X B_{a,b}^{-1}: b \sqcup a \rightarrow a \sqcup b[123X.[133X
-  
-  [1X2.1-5 CocartesianBraidingInverseWithGivenCoproducts[101X
-  
-  [33X[1;0Y[29X[2XCocartesianBraidingInverseWithGivenCoproducts[102X( [3Xs[103X, [3Xa[103X, [3Xb[103X, [3Xr[103X ) [32X operation[133X
-  [6XReturns:[106X  [33X[0;10Ya morphism in [23X\mathrm{Hom}( b \sqcup a, a \sqcup b )[123X.[133X
-  
-  [33X[0;0YThe arguments are an object [23Xs = b \sqcup a[123X, two objects [23Xa,b[123X, and an object [23Xr
-  =  a  \sqcup  b[123X.  The  output  is  the  braiding  [23X  B_{a,b}^{-1}: b \sqcup a
-  \rightarrow a \sqcup b[123X.[133X
-  
-  [1X2.1-6 AddCocartesianBraidingInverseWithGivenCoproducts[101X
-  
-  [33X[1;0Y[29X[2XAddCocartesianBraidingInverseWithGivenCoproducts[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
-  [6XReturns:[106X  [33X[0;10Ynothing[133X
-  
-  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
-  given    function    [23XF[123X   to   the   category   for   the   basic   operation
-  [10XCocartesianBraidingInverseWithGivenCoproducts[110X.  [23XF:  (b  \sqcup  a,  a,  b, a
-  \sqcup b) \rightarrow B_{a,b}^{-1}[123X.[133X
-  
-  [1X2.1-7 CoproductOnMorphisms[101X
-  
-  [33X[1;0Y[29X[2XCoproductOnMorphisms[102X( [3Xalpha[103X, [3Xbeta[103X ) [32X operation[133X
-  [6XReturns:[106X  [33X[0;10Ya morphism in [23X\mathrm{Hom}(a \sqcup b, a' \sqcup b')[123X[133X
-  
-  [33X[0;0YThe  arguments  are  two  morphisms  [23X\alpha:  a  \rightarrow  a',  \beta:  b
-  \rightarrow b'[123X. The output is the coproduct [23X\alpha \sqcup \beta[123X.[133X
-  
-  [1X2.1-8 CoproductOnMorphismsWithGivenCoproducts[101X
-  
-  [33X[1;0Y[29X[2XCoproductOnMorphismsWithGivenCoproducts[102X( [3Xs[103X, [3Xalpha[103X, [3Xbeta[103X, [3Xr[103X ) [32X operation[133X
-  [6XReturns:[106X  [33X[0;10Ya morphism in [23X\mathrm{Hom}(a \sqcup b, a' \sqcup b')[123X[133X
-  
-  [33X[0;0YThe  arguments  are  an  object  [23Xs  =  a  \sqcup  b[123X, two morphisms [23X\alpha: a
-  \rightarrow a', \beta: b \rightarrow b'[123X, and an object [23Xr = a' \sqcup b'[123X. The
-  output is the coproduct [23X\alpha \sqcup \beta[123X.[133X
-  
-  [1X2.1-9 AddCoproductOnMorphismsWithGivenCoproducts[101X
-  
-  [33X[1;0Y[29X[2XAddCoproductOnMorphismsWithGivenCoproducts[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
-  [6XReturns:[106X  [33X[0;10Ynothing[133X
-  
-  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
-  given    function    [23XF[123X   to   the   category   for   the   basic   operation
-  [10XCoproductOnMorphismsWithGivenCoproducts[110X.   [23XF:   (  a  \sqcup  b,  \alpha:  a
-  \rightarrow  a',  \beta:  b  \rightarrow  b',  a' \sqcup b' ) \mapsto \alpha
-  \sqcup \beta[123X.[133X
-  
-  [1X2.1-10 CocartesianAssociatorRightToLeft[101X
-  
-  [33X[1;0Y[29X[2XCocartesianAssociatorRightToLeft[102X( [3Xa[103X, [3Xb[103X, [3Xc[103X ) [32X operation[133X
-  [6XReturns:[106X  [33X[0;10Ya  morphism  in  [23X\mathrm{Hom}( a \sqcup (b \sqcup c), (a \sqcup b)
-            \sqcup c )[123X.[133X
-  
-  [33X[0;0YThe  arguments  are  three  objects  [23Xa,b,c[123X.  The  output  is  the associator
-  [23X\alpha_{a,(b,c)}: a \sqcup (b \sqcup c) \rightarrow (a \sqcup b) \sqcup c[123X.[133X
-  
-  [1X2.1-11 CocartesianAssociatorRightToLeftWithGivenCoproducts[101X
-  
-  [33X[1;0Y[29X[2XCocartesianAssociatorRightToLeftWithGivenCoproducts[102X( [3Xs[103X, [3Xa[103X, [3Xb[103X, [3Xc[103X, [3Xr[103X ) [32X operation[133X
-  [6XReturns:[106X  [33X[0;10Ya  morphism  in  [23X\mathrm{Hom}( a \sqcup (b \sqcup c), (a \sqcup b)
-            \sqcup c )[123X.[133X
-  
-  [33X[0;0YThe  arguments are an object [23Xs = a \sqcup (b \sqcup c)[123X, three objects [23Xa,b,c[123X,
-  and  an  object  [23Xr  =  (a  \sqcup  b) \sqcup c[123X. The output is the associator
-  [23X\alpha_{a,(b,c)}: a \sqcup (b \sqcup c) \rightarrow (a \sqcup b) \sqcup c[123X.[133X
-  
-  [1X2.1-12 AddCocartesianAssociatorRightToLeftWithGivenCoproducts[101X
-  
-  [33X[1;0Y[29X[2XAddCocartesianAssociatorRightToLeftWithGivenCoproducts[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
-  [6XReturns:[106X  [33X[0;10Ynothing[133X
-  
-  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
-  given    function    [23XF[123X   to   the   category   for   the   basic   operation
-  [10XCocartesianAssociatorRightToLeftWithGivenCoproducts[110X. [23XF: ( a \sqcup (b \sqcup
-  c), a, b, c, (a \sqcup b) \sqcup c ) \mapsto \alpha_{a,(b,c)}[123X.[133X
-  
-  [1X2.1-13 CocartesianAssociatorLeftToRight[101X
-  
-  [33X[1;0Y[29X[2XCocartesianAssociatorLeftToRight[102X( [3Xa[103X, [3Xb[103X, [3Xc[103X ) [32X operation[133X
-  [6XReturns:[106X  [33X[0;10Ya  morphism  in  [23X\mathrm{Hom}( (a \sqcup b) \sqcup c \rightarrow a
-            \sqcup (b \sqcup c) )[123X.[133X
-  
-  [33X[0;0YThe  arguments  are  three  objects  [23Xa,b,c[123X.  The  output  is  the associator
-  [23X\alpha_{(a,b),c}: (a \sqcup b) \sqcup c \rightarrow a \sqcup (b \sqcup c)[123X.[133X
-  
-  [1X2.1-14 CocartesianAssociatorLeftToRightWithGivenCoproducts[101X
-  
-  [33X[1;0Y[29X[2XCocartesianAssociatorLeftToRightWithGivenCoproducts[102X( [3Xs[103X, [3Xa[103X, [3Xb[103X, [3Xc[103X, [3Xr[103X ) [32X operation[133X
-  [6XReturns:[106X  [33X[0;10Ya  morphism  in  [23X\mathrm{Hom}( (a \sqcup b) \sqcup c \rightarrow a
-            \sqcup (b \sqcup c) )[123X.[133X
-  
-  [33X[0;0YThe  arguments are an object [23Xs = (a \sqcup b) \sqcup c[123X, three objects [23Xa,b,c[123X,
-  and  an  object  [23Xr  =  a  \sqcup  (b \sqcup c)[123X. The output is the associator
-  [23X\alpha_{(a,b),c}: (a \sqcup b) \sqcup c \rightarrow a \sqcup (b \sqcup c)[123X.[133X
-  
-  [1X2.1-15 AddCocartesianAssociatorLeftToRightWithGivenCoproducts[101X
-  
-  [33X[1;0Y[29X[2XAddCocartesianAssociatorLeftToRightWithGivenCoproducts[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
-  [6XReturns:[106X  [33X[0;10Ynothing[133X
-  
-  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
-  given    function    [23XF[123X   to   the   category   for   the   basic   operation
-  [10XCocartesianAssociatorLeftToRightWithGivenCoproducts[110X.  [23XF:  ((  a  \sqcup  b )
-  \sqcup c, a, b, c, a \sqcup (b \sqcup c )) \mapsto \alpha_{(a,b),c}[123X.[133X
-  
-  [1X2.1-16 CocartesianLeftUnitor[101X
-  
-  [33X[1;0Y[29X[2XCocartesianLeftUnitor[102X( [3Xa[103X ) [32X attribute[133X
-  [6XReturns:[106X  [33X[0;10Ya morphism in [23X\mathrm{Hom}(1 \sqcup a, a )[123X[133X
-  
-  [33X[0;0YThe  argument  is  an  object  [23Xa[123X. The output is the left unitor [23X\lambda_a: 1
-  \sqcup a \rightarrow a[123X.[133X
-  
-  [1X2.1-17 CocartesianLeftUnitorWithGivenCoproduct[101X
-  
-  [33X[1;0Y[29X[2XCocartesianLeftUnitorWithGivenCoproduct[102X( [3Xa[103X, [3Xs[103X ) [32X operation[133X
-  [6XReturns:[106X  [33X[0;10Ya morphism in [23X\mathrm{Hom}(1 \sqcup a, a )[123X[133X
-  
-  [33X[0;0YThe  arguments  are  an object [23Xa[123X and an object [23Xs = 1 \sqcup a[123X. The output is
-  the left unitor [23X\lambda_a: 1 \sqcup a \rightarrow a[123X.[133X
-  
-  [1X2.1-18 AddCocartesianLeftUnitorWithGivenCoproduct[101X
-  
-  [33X[1;0Y[29X[2XAddCocartesianLeftUnitorWithGivenCoproduct[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
-  [6XReturns:[106X  [33X[0;10Ynothing[133X
-  
-  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
-  given    function    [23XF[123X   to   the   category   for   the   basic   operation
-  [10XCocartesianLeftUnitorWithGivenCoproduct[110X.   [23XF:   (a,   1  \sqcup  a)  \mapsto
-  \lambda_a[123X.[133X
-  
-  [1X2.1-19 CocartesianLeftUnitorInverse[101X
-  
-  [33X[1;0Y[29X[2XCocartesianLeftUnitorInverse[102X( [3Xa[103X ) [32X attribute[133X
-  [6XReturns:[106X  [33X[0;10Ya morphism in [23X\mathrm{Hom}(a, 1 \sqcup a)[123X[133X
-  
-  [33X[0;0YThe  argument  is  an object [23Xa[123X. The output is the inverse of the left unitor
-  [23X\lambda_a^{-1}: a \rightarrow 1 \sqcup a[123X.[133X
-  
-  [1X2.1-20 CocartesianLeftUnitorInverseWithGivenCoproduct[101X
-  
-  [33X[1;0Y[29X[2XCocartesianLeftUnitorInverseWithGivenCoproduct[102X( [3Xa[103X, [3Xr[103X ) [32X operation[133X
-  [6XReturns:[106X  [33X[0;10Ya morphism in [23X\mathrm{Hom}(a, 1 \sqcup a)[123X[133X
-  
-  [33X[0;0YThe  argument is an object [23Xa[123X and an object [23Xr = 1 \sqcup a[123X. The output is the
-  inverse of the left unitor [23X\lambda_a^{-1}: a \rightarrow 1 \sqcup a[123X.[133X
-  
-  [1X2.1-21 AddCocartesianLeftUnitorInverseWithGivenCoproduct[101X
-  
-  [33X[1;0Y[29X[2XAddCocartesianLeftUnitorInverseWithGivenCoproduct[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
-  [6XReturns:[106X  [33X[0;10Ynothing[133X
-  
-  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
-  given    function    [23XF[123X   to   the   category   for   the   basic   operation
-  [10XCocartesianLeftUnitorInverseWithGivenCoproduct[110X.  [23XF:  (a, 1 \sqcup a) \mapsto
-  \lambda_a^{-1}[123X.[133X
-  
-  [1X2.1-22 CocartesianRightUnitor[101X
-  
-  [33X[1;0Y[29X[2XCocartesianRightUnitor[102X( [3Xa[103X ) [32X attribute[133X
-  [6XReturns:[106X  [33X[0;10Ya morphism in [23X\mathrm{Hom}(a \sqcup 1, a )[123X[133X
-  
-  [33X[0;0YThe argument is an object [23Xa[123X. The output is the right unitor [23X\rho_a: a \sqcup
-  1 \rightarrow a[123X.[133X
-  
-  [1X2.1-23 CocartesianRightUnitorWithGivenCoproduct[101X
-  
-  [33X[1;0Y[29X[2XCocartesianRightUnitorWithGivenCoproduct[102X( [3Xa[103X, [3Xs[103X ) [32X operation[133X
-  [6XReturns:[106X  [33X[0;10Ya morphism in [23X\mathrm{Hom}(a \sqcup 1, a )[123X[133X
-  
-  [33X[0;0YThe  arguments  are  an object [23Xa[123X and an object [23Xs = a \sqcup 1[123X. The output is
-  the right unitor [23X\rho_a: a \sqcup 1 \rightarrow a[123X.[133X
-  
-  [1X2.1-24 AddCocartesianRightUnitorWithGivenCoproduct[101X
-  
-  [33X[1;0Y[29X[2XAddCocartesianRightUnitorWithGivenCoproduct[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
-  [6XReturns:[106X  [33X[0;10Ynothing[133X
-  
-  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
-  given    function    [23XF[123X   to   the   category   for   the   basic   operation
-  [10XCocartesianRightUnitorWithGivenCoproduct[110X. [23XF: (a, a \sqcup 1) \mapsto \rho_a[123X.[133X
-  
-  [1X2.1-25 CocartesianRightUnitorInverse[101X
-  
-  [33X[1;0Y[29X[2XCocartesianRightUnitorInverse[102X( [3Xa[103X ) [32X attribute[133X
-  [6XReturns:[106X  [33X[0;10Ya morphism in [23X\mathrm{Hom}( a, a \sqcup 1 )[123X[133X
-  
-  [33X[0;0YThe  argument  is an object [23Xa[123X. The output is the inverse of the right unitor
-  [23X\rho_a^{-1}: a \rightarrow a \sqcup 1[123X.[133X
-  
-  [1X2.1-26 CocartesianRightUnitorInverseWithGivenCoproduct[101X
-  
-  [33X[1;0Y[29X[2XCocartesianRightUnitorInverseWithGivenCoproduct[102X( [3Xa[103X, [3Xr[103X ) [32X operation[133X
-  [6XReturns:[106X  [33X[0;10Ya morphism in [23X\mathrm{Hom}( a, a \sqcup 1 )[123X[133X
-  
-  [33X[0;0YThe  arguments  are  an object [23Xa[123X and an object [23Xr = a \sqcup 1[123X. The output is
-  the inverse of the right unitor [23X\rho_a^{-1}: a \rightarrow a \sqcup 1[123X.[133X
-  
-  [1X2.1-27 AddCocartesianRightUnitorInverseWithGivenCoproduct[101X
-  
-  [33X[1;0Y[29X[2XAddCocartesianRightUnitorInverseWithGivenCoproduct[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
-  [6XReturns:[106X  [33X[0;10Ynothing[133X
-  
-  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
-  given    function    [23XF[123X   to   the   category   for   the   basic   operation
-  [10XCocartesianRightUnitorInverseWithGivenCoproduct[110X.  [23XF: (a, a \sqcup 1) \mapsto
-  \rho_a^{-1}[123X.[133X
-  
   [33X[0;0YA [23X6[123X-tuple [23X( \mathbf{C}, \sqcup, 1, \alpha, \lambda, \rho )[123X consisting of[133X
   
   [30X    [33X[0;6Ya category [23X\mathbf{C}[123X,[133X
@@ -274,7 +31,126 @@
   
   [33X[0;0YThe corresponding GAP property is given by [10XIsCocartesianCategory[110X.[133X
   
-  [1X2.1-28 LeftCocartesianDistributivityExpanding[101X
+  [1X2.1-1 CoproductOnMorphisms[101X
+  
+  [33X[1;0Y[29X[2XCoproductOnMorphisms[102X( [3Xalpha[103X, [3Xbeta[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ya morphism in [23X\mathrm{Hom}(a \sqcup b, a' \sqcup b')[123X[133X
+  
+  [33X[0;0YThe  arguments  are  two  morphisms  [23X\alpha:  a  \rightarrow  a',  \beta:  b
+  \rightarrow b'[123X. The output is the coproduct [23X\alpha \sqcup \beta[123X.[133X
+  
+  [1X2.1-2 CoproductOnMorphismsWithGivenCoproducts[101X
+  
+  [33X[1;0Y[29X[2XCoproductOnMorphismsWithGivenCoproducts[102X( [3Xs[103X, [3Xalpha[103X, [3Xbeta[103X, [3Xr[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ya morphism in [23X\mathrm{Hom}(a \sqcup b, a' \sqcup b')[123X[133X
+  
+  [33X[0;0YThe  arguments  are  an  object  [23Xs  =  a  \sqcup  b[123X, two morphisms [23X\alpha: a
+  \rightarrow a', \beta: b \rightarrow b'[123X, and an object [23Xr = a' \sqcup b'[123X. The
+  output is the coproduct [23X\alpha \sqcup \beta[123X.[133X
+  
+  [1X2.1-3 CocartesianAssociatorRightToLeft[101X
+  
+  [33X[1;0Y[29X[2XCocartesianAssociatorRightToLeft[102X( [3Xa[103X, [3Xb[103X, [3Xc[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ya  morphism  in  [23X\mathrm{Hom}( a \sqcup (b \sqcup c), (a \sqcup b)
+            \sqcup c )[123X.[133X
+  
+  [33X[0;0YThe  arguments  are  three  objects  [23Xa,b,c[123X.  The  output  is  the associator
+  [23X\alpha_{a,(b,c)}: a \sqcup (b \sqcup c) \rightarrow (a \sqcup b) \sqcup c[123X.[133X
+  
+  [1X2.1-4 CocartesianAssociatorRightToLeftWithGivenCoproducts[101X
+  
+  [33X[1;0Y[29X[2XCocartesianAssociatorRightToLeftWithGivenCoproducts[102X( [3Xs[103X, [3Xa[103X, [3Xb[103X, [3Xc[103X, [3Xr[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ya  morphism  in  [23X\mathrm{Hom}( a \sqcup (b \sqcup c), (a \sqcup b)
+            \sqcup c )[123X.[133X
+  
+  [33X[0;0YThe  arguments are an object [23Xs = a \sqcup (b \sqcup c)[123X, three objects [23Xa,b,c[123X,
+  and  an  object  [23Xr  =  (a  \sqcup  b) \sqcup c[123X. The output is the associator
+  [23X\alpha_{a,(b,c)}: a \sqcup (b \sqcup c) \rightarrow (a \sqcup b) \sqcup c[123X.[133X
+  
+  [1X2.1-5 CocartesianAssociatorLeftToRight[101X
+  
+  [33X[1;0Y[29X[2XCocartesianAssociatorLeftToRight[102X( [3Xa[103X, [3Xb[103X, [3Xc[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ya  morphism  in  [23X\mathrm{Hom}( (a \sqcup b) \sqcup c \rightarrow a
+            \sqcup (b \sqcup c) )[123X.[133X
+  
+  [33X[0;0YThe  arguments  are  three  objects  [23Xa,b,c[123X.  The  output  is  the associator
+  [23X\alpha_{(a,b),c}: (a \sqcup b) \sqcup c \rightarrow a \sqcup (b \sqcup c)[123X.[133X
+  
+  [1X2.1-6 CocartesianAssociatorLeftToRightWithGivenCoproducts[101X
+  
+  [33X[1;0Y[29X[2XCocartesianAssociatorLeftToRightWithGivenCoproducts[102X( [3Xs[103X, [3Xa[103X, [3Xb[103X, [3Xc[103X, [3Xr[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ya  morphism  in  [23X\mathrm{Hom}( (a \sqcup b) \sqcup c \rightarrow a
+            \sqcup (b \sqcup c) )[123X.[133X
+  
+  [33X[0;0YThe  arguments are an object [23Xs = (a \sqcup b) \sqcup c[123X, three objects [23Xa,b,c[123X,
+  and  an  object  [23Xr  =  a  \sqcup  (b \sqcup c)[123X. The output is the associator
+  [23X\alpha_{(a,b),c}: (a \sqcup b) \sqcup c \rightarrow a \sqcup (b \sqcup c)[123X.[133X
+  
+  [1X2.1-7 CocartesianLeftUnitor[101X
+  
+  [33X[1;0Y[29X[2XCocartesianLeftUnitor[102X( [3Xa[103X ) [32X attribute[133X
+  [6XReturns:[106X  [33X[0;10Ya morphism in [23X\mathrm{Hom}(1 \sqcup a, a )[123X[133X
+  
+  [33X[0;0YThe  argument  is  an  object  [23Xa[123X. The output is the left unitor [23X\lambda_a: 1
+  \sqcup a \rightarrow a[123X.[133X
+  
+  [1X2.1-8 CocartesianLeftUnitorWithGivenCoproduct[101X
+  
+  [33X[1;0Y[29X[2XCocartesianLeftUnitorWithGivenCoproduct[102X( [3Xa[103X, [3Xs[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ya morphism in [23X\mathrm{Hom}(1 \sqcup a, a )[123X[133X
+  
+  [33X[0;0YThe  arguments  are  an object [23Xa[123X and an object [23Xs = 1 \sqcup a[123X. The output is
+  the left unitor [23X\lambda_a: 1 \sqcup a \rightarrow a[123X.[133X
+  
+  [1X2.1-9 CocartesianLeftUnitorInverse[101X
+  
+  [33X[1;0Y[29X[2XCocartesianLeftUnitorInverse[102X( [3Xa[103X ) [32X attribute[133X
+  [6XReturns:[106X  [33X[0;10Ya morphism in [23X\mathrm{Hom}(a, 1 \sqcup a)[123X[133X
+  
+  [33X[0;0YThe  argument  is  an object [23Xa[123X. The output is the inverse of the left unitor
+  [23X\lambda_a^{-1}: a \rightarrow 1 \sqcup a[123X.[133X
+  
+  [1X2.1-10 CocartesianLeftUnitorInverseWithGivenCoproduct[101X
+  
+  [33X[1;0Y[29X[2XCocartesianLeftUnitorInverseWithGivenCoproduct[102X( [3Xa[103X, [3Xr[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ya morphism in [23X\mathrm{Hom}(a, 1 \sqcup a)[123X[133X
+  
+  [33X[0;0YThe  argument is an object [23Xa[123X and an object [23Xr = 1 \sqcup a[123X. The output is the
+  inverse of the left unitor [23X\lambda_a^{-1}: a \rightarrow 1 \sqcup a[123X.[133X
+  
+  [1X2.1-11 CocartesianRightUnitor[101X
+  
+  [33X[1;0Y[29X[2XCocartesianRightUnitor[102X( [3Xa[103X ) [32X attribute[133X
+  [6XReturns:[106X  [33X[0;10Ya morphism in [23X\mathrm{Hom}(a \sqcup 1, a )[123X[133X
+  
+  [33X[0;0YThe argument is an object [23Xa[123X. The output is the right unitor [23X\rho_a: a \sqcup
+  1 \rightarrow a[123X.[133X
+  
+  [1X2.1-12 CocartesianRightUnitorWithGivenCoproduct[101X
+  
+  [33X[1;0Y[29X[2XCocartesianRightUnitorWithGivenCoproduct[102X( [3Xa[103X, [3Xs[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ya morphism in [23X\mathrm{Hom}(a \sqcup 1, a )[123X[133X
+  
+  [33X[0;0YThe  arguments  are  an object [23Xa[123X and an object [23Xs = a \sqcup 1[123X. The output is
+  the right unitor [23X\rho_a: a \sqcup 1 \rightarrow a[123X.[133X
+  
+  [1X2.1-13 CocartesianRightUnitorInverse[101X
+  
+  [33X[1;0Y[29X[2XCocartesianRightUnitorInverse[102X( [3Xa[103X ) [32X attribute[133X
+  [6XReturns:[106X  [33X[0;10Ya morphism in [23X\mathrm{Hom}( a, a \sqcup 1 )[123X[133X
+  
+  [33X[0;0YThe  argument  is an object [23Xa[123X. The output is the inverse of the right unitor
+  [23X\rho_a^{-1}: a \rightarrow a \sqcup 1[123X.[133X
+  
+  [1X2.1-14 CocartesianRightUnitorInverseWithGivenCoproduct[101X
+  
+  [33X[1;0Y[29X[2XCocartesianRightUnitorInverseWithGivenCoproduct[102X( [3Xa[103X, [3Xr[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ya morphism in [23X\mathrm{Hom}( a, a \sqcup 1 )[123X[133X
+  
+  [33X[0;0YThe  arguments  are  an object [23Xa[123X and an object [23Xr = a \sqcup 1[123X. The output is
+  the inverse of the right unitor [23X\rho_a^{-1}: a \rightarrow a \sqcup 1[123X.[133X
+  
+  [1X2.1-15 LeftCocartesianDistributivityExpanding[101X
   
   [33X[1;0Y[29X[2XLeftCocartesianDistributivityExpanding[102X( [3Xa[103X, [3XL[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ya  morphism  in  [23X\mathrm{Hom}(  a  \sqcup (b_1 \times \dots \times
@@ -284,7 +160,7 @@
   The  output  is  the left distributivity morphism [23Xa \sqcup (b_1 \times \dots
   \times b_n) \rightarrow (a \sqcup b_1) \times \dots \times (a \sqcup b_n)[123X.[133X
   
-  [1X2.1-29 LeftCocartesianDistributivityExpandingWithGivenObjects[101X
+  [1X2.1-16 LeftCocartesianDistributivityExpandingWithGivenObjects[101X
   
   [33X[1;0Y[29X[2XLeftCocartesianDistributivityExpandingWithGivenObjects[102X( [3Xs[103X, [3Xa[103X, [3XL[103X, [3Xr[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ya morphism in [23X\mathrm{Hom}( s, r )[123X[133X
@@ -294,19 +170,7 @@
   \sqcup  b_1)  \times  \dots  \times  (a  \sqcup b_n)[123X. The output is the left
   distributivity morphism [23Xs \rightarrow r[123X.[133X
   
-  [1X2.1-30 AddLeftCocartesianDistributivityExpandingWithGivenObjects[101X
-  
-  [33X[1;0Y[29X[2XAddLeftCocartesianDistributivityExpandingWithGivenObjects[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
-  [6XReturns:[106X  [33X[0;10Ynothing[133X
-  
-  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
-  given    function    [23XF[123X   to   the   category   for   the   basic   operation
-  [10XLeftCocartesianDistributivityExpandingWithGivenObjects[110X.  [23XF:  (a  \sqcup (b_1
-  \times \dots \times b_n), a, L, (a \sqcup b_1) \times \dots \times (a \sqcup
-  b_n))                                                                \mapsto
-  \mathrm{LeftCocartesianDistributivityExpandingWithGivenObjects}(a,L)[123X.[133X
-  
-  [1X2.1-31 LeftCocartesianDistributivityFactoring[101X
+  [1X2.1-17 LeftCocartesianDistributivityFactoring[101X
   
   [33X[1;0Y[29X[2XLeftCocartesianDistributivityFactoring[102X( [3Xa[103X, [3XL[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ya  morphism in [23X\mathrm{Hom}( (a \sqcup b_1) \times \dots \times (a
@@ -316,7 +180,7 @@
   The  output  is the left distributivity morphism [23X(a \sqcup b_1) \times \dots
   \times (a \sqcup b_n) \rightarrow a \sqcup (b_1 \times \dots \times b_n)[123X.[133X
   
-  [1X2.1-32 LeftCocartesianDistributivityFactoringWithGivenObjects[101X
+  [1X2.1-18 LeftCocartesianDistributivityFactoringWithGivenObjects[101X
   
   [33X[1;0Y[29X[2XLeftCocartesianDistributivityFactoringWithGivenObjects[102X( [3Xs[103X, [3Xa[103X, [3XL[103X, [3Xr[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ya morphism in [23X\mathrm{Hom}( s, r )[123X[133X
@@ -326,19 +190,7 @@
   =  a  \sqcup  (b_1  \times  \dots  \times  b_n)[123X.  The  output  is  the  left
   distributivity morphism [23Xs \rightarrow r[123X.[133X
   
-  [1X2.1-33 AddLeftCocartesianDistributivityFactoringWithGivenObjects[101X
-  
-  [33X[1;0Y[29X[2XAddLeftCocartesianDistributivityFactoringWithGivenObjects[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
-  [6XReturns:[106X  [33X[0;10Ynothing[133X
-  
-  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
-  given    function    [23XF[123X   to   the   category   for   the   basic   operation
-  [10XLeftCocartesianDistributivityFactoringWithGivenObjects[110X.  [23XF:  ((a \sqcup b_1)
-  \times  \dots \times (a \sqcup b_n), a, L, a \sqcup (b_1 \times \dots \times
-  b_n))                                                                \mapsto
-  \mathrm{LeftCocartesianDistributivityFactoringWithGivenObjects}(a,L)[123X.[133X
-  
-  [1X2.1-34 RightCocartesianDistributivityExpanding[101X
+  [1X2.1-19 RightCocartesianDistributivityExpanding[101X
   
   [33X[1;0Y[29X[2XRightCocartesianDistributivityExpanding[102X( [3XL[103X, [3Xa[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ya  morphism  in [23X\mathrm{Hom}( (b_1 \times \dots \times b_n) \sqcup
@@ -348,7 +200,7 @@
   The  output  is  the  right distributivity morphism [23X(b_1 \times \dots \times
   b_n) \sqcup a \rightarrow (b_1 \sqcup a) \times \dots \times (b_n \sqcup a)[123X.[133X
   
-  [1X2.1-35 RightCocartesianDistributivityExpandingWithGivenObjects[101X
+  [1X2.1-20 RightCocartesianDistributivityExpandingWithGivenObjects[101X
   
   [33X[1;0Y[29X[2XRightCocartesianDistributivityExpandingWithGivenObjects[102X( [3Xs[103X, [3XL[103X, [3Xa[103X, [3Xr[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ya morphism in [23X\mathrm{Hom}( s, r )[123X[133X
@@ -358,19 +210,7 @@
   \sqcup  a)  \times  \dots  \times  (b_n  \sqcup  a)[123X. The output is the right
   distributivity morphism [23Xs \rightarrow r[123X.[133X
   
-  [1X2.1-36 AddRightCocartesianDistributivityExpandingWithGivenObjects[101X
-  
-  [33X[1;0Y[29X[2XAddRightCocartesianDistributivityExpandingWithGivenObjects[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
-  [6XReturns:[106X  [33X[0;10Ynothing[133X
-  
-  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
-  given    function    [23XF[123X   to   the   category   for   the   basic   operation
-  [10XRightCocartesianDistributivityExpandingWithGivenObjects[110X.   [23XF:  ((b_1  \times
-  \dots  \times  b_n)  \sqcup a, L, a, (b_1 \sqcup a) \times \dots \times (b_n
-  \sqcup                              a))                              \mapsto
-  \mathrm{RightCocartesianDistributivityExpandingWithGivenObjects}(L,a)[123X.[133X
-  
-  [1X2.1-37 RightCocartesianDistributivityFactoring[101X
+  [1X2.1-21 RightCocartesianDistributivityFactoring[101X
   
   [33X[1;0Y[29X[2XRightCocartesianDistributivityFactoring[102X( [3XL[103X, [3Xa[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ya  morphism  in  [23X\mathrm{Hom}(  (b_1 \sqcup a) \times \dots \times
@@ -380,7 +220,7 @@
   The  output is the right distributivity morphism [23X(b_1 \sqcup a) \times \dots
   \times (b_n \sqcup a) \rightarrow (b_1 \times \dots \times b_n) \sqcup a [123X.[133X
   
-  [1X2.1-38 RightCocartesianDistributivityFactoringWithGivenObjects[101X
+  [1X2.1-22 RightCocartesianDistributivityFactoringWithGivenObjects[101X
   
   [33X[1;0Y[29X[2XRightCocartesianDistributivityFactoringWithGivenObjects[102X( [3Xs[103X, [3XL[103X, [3Xa[103X, [3Xr[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ya morphism in [23X\mathrm{Hom}( s, r )[123X[133X
@@ -390,20 +230,47 @@
   object  [23Xr  = (b_1 \times \dots \times b_n) \sqcup a[123X. The output is the right
   distributivity morphism [23Xs \rightarrow r[123X.[133X
   
-  [1X2.1-39 AddRightCocartesianDistributivityFactoringWithGivenObjects[101X
+  [1X2.1-23 CocartesianBraiding[101X
   
-  [33X[1;0Y[29X[2XAddRightCocartesianDistributivityFactoringWithGivenObjects[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
-  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  [33X[1;0Y[29X[2XCocartesianBraiding[102X( [3Xa[103X, [3Xb[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ya morphism in [23X\mathrm{Hom}( a \sqcup b, b \sqcup a )[123X.[133X
   
-  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
-  given    function    [23XF[123X   to   the   category   for   the   basic   operation
-  [10XRightCocartesianDistributivityFactoringWithGivenObjects[110X.  [23XF: ((b_1 \sqcup a)
-  \times  \dots  \times  (b_n  \sqcup  a), L, a, (b_1 \times \dots \times b_n)
-  \sqcup                               a)                              \mapsto
-  \mathrm{RightCocartesianDistributivityFactoringWithGivenObjects}(L,a)[123X.[133X
+  [33X[0;0YThe  arguments  are  two objects [23Xa,b[123X. The output is the braiding [23X B_{a,b}: a
+  \sqcup b \rightarrow b \sqcup a[123X.[133X
+  
+  [1X2.1-24 CocartesianBraidingWithGivenCoproducts[101X
+  
+  [33X[1;0Y[29X[2XCocartesianBraidingWithGivenCoproducts[102X( [3Xs[103X, [3Xa[103X, [3Xb[103X, [3Xr[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ya morphism in [23X\mathrm{Hom}( a \sqcup b, b \sqcup a )[123X.[133X
+  
+  [33X[0;0YThe arguments are an object [23Xs = a \sqcup b[123X, two objects [23Xa,b[123X, and an object [23Xr
+  =  b \sqcup a[123X. The output is the braiding [23X B_{a,b}: a \sqcup b \rightarrow b
+  \sqcup a[123X.[133X
+  
+  [1X2.1-25 CocartesianBraidingInverse[101X
+  
+  [33X[1;0Y[29X[2XCocartesianBraidingInverse[102X( [3Xa[103X, [3Xb[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ya morphism in [23X\mathrm{Hom}( b \sqcup a, a \sqcup b )[123X.[133X
+  
+  [33X[0;0YThe arguments are two objects [23Xa,b[123X. The output is the inverse of the braiding
+  [23X B_{a,b}^{-1}: b \sqcup a \rightarrow a \sqcup b[123X.[133X
+  
+  [1X2.1-26 CocartesianBraidingInverseWithGivenCoproducts[101X
+  
+  [33X[1;0Y[29X[2XCocartesianBraidingInverseWithGivenCoproducts[102X( [3Xs[103X, [3Xa[103X, [3Xb[103X, [3Xr[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ya morphism in [23X\mathrm{Hom}( b \sqcup a, a \sqcup b )[123X.[133X
+  
+  [33X[0;0YThe arguments are an object [23Xs = b \sqcup a[123X, two objects [23Xa,b[123X, and an object [23Xr
+  =  a  \sqcup  b[123X.  The  output  is  the  braiding  [23X  B_{a,b}^{-1}: b \sqcup a
+  \rightarrow a \sqcup b[123X.[133X
   
   
   [1X2.2 [33X[0;0YCocartesian Coclosed Categories[133X[101X
+  
+  [33X[0;0YA  cocartesian  category  [23X\mathbf{C}[123X  which has for each functor [23Xb \sqcup -:
+  \mathbf{C}    \rightarrow    \mathbf{C}[123X   a   left   adjoint   (denoted   by
+  [23X\mathrm{Coexponential}(-,b)[123X)  is called a [13Xcoclosed cocartesian category[113X. The
+  corresponding GAP property is called [10XIsCocartesianCoclosedCategory[110X.[133X
   
   [1X2.2-1 CoexponentialOnObjects[101X
   
@@ -413,16 +280,7 @@
   [33X[0;0YThe  arguments  are two objects [23Xa,b[123X. The output is the internal cohom object
   [23X\mathrm{Coexponential}(a,b)[123X.[133X
   
-  [1X2.2-2 AddCoexponentialOnObjects[101X
-  
-  [33X[1;0Y[29X[2XAddCoexponentialOnObjects[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
-  [6XReturns:[106X  [33X[0;10Ynothing[133X
-  
-  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
-  given    function    [23XF[123X   to   the   category   for   the   basic   operation
-  [10XCoexponentialOnObjects[110X. [23XF: (a,b) \mapsto \mathrm{Coexponential}(a,b)[123X.[133X
-  
-  [1X2.2-3 CoexponentialOnMorphisms[101X
+  [1X2.2-2 CoexponentialOnMorphisms[101X
   
   [33X[1;0Y[29X[2XCoexponentialOnMorphisms[102X( [3Xalpha[103X, [3Xbeta[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ya    morphism   in   [23X\mathrm{Hom}(   \mathrm{Coexponential}(a,b'),
@@ -433,7 +291,7 @@
   [23X\mathrm{Coexponential}(\alpha,\beta):           \mathrm{Coexponential}(a,b')
   \rightarrow \mathrm{Coexponential}(a',b)[123X.[133X
   
-  [1X2.2-4 CoexponentialOnMorphismsWithGivenCoexponentials[101X
+  [1X2.2-3 CoexponentialOnMorphismsWithGivenCoexponentials[101X
   
   [33X[1;0Y[29X[2XCoexponentialOnMorphismsWithGivenCoexponentials[102X( [3Xs[103X, [3Xalpha[103X, [3Xbeta[103X, [3Xr[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ya    morphism   in   [23X\mathrm{Hom}(   \mathrm{Coexponential}(a,b'),
@@ -445,19 +303,7 @@
   [23X\mathrm{Coexponential}(\alpha,\beta):           \mathrm{Coexponential}(a,b')
   \rightarrow \mathrm{Coexponential}(a',b)[123X.[133X
   
-  [1X2.2-5 AddCoexponentialOnMorphismsWithGivenCoexponentials[101X
-  
-  [33X[1;0Y[29X[2XAddCoexponentialOnMorphismsWithGivenCoexponentials[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
-  [6XReturns:[106X  [33X[0;10Ynothing[133X
-  
-  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
-  given    function    [23XF[123X   to   the   category   for   the   basic   operation
-  [10XCoexponentialOnMorphismsWithGivenCoexponentials[110X.                          [23XF:
-  (\mathrm{Coexponential}(a,b'),   \alpha:   a   \rightarrow   a',   \beta:  b
-  \rightarrow       b',       \mathrm{Coexponential}(a',b)      )      \mapsto
-  \mathrm{Coexponential}(\alpha,\beta)[123X.[133X
-  
-  [1X2.2-6 CocartesianEvaluationMorphism[101X
+  [1X2.2-4 CocartesianEvaluationMorphism[101X
   
   [33X[1;0Y[29X[2XCocartesianEvaluationMorphism[102X( [3Xa[103X, [3Xb[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ya      morphism      in      [23X\mathrm{Hom}(     a,     b     \sqcup
@@ -467,7 +313,7 @@
   morphism      [23X\mathrm{coclev}_{a,b}:      a     \rightarrow     b     \sqcup
   \mathrm{Coexponential}(a,b)[123X, i.e., the unit of the cohom tensor adjunction.[133X
   
-  [1X2.2-7 CocartesianEvaluationMorphismWithGivenRange[101X
+  [1X2.2-5 CocartesianEvaluationMorphismWithGivenRange[101X
   
   [33X[1;0Y[29X[2XCocartesianEvaluationMorphismWithGivenRange[102X( [3Xa[103X, [3Xb[103X, [3Xr[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ya      morphism      in      [23X\mathrm{Hom}(     a,     b     \sqcup
@@ -478,17 +324,7 @@
   [23X\mathrm{coclev}_{a,b}:  a  \rightarrow b \sqcup \mathrm{Coexponential}(a,b)[123X,
   i.e., the unit of the cohom tensor adjunction.[133X
   
-  [1X2.2-8 AddCocartesianEvaluationMorphismWithGivenRange[101X
-  
-  [33X[1;0Y[29X[2XAddCocartesianEvaluationMorphismWithGivenRange[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
-  [6XReturns:[106X  [33X[0;10Ynothing[133X
-  
-  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
-  given    function    [23XF[123X   to   the   category   for   the   basic   operation
-  [10XCocartesianEvaluationMorphismWithGivenRange[110X.    [23XF:    (a,    b,   b   \sqcup
-  \mathrm{Coexponential}(a,b)) \mapsto \mathrm{coev}_{a,b}[123X.[133X
-  
-  [1X2.2-9 CocartesianCoevaluationMorphism[101X
+  [1X2.2-6 CocartesianCoevaluationMorphism[101X
   
   [33X[1;0Y[29X[2XCocartesianCoevaluationMorphism[102X( [3Xa[103X, [3Xb[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ya morphism in [23X\mathrm{Hom}( \mathrm{Coexponential}(a \sqcup b, a),
@@ -498,7 +334,7 @@
   morphism  [23X\mathrm{coclcoev}_{a,b}:  \mathrm{Coexponential}(a  \sqcup  b,  a)
   \rightarrow b[123X, i.e., the counit of the cohom tensor adjunction.[133X
   
-  [1X2.2-10 CocartesianCoevaluationMorphismWithGivenSource[101X
+  [1X2.2-7 CocartesianCoevaluationMorphismWithGivenSource[101X
   
   [33X[1;0Y[29X[2XCocartesianCoevaluationMorphismWithGivenSource[102X( [3Xa[103X, [3Xb[103X, [3Xs[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ya morphism in [23X\mathrm{Hom}( \mathrm{Coexponential}(a \sqcup b, a),
@@ -509,17 +345,7 @@
   [23X\mathrm{coclcoev}_{a,b}:  \mathrm{Coexponential}(a  \sqcup b, a) \rightarrow
   b[123X, i.e., the unit of the cohom tensor adjunction.[133X
   
-  [1X2.2-11 AddCocartesianCoevaluationMorphismWithGivenSource[101X
-  
-  [33X[1;0Y[29X[2XAddCocartesianCoevaluationMorphismWithGivenSource[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
-  [6XReturns:[106X  [33X[0;10Ynothing[133X
-  
-  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
-  given    function    [23XF[123X   to   the   category   for   the   basic   operation
-  [10XCocartesianCoevaluationMorphismWithGivenSource[110X.        [23XF:       (a,       b,
-  \mathrm{Coexponential}(a \sqcup b, a)) \mapsto \mathrm{dcoev}_{a,b}[123X.[133X
-  
-  [1X2.2-12 CoexponentialToCoproductAdjunctionMap[101X
+  [1X2.2-8 CoexponentialToCoproductAdjunctionMap[101X
   
   [33X[1;0Y[29X[2XCoexponentialToCoproductAdjunctionMap[102X( [3Xa[103X, [3Xb[103X, [3Xf[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ya morphism in [23X\mathrm{Hom}(a, b \sqcup c)[123X.[133X
@@ -528,18 +354,7 @@
   \rightarrow  c[123X.  The  output  is  a  morphism  [23Xg:  a  \rightarrow b \sqcup c[123X
   corresponding to [23Xf[123X under the cohom tensor adjunction.[133X
   
-  [1X2.2-13 AddCoexponentialToCoproductAdjunctionMap[101X
-  
-  [33X[1;0Y[29X[2XAddCoexponentialToCoproductAdjunctionMap[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
-  [6XReturns:[106X  [33X[0;10Ynothing[133X
-  
-  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
-  given    function    [23XF[123X   to   the   category   for   the   basic   operation
-  [10XCoexponentialToCoproductAdjunctionMap[110X.        [23XF:       (a,       b,       f:
-  \mathrm{Coexponential}(a,b)  \rightarrow  c)  \mapsto  (  g: a \rightarrow b
-  \sqcup c )[123X.[133X
-  
-  [1X2.2-14 CoproductToCoexponentialAdjunctionMap[101X
+  [1X2.2-9 CoproductToCoexponentialAdjunctionMap[101X
   
   [33X[1;0Y[29X[2XCoproductToCoexponentialAdjunctionMap[102X( [3Xb[103X, [3Xc[103X, [3Xg[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ya morphism in [23X\mathrm{Hom}( \mathrm{Coexponential}(a,b), c )[123X.[133X
@@ -548,17 +363,7 @@
   The  output  is  a  morphism  [23Xf:  \mathrm{Coexponential}(a,b)  \rightarrow c[123X
   corresponding to [23Xg[123X under the cohom tensor adjunction.[133X
   
-  [1X2.2-15 AddCoproductToCoexponentialAdjunctionMap[101X
-  
-  [33X[1;0Y[29X[2XAddCoproductToCoexponentialAdjunctionMap[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
-  [6XReturns:[106X  [33X[0;10Ynothing[133X
-  
-  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
-  given    function    [23XF[123X   to   the   category   for   the   basic   operation
-  [10XCoproductToCoexponentialAdjunctionMap[110X.  [23XF:  (a, b, g: a \rightarrow b \sqcup
-  c) \mapsto ( f: \mathrm{Coexponential}(a,b) \rightarrow c)[123X.[133X
-  
-  [1X2.2-16 CocartesianPreCoComposeMorphism[101X
+  [1X2.2-10 CocartesianPreCoComposeMorphism[101X
   
   [33X[1;0Y[29X[2XCocartesianPreCoComposeMorphism[102X( [3Xa[103X, [3Xb[103X, [3Xc[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ya    morphism    in   [23X\mathrm{Hom}(   \mathrm{Coexponential}(a,c),
@@ -569,7 +374,7 @@
   \mathrm{Coexponential}(a,c)  \rightarrow  \mathrm{Coexponential}(a,b) \sqcup
   \mathrm{Coexponential}(b,c)[123X.[133X
   
-  [1X2.2-17 CocartesianPreCoComposeMorphismWithGivenObjects[101X
+  [1X2.2-11 CocartesianPreCoComposeMorphismWithGivenObjects[101X
   
   [33X[1;0Y[29X[2XCocartesianPreCoComposeMorphismWithGivenObjects[102X( [3Xs[103X, [3Xa[103X, [3Xb[103X, [3Xc[103X, [3Xr[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ya    morphism    in   [23X\mathrm{Hom}(   \mathrm{Coexponential}(a,c),
@@ -582,19 +387,7 @@
   \mathrm{Coexponential}(a,c)  \rightarrow  \mathrm{Coexponential}(a,b) \sqcup
   \mathrm{Coexponential}(b,c)[123X.[133X
   
-  [1X2.2-18 AddCocartesianPreCoComposeMorphismWithGivenObjects[101X
-  
-  [33X[1;0Y[29X[2XAddCocartesianPreCoComposeMorphismWithGivenObjects[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
-  [6XReturns:[106X  [33X[0;10Ynothing[133X
-  
-  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
-  given    function    [23XF[123X   to   the   category   for   the   basic   operation
-  [10XCocartesianPreCoComposeMorphismWithGivenObjects[110X.                          [23XF:
-  (\mathrm{Coexponential}(a,c),a,b,c,\mathrm{Coexponential}(a,b)        \sqcup
-  \mathrm{Coexponential}(b,c))                                         \mapsto
-  \mathrm{CocartesianPreCoComposeMorphismWithGivenObjects}_{a,b,c}[123X.[133X
-  
-  [1X2.2-19 CocartesianPostCoComposeMorphism[101X
+  [1X2.2-12 CocartesianPostCoComposeMorphism[101X
   
   [33X[1;0Y[29X[2XCocartesianPostCoComposeMorphism[102X( [3Xa[103X, [3Xb[103X, [3Xc[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ya    morphism    in   [23X\mathrm{Hom}(   \mathrm{Coexponential}(a,c),
@@ -605,7 +398,7 @@
   \mathrm{Coexponential}(a,c)  \rightarrow  \mathrm{Coexponential}(b,c) \sqcup
   \mathrm{Coexponential}(a,b)[123X.[133X
   
-  [1X2.2-20 CocartesianPostCoComposeMorphismWithGivenObjects[101X
+  [1X2.2-13 CocartesianPostCoComposeMorphismWithGivenObjects[101X
   
   [33X[1;0Y[29X[2XCocartesianPostCoComposeMorphismWithGivenObjects[102X( [3Xs[103X, [3Xa[103X, [3Xb[103X, [3Xc[103X, [3Xr[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ya    morphism    in   [23X\mathrm{Hom}(   \mathrm{Coexponential}(a,c),
@@ -618,35 +411,14 @@
   \mathrm{Coexponential}(a,c)  \rightarrow  \mathrm{Coexponential}(b,c) \sqcup
   \mathrm{Coexponential}(a,b)[123X.[133X
   
-  [1X2.2-21 AddCocartesianPostCoComposeMorphismWithGivenObjects[101X
-  
-  [33X[1;0Y[29X[2XAddCocartesianPostCoComposeMorphismWithGivenObjects[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
-  [6XReturns:[106X  [33X[0;10Ynothing[133X
-  
-  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
-  given    function    [23XF[123X   to   the   category   for   the   basic   operation
-  [10XCocartesianPostCoComposeMorphismWithGivenObjects[110X.                         [23XF:
-  (\mathrm{Coexponential}(a,c),a,b,c,\mathrm{Coexponential}(b,c)        \sqcup
-  \mathrm{Coexponential}(a,b))                                         \mapsto
-  \mathrm{CocartesianPostComposeMorphismWithGivenObjects}_{a,b,c}[123X.[133X
-  
-  [1X2.2-22 CocartesianDualOnObjects[101X
+  [1X2.2-14 CocartesianDualOnObjects[101X
   
   [33X[1;0Y[29X[2XCocartesianDualOnObjects[102X( [3Xa[103X ) [32X attribute[133X
   [6XReturns:[106X  [33X[0;10Yan object[133X
   
   [33X[0;0YThe argument is an object [23Xa[123X. The output is its codual object [23Xa_{\vee}[123X.[133X
   
-  [1X2.2-23 AddCocartesianDualOnObjects[101X
-  
-  [33X[1;0Y[29X[2XAddCocartesianDualOnObjects[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
-  [6XReturns:[106X  [33X[0;10Ynothing[133X
-  
-  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
-  given    function    [23XF[123X   to   the   category   for   the   basic   operation
-  [10XCocartesianDualOnObjects[110X. [23XF: a \mapsto a_{\vee}[123X.[133X
-  
-  [1X2.2-24 CocartesianDualOnMorphisms[101X
+  [1X2.2-15 CocartesianDualOnMorphisms[101X
   
   [33X[1;0Y[29X[2XCocartesianDualOnMorphisms[102X( [3Xalpha[103X ) [32X attribute[133X
   [6XReturns:[106X  [33X[0;10Ya morphism in [23X\mathrm{Hom}( b_{\vee}, a_{\vee} )[123X.[133X
@@ -654,7 +426,7 @@
   [33X[0;0YThe argument is a morphism [23X\alpha: a \rightarrow b[123X. The output is its codual
   morphism [23X\alpha_{\vee}: b_{\vee} \rightarrow a_{\vee}[123X.[133X
   
-  [1X2.2-25 CocartesianDualOnMorphismsWithGivenCocartesianDuals[101X
+  [1X2.2-16 CocartesianDualOnMorphismsWithGivenCocartesianDuals[101X
   
   [33X[1;0Y[29X[2XCocartesianDualOnMorphismsWithGivenCocartesianDuals[102X( [3Xs[103X, [3Xalpha[103X, [3Xr[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ya morphism in [23X\mathrm{Hom}( b_{\vee}, a_{\vee} )[123X.[133X
@@ -663,17 +435,7 @@
   and  an  object [23Xr = a_{\vee}[123X. The output is the dual morphism [23X\alpha_{\vee}:
   b^{\vee} \rightarrow a^{\vee}[123X.[133X
   
-  [1X2.2-26 AddCocartesianDualOnMorphismsWithGivenCocartesianDuals[101X
-  
-  [33X[1;0Y[29X[2XAddCocartesianDualOnMorphismsWithGivenCocartesianDuals[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
-  [6XReturns:[106X  [33X[0;10Ynothing[133X
-  
-  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
-  given    function    [23XF[123X   to   the   category   for   the   basic   operation
-  [10XCocartesianDualOnMorphismsWithGivenCocartesianDuals[110X.                      [23XF:
-  (b_{\vee},\alpha,a_{\vee}) \mapsto \alpha_{\vee}[123X.[133X
-  
-  [1X2.2-27 CocartesianEvaluationForCocartesianDual[101X
+  [1X2.2-17 CocartesianEvaluationForCocartesianDual[101X
   
   [33X[1;0Y[29X[2XCocartesianEvaluationForCocartesianDual[102X( [3Xa[103X ) [32X attribute[133X
   [6XReturns:[106X  [33X[0;10Ya morphism in [23X\mathrm{Hom}( 1, a \sqcup a_{\vee} )[123X.[133X
@@ -681,7 +443,7 @@
   [33X[0;0YThe  argument is an object [23Xa[123X. The output is the coclosed evaluation morphism
   [23X\mathrm{coclev}_{a}: 1 \rightarrow a \sqcup a_{\vee}[123X.[133X
   
-  [1X2.2-28 CocartesianEvaluationForCocartesianDualWithGivenCoproduct[101X
+  [1X2.2-18 CocartesianEvaluationForCocartesianDualWithGivenCoproduct[101X
   
   [33X[1;0Y[29X[2XCocartesianEvaluationForCocartesianDualWithGivenCoproduct[102X( [3Xs[103X, [3Xa[103X, [3Xr[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ya morphism in [23X\mathrm{Hom}( 1, a \sqcup a_{\vee} )[123X.[133X
@@ -690,25 +452,15 @@
   a_{\vee}[123X.    The    output    is    the    coclosed    evaluation   morphism
   [23X\mathrm{cocloev}_{a}: 1 \rightarrow a \sqcup a_{\vee}[123X.[133X
   
-  [1X2.2-29 AddCocartesianEvaluationForCocartesianDualWithGivenCoproduct[101X
-  
-  [33X[1;0Y[29X[2XAddCocartesianEvaluationForCocartesianDualWithGivenCoproduct[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
-  [6XReturns:[106X  [33X[0;10Ynothing[133X
-  
-  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
-  given    function    [23XF[123X   to   the   category   for   the   basic   operation
-  [10XCocartesianEvaluationForCocartesianDualWithGivenCoproduct[110X.   [23XF:   (1,  a,  a
-  \sqcup a_{vee}) \mapsto \mathrm{coev}_{a}[123X.[133X
-  
-  [1X2.2-30 MorphismFromCocartesianBidual[101X
+  [1X2.2-19 MorphismFromCocartesianBidual[101X
   
   [33X[1;0Y[29X[2XMorphismFromCocartesianBidual[102X( [3Xa[103X ) [32X attribute[133X
   [6XReturns:[106X  [33X[0;10Ya morphism in [23X\mathrm{Hom}((a_{\vee})_{\vee}, a)[123X.[133X
   
-  [33X[0;0YThe  argument is a an object [23Xa[123X. The output is the morphism from the cobidual
+  [33X[0;0YThe  argument  is  an object [23Xa[123X. The output is the morphism from the cobidual
   [23X(a_{\vee})_{\vee} \rightarrow a[123X.[133X
   
-  [1X2.2-31 MorphismFromCocartesianBidualWithGivenCocartesianBidual[101X
+  [1X2.2-20 MorphismFromCocartesianBidualWithGivenCocartesianBidual[101X
   
   [33X[1;0Y[29X[2XMorphismFromCocartesianBidualWithGivenCocartesianBidual[102X( [3Xa[103X, [3Xs[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ya morphism in [23X\mathrm{Hom}((a_{\vee})_{\vee}, a)[123X.[133X
@@ -716,58 +468,35 @@
   [33X[0;0YThe  arguments  are  an  object  [23Xa[123X, and an object [23Xs = (a_{\vee})_{\vee}[123X. The
   output is the morphism from the cobidual [23X(a_{\vee})_{\vee} \rightarrow a[123X.[133X
   
-  [1X2.2-32 AddMorphismFromCocartesianBidualWithGivenCocartesianBidual[101X
+  [1X2.2-21 CoexponentialCoproductCompatibilityMorphism[101X
   
-  [33X[1;0Y[29X[2XAddMorphismFromCocartesianBidualWithGivenCocartesianBidual[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
-  [6XReturns:[106X  [33X[0;10Ynothing[133X
-  
-  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
-  given    function    [23XF[123X   to   the   category   for   the   basic   operation
-  [10XMorphismFromCocartesianBidualWithGivenCocartesianBidual[110X.        [23XF:       (a,
-  (a_{\vee})_{\vee}) \mapsto ((a_{\vee})_{\vee} \rightarrow a)[123X.[133X
-  
-  [1X2.2-33 CoexponentialCoproductCompatibilityMorphism[101X
-  
-  [33X[1;0Y[29X[2XCoexponentialCoproductCompatibilityMorphism[102X( [3Xa[103X, [3Xa'[103X, [3Xb[103X, [3Xb'[103X ) [32X operation[133X
+  [33X[1;0Y[29X[2XCoexponentialCoproductCompatibilityMorphism[102X( [3Xlist[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ya  morphism in [23X\mathrm{Hom}( \mathrm{Coexponential}(a \sqcup a', b
             \sqcup        b'),        \mathrm{Coexponential}(a,b)       \sqcup
             \mathrm{Coexponential}(a',b'))[123X.[133X
   
-  [33X[0;0YThe  arguments  are  four  objects  [23Xa,  a', b, b'[123X. The output is the natural
-  morphism
+  [33X[0;0YThe  argument  is a list of four objects [23X[ a, a', b, b' ][123X. The output is the
+  natural                                                             morphism
   [23X\mathrm{CoexponentialCoproductCompatibilityMorphismWithGivenObjects}_{a,a',b,b'}:
   \mathrm{Coexponential}(a    \sqcup    a',    b    \sqcup   b')   \rightarrow
   \mathrm{Coexponential}(a,b) \sqcup \mathrm{Coexponential}(a',b')[123X.[133X
   
-  [1X2.2-34 CoexponentialCoproductCompatibilityMorphismWithGivenObjects[101X
+  [1X2.2-22 CoexponentialCoproductCompatibilityMorphismWithGivenObjects[101X
   
-  [33X[1;0Y[29X[2XCoexponentialCoproductCompatibilityMorphismWithGivenObjects[102X( [3Xa[103X, [3Xa'[103X, [3Xb[103X, [3Xb'[103X, [3XL[103X ) [32X operation[133X
+  [33X[1;0Y[29X[2XCoexponentialCoproductCompatibilityMorphismWithGivenObjects[102X( [3Xs[103X, [3Xlist[103X, [3Xr[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ya  morphism in [23X\mathrm{Hom}( \mathrm{Coexponential}(a \sqcup a', b
             \sqcup        b'),        \mathrm{Coexponential}(a,b)       \sqcup
             \mathrm{Coexponential}(a',b') )[123X.[133X
   
-  [33X[0;0YThe   arguments  are  four  objects  [23Xa,  a',  b,  b'[123X,  and  a  list  [23XL  =  [
-  \mathrm{Coexponential}(a       \sqcup       a',      b      \sqcup      b'),
-  \mathrm{Coexponential}(a,b)   \sqcup  \mathrm{Coexponential}(a',b')  ][123X.  The
-  output             is             the            natural            morphism
+  [33X[0;0YThe arguments are a list of four objects [23X[ a, a', b, b' ][123X, and two objects [23Xs
+  =   \mathrm{Coexponential}(a   \sqcup   a',   b   \sqcup   b')[123X   and   [23Xr   =
+  \mathrm{Coexponential}(a,b) \sqcup \mathrm{Coexponential}(a',b')[123X. The output
+  is                   the                   natural                  morphism
   [23X\mathrm{CoexponentialCoproductCompatibilityMorphismWithGivenObjects}_{a,a',b,b'}:
   \mathrm{Coexponential}(a    \sqcup    a',    b    \sqcup   b')   \rightarrow
   \mathrm{Coexponential}(a,b) \sqcup \mathrm{Coexponential}(a',b')[123X.[133X
   
-  [1X2.2-35 AddCoexponentialCoproductCompatibilityMorphismWithGivenObjects[101X
-  
-  [33X[1;0Y[29X[2XAddCoexponentialCoproductCompatibilityMorphismWithGivenObjects[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
-  [6XReturns:[106X  [33X[0;10Ynothing[133X
-  
-  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
-  given    function    [23XF[123X   to   the   category   for   the   basic   operation
-  [10XCoexponentialCoproductCompatibilityMorphismWithGivenObjects[110X. [23XF: ( a,a',b,b',
-  [      \mathrm{Coexponential}(a     \sqcup     a',     b     \sqcup     b'),
-  \mathrm{Coexponential}(a,b)  \sqcup \mathrm{Coexponential}(a',b') ]) \mapsto
-  \mathrm{CoexponentialCoproductCompatibilityMorphismWithGivenObjects}_{a,a',b,b'}
-  .[133X
-  
-  [1X2.2-36 CocartesianDualityCoproductCompatibilityMorphism[101X
+  [1X2.2-23 CocartesianDualityCoproductCompatibilityMorphism[101X
   
   [33X[1;0Y[29X[2XCocartesianDualityCoproductCompatibilityMorphism[102X( [3Xa[103X, [3Xb[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ya  morphism  in [23X\mathrm{Hom}( (a \sqcup b)_{\vee}, a_{\vee} \sqcup
@@ -777,7 +506,7 @@
   [23X\mathrm{CocartesianDualityCoproductCompatibilityMorphismWithGivenObjects}:
   (a \sqcup b)_{\vee} \rightarrow a_{\vee} \sqcup b_{\vee}[123X.[133X
   
-  [1X2.2-37 CocartesianDualityCoproductCompatibilityMorphismWithGivenObjects[101X
+  [1X2.2-24 CocartesianDualityCoproductCompatibilityMorphismWithGivenObjects[101X
   
   [33X[1;0Y[29X[2XCocartesianDualityCoproductCompatibilityMorphismWithGivenObjects[102X( [3Xs[103X, [3Xa[103X, [3Xb[103X, [3Xr[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ya  morphism  in [23X\mathrm{Hom}( (a \sqcup b)_{\vee}, a_{\vee} \sqcup
@@ -788,19 +517,7 @@
   [23X\mathrm{CocartesianDualityCoproductCompatibilityMorphismWithGivenObjects}_{a,b}:
   (a \sqcup b)_{\vee} \rightarrow a_{\vee} \sqcup b_{\vee}[123X.[133X
   
-  [1X2.2-38 AddCocartesianDualityCoproductCompatibilityMorphismWithGivenObjects[101X
-  
-  [33X[1;0Y[29X[2XAddCocartesianDualityCoproductCompatibilityMorphismWithGivenObjects[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
-  [6XReturns:[106X  [33X[0;10Ynothing[133X
-  
-  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
-  given    function    [23XF[123X   to   the   category   for   the   basic   operation
-  [10XCocartesianDualityCoproductCompatibilityMorphismWithGivenObjects[110X.  [23XF:  (  (a
-  \sqcup    b)_{\vee},    a,   b,   a_{\vee}   \sqcup   b_{\vee}   )   \mapsto
-  \mathrm{CocartesianDualityCoproductCompatibilityMorphismWithGivenObjects}_{a,b}
-  .[133X
-  
-  [1X2.2-39 MorphismFromCoexponentialToCoproduct[101X
+  [1X2.2-25 MorphismFromCoexponentialToCoproduct[101X
   
   [33X[1;0Y[29X[2XMorphismFromCoexponentialToCoproduct[102X( [3Xa[103X, [3Xb[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ya  morphism in [23X\mathrm{Hom}( \mathrm{Coexponential}(a,b), a \sqcup
@@ -810,7 +527,7 @@
   [23X\mathrm{MorphismFromCoexponentialToCoproductWithGivenObjects}_{a,b}:
   \mathrm{Coexponential}(a,b) \rightarrow a \sqcup b_{\vee}[123X.[133X
   
-  [1X2.2-40 MorphismFromCoexponentialToCoproductWithGivenObjects[101X
+  [1X2.2-26 MorphismFromCoexponentialToCoproductWithGivenObjects[101X
   
   [33X[1;0Y[29X[2XMorphismFromCoexponentialToCoproductWithGivenObjects[102X( [3Xs[103X, [3Xa[103X, [3Xb[103X, [3Xr[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ya  morphism in [23X\mathrm{Hom}( \mathrm{Coexponential}(a,b), a \sqcup
@@ -821,18 +538,7 @@
   [23X\mathrm{MorphismFromCoexponentialToCoproductWithGivenObjects}_{a,b}:
   \mathrm{Coexponential}(a,b) \rightarrow a \sqcup b_{\vee}[123X.[133X
   
-  [1X2.2-41 AddMorphismFromCoexponentialToCoproductWithGivenObjects[101X
-  
-  [33X[1;0Y[29X[2XAddMorphismFromCoexponentialToCoproductWithGivenObjects[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
-  [6XReturns:[106X  [33X[0;10Ynothing[133X
-  
-  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
-  given    function    [23XF[123X   to   the   category   for   the   basic   operation
-  [10XMorphismFromCoexponentialToCoproductWithGivenObjects[110X.          [23XF:          (
-  \mathrm{Coexponential}(a,b),   a,   b,   a   \sqcup   b_{\vee}   )   \mapsto
-  \mathrm{MorphismFromCoexponentialToCoproductWithGivenObjects}_{a,b}[123X.[133X
-  
-  [1X2.2-42 IsomorphismFromCocartesianDualToCoexponential[101X
+  [1X2.2-27 IsomorphismFromCocartesianDualToCoexponential[101X
   
   [33X[1;0Y[29X[2XIsomorphismFromCocartesianDualToCoexponential[102X( [3Xa[103X ) [32X attribute[133X
   [6XReturns:[106X  [33X[0;10Ya morphism in [23X\mathrm{Hom}(a_{\vee}, \mathrm{Coexponential}(1,a))[123X.[133X
@@ -841,17 +547,7 @@
   [23X\mathrm{IsomorphismFromCocartesianDualToCoexponential}_{a}:         a_{\vee}
   \rightarrow \mathrm{Coexponential}(1,a)[123X.[133X
   
-  [1X2.2-43 AddIsomorphismFromCocartesianDualToCoexponential[101X
-  
-  [33X[1;0Y[29X[2XAddIsomorphismFromCocartesianDualToCoexponential[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
-  [6XReturns:[106X  [33X[0;10Ynothing[133X
-  
-  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
-  given    function    [23XF[123X   to   the   category   for   the   basic   operation
-  [10XIsomorphismFromCocartesianDualToCoexponential[110X.       [23XF:       a      \mapsto
-  \mathrm{IsomorphismFromCocartesianDualToCoexponential}_{a}[123X[133X
-  
-  [1X2.2-44 IsomorphismFromCoexponentialToCocartesianDual[101X
+  [1X2.2-28 IsomorphismFromCoexponentialToCocartesianDual[101X
   
   [33X[1;0Y[29X[2XIsomorphismFromCoexponentialToCocartesianDual[102X( [3Xa[103X ) [32X attribute[133X
   [6XReturns:[106X  [33X[0;10Ya morphism in [23X\mathrm{Hom}(\mathrm{Coexponential}(1,a), a_{\vee})[123X.[133X
@@ -860,17 +556,7 @@
   [23X\mathrm{IsomorphismFromCoexponentialToCocartesianDual}_{a}:
   \mathrm{Coexponential}(1,a) \rightarrow a_{\vee}[123X.[133X
   
-  [1X2.2-45 AddIsomorphismFromCoexponentialToCocartesianDual[101X
-  
-  [33X[1;0Y[29X[2XAddIsomorphismFromCoexponentialToCocartesianDual[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
-  [6XReturns:[106X  [33X[0;10Ynothing[133X
-  
-  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
-  given    function    [23XF[123X   to   the   category   for   the   basic   operation
-  [10XIsomorphismFromCoexponentialToCocartesianDual[110X.       [23XF:       a      \mapsto
-  \mathrm{IsomorphismFromCoexponentialToCocartesianDual}_{a}[123X[133X
-  
-  [1X2.2-46 UniversalPropertyOfCocartesianDual[101X
+  [1X2.2-29 UniversalPropertyOfCocartesianDual[101X
   
   [33X[1;0Y[29X[2XUniversalPropertyOfCocartesianDual[102X( [3Xa[103X, [3Xt[103X, [3Xalpha[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ya morphism in [23X\mathrm{Hom}(a_{\vee}, t)[123X.[133X
@@ -879,17 +565,7 @@
   \sqcup  t[123X.  The  output  is the morphism [23Xa_{\vee} \rightarrow t[123X given by the
   universal property of [23Xa_{\vee}[123X.[133X
   
-  [1X2.2-47 AddUniversalPropertyOfCocartesianDual[101X
-  
-  [33X[1;0Y[29X[2XAddUniversalPropertyOfCocartesianDual[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
-  [6XReturns:[106X  [33X[0;10Ynothing[133X
-  
-  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
-  given    function    [23XF[123X   to   the   category   for   the   basic   operation
-  [10XUniversalPropertyOfCocartesianDual[110X.  [23XF: ( a,t,\alpha: 1 \rightarrow a \sqcup
-  t ) \mapsto ( a^{\vee} \rightarrow t )[123X.[133X
-  
-  [1X2.2-48 CocartesianLambdaIntroduction[101X
+  [1X2.2-30 CocartesianLambdaIntroduction[101X
   
   [33X[1;0Y[29X[2XCocartesianLambdaIntroduction[102X( [3Xalpha[103X ) [32X attribute[133X
   [6XReturns:[106X  [33X[0;10Ya morphism in [23X\mathrm{Hom}( \mathrm{Coexponential}(a,b), 1 )[123X.[133X
@@ -898,17 +574,7 @@
   corresponding  morphism [23X \mathrm{Coexponential}(a,b) \rightarrow 1[123X under the
   cohom tensor adjunction.[133X
   
-  [1X2.2-49 AddCocartesianLambdaIntroduction[101X
-  
-  [33X[1;0Y[29X[2XAddCocartesianLambdaIntroduction[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
-  [6XReturns:[106X  [33X[0;10Ynothing[133X
-  
-  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
-  given    function    [23XF[123X   to   the   category   for   the   basic   operation
-  [10XCocartesianLambdaIntroduction[110X.  [23XF:  (  \alpha:  a  \rightarrow b ) \mapsto (
-  \mathrm{Coexponential}(a,b) \rightarrow 1 )[123X.[133X
-  
-  [1X2.2-50 CocartesianLambdaElimination[101X
+  [1X2.2-31 CocartesianLambdaElimination[101X
   
   [33X[1;0Y[29X[2XCocartesianLambdaElimination[102X( [3Xa[103X, [3Xb[103X, [3Xalpha[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ya morphism in [23X\mathrm{Hom}(a,b)[123X.[133X
@@ -917,17 +583,7 @@
   \mathrm{Coexponential}(a,b)  \rightarrow  1[123X.  The  output  is  a  morphism [23Xa
   \rightarrow b[123X corresponding to [23X\alpha[123X under the cohom tensor adjunction.[133X
   
-  [1X2.2-51 AddCocartesianLambdaElimination[101X
-  
-  [33X[1;0Y[29X[2XAddCocartesianLambdaElimination[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
-  [6XReturns:[106X  [33X[0;10Ynothing[133X
-  
-  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
-  given    function    [23XF[123X   to   the   category   for   the   basic   operation
-  [10XCocartesianLambdaElimination[110X.  [23XF:  ( a,b,\alpha: \mathrm{Coexponential}(a,b)
-  \rightarrow 1 ) \mapsto ( a \rightarrow b )[123X.[133X
-  
-  [1X2.2-52 IsomorphismFromObjectToCoexponential[101X
+  [1X2.2-32 IsomorphismFromObjectToCoexponential[101X
   
   [33X[1;0Y[29X[2XIsomorphismFromObjectToCoexponential[102X( [3Xa[103X ) [32X attribute[133X
   [6XReturns:[106X  [33X[0;10Ya morphism in [23X\mathrm{Hom}(a, \mathrm{Coexponential}(a,1))[123X.[133X
@@ -935,7 +591,7 @@
   [33X[0;0YThe  argument  is  an  object  [23Xa[123X.  The  output  is the natural isomorphism [23Xa
   \rightarrow \mathrm{Coexponential}(a,1)[123X.[133X
   
-  [1X2.2-53 IsomorphismFromObjectToCoexponentialWithGivenCoexponential[101X
+  [1X2.2-33 IsomorphismFromObjectToCoexponentialWithGivenCoexponential[101X
   
   [33X[1;0Y[29X[2XIsomorphismFromObjectToCoexponentialWithGivenCoexponential[102X( [3Xa[103X, [3Xr[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ya morphism in [23X\mathrm{Hom}(a, \mathrm{Coexponential}(a,1))[123X.[133X
@@ -944,18 +600,7 @@
   The     output     is     the     natural    isomorphism    [23Xa    \rightarrow
   \mathrm{Coexponential}(a,1)[123X.[133X
   
-  [1X2.2-54 AddIsomorphismFromObjectToCoexponentialWithGivenCoexponential[101X
-  
-  [33X[1;0Y[29X[2XAddIsomorphismFromObjectToCoexponentialWithGivenCoexponential[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
-  [6XReturns:[106X  [33X[0;10Ynothing[133X
-  
-  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
-  given    function    [23XF[123X   to   the   category   for   the   basic   operation
-  [10XIsomorphismFromObjectToCoexponentialWithGivenCoexponential[110X.    [23XF:    (    a,
-  \mathrm{Coexponential}(a,1)      )      \mapsto      (     a     \rightarrow
-  \mathrm{Coexponential}(a,1) )[123X.[133X
-  
-  [1X2.2-55 IsomorphismFromCoexponentialToObject[101X
+  [1X2.2-34 IsomorphismFromCoexponentialToObject[101X
   
   [33X[1;0Y[29X[2XIsomorphismFromCoexponentialToObject[102X( [3Xa[103X ) [32X attribute[133X
   [6XReturns:[106X  [33X[0;10Ya morphism in [23X\mathrm{Hom}(\mathrm{Coexponential}(a,1), a)[123X.[133X
@@ -963,28 +608,655 @@
   [33X[0;0YThe  argument  is  an  object  [23Xa[123X.  The  output  is  the  natural isomorphism
   [23X\mathrm{Coexponential}(a,1) \rightarrow a[123X.[133X
   
-  [1X2.2-56 IsomorphismFromCoexponentialToObjectWithGivenCoexponential[101X
+  [1X2.2-35 IsomorphismFromCoexponentialToObjectWithGivenCoexponential[101X
   
   [33X[1;0Y[29X[2XIsomorphismFromCoexponentialToObjectWithGivenCoexponential[102X( [3Xa[103X, [3Xs[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ya morphism in [23X\mathrm{Hom}(\mathrm{Coexponential}(a,1), a)[123X.[133X
   
-  [33X[0;0YThe  argument is an object [23Xa[123X, and an object [23Xs = \mathrm{Coexponential}(1,a)[123X.
+  [33X[0;0YThe  argument is an object [23Xa[123X, and an object [23Xs = \mathrm{Coexponential}(a,1)[123X.
   The   output   is   the   natural   isomorphism  [23X\mathrm{Coexponential}(a,1)
   \rightarrow a[123X.[133X
   
-  [1X2.2-57 AddIsomorphismFromCoexponentialToObjectWithGivenCoexponential[101X
+  
+  [1X2.3 [33X[0;0YConvenience Methods[133X[101X
+  
+  [1X2.3-1 Coexponential[101X
+  
+  [33X[1;0Y[29X[2XCoexponential[102X( [3Xa[103X, [3Xb[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ya cell[133X
+  
+  [33X[0;0YThis is a convenience method. The arguments are two cells [23Xa,b[123X. The output is
+  the  internal  cohom  cell.  If  [23Xa,b[123X  are  two CAP objects the output is the
+  internal  cohom  object  [23X\mathrm{Coexponential}(a,b)[123X. If at least one of the
+  arguments  is  a  CAP  morphism  the  output  is  a CAP morphism, namely the
+  internal  cohom  on  morphisms, where any object is replaced by its identity
+  morphism.[133X
+  
+  
+  [1X2.4 [33X[0;0YAdd-methods[133X[101X
+  
+  [1X2.4-1 AddCocartesianAssociatorLeftToRight[101X
+  
+  [33X[1;0Y[29X[2XAddCocartesianAssociatorLeftToRight[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XCocartesianAssociatorLeftToRight[110X.    [23XF:    (    a,    b,    c    )   \mapsto
+  \mathtt{CocartesianAssociatorLeftToRight}(a, b, c)[123X.[133X
+  
+  [1X2.4-2 AddCocartesianAssociatorLeftToRightWithGivenCoproducts[101X
+  
+  [33X[1;0Y[29X[2XAddCocartesianAssociatorLeftToRightWithGivenCoproducts[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XCocartesianAssociatorLeftToRightWithGivenCoproducts[110X.  [23XF:  (  s, a, b, c, r )
+  \mapsto  \mathtt{CocartesianAssociatorLeftToRightWithGivenCoproducts}(s,  a,
+  b, c, r)[123X.[133X
+  
+  [1X2.4-3 AddCocartesianAssociatorRightToLeft[101X
+  
+  [33X[1;0Y[29X[2XAddCocartesianAssociatorRightToLeft[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XCocartesianAssociatorRightToLeft[110X.    [23XF:    (    a,    b,    c    )   \mapsto
+  \mathtt{CocartesianAssociatorRightToLeft}(a, b, c)[123X.[133X
+  
+  [1X2.4-4 AddCocartesianAssociatorRightToLeftWithGivenCoproducts[101X
+  
+  [33X[1;0Y[29X[2XAddCocartesianAssociatorRightToLeftWithGivenCoproducts[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XCocartesianAssociatorRightToLeftWithGivenCoproducts[110X.  [23XF:  (  s, a, b, c, r )
+  \mapsto  \mathtt{CocartesianAssociatorRightToLeftWithGivenCoproducts}(s,  a,
+  b, c, r)[123X.[133X
+  
+  [1X2.4-5 AddCocartesianLeftUnitor[101X
+  
+  [33X[1;0Y[29X[2XAddCocartesianLeftUnitor[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XCocartesianLeftUnitor[110X. [23XF: ( a ) \mapsto \mathtt{CocartesianLeftUnitor}(a)[123X.[133X
+  
+  [1X2.4-6 AddCocartesianLeftUnitorInverse[101X
+  
+  [33X[1;0Y[29X[2XAddCocartesianLeftUnitorInverse[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XCocartesianLeftUnitorInverse[110X.       [23XF:       (       a       )       \mapsto
+  \mathtt{CocartesianLeftUnitorInverse}(a)[123X.[133X
+  
+  [1X2.4-7 AddCocartesianLeftUnitorInverseWithGivenCoproduct[101X
+  
+  [33X[1;0Y[29X[2XAddCocartesianLeftUnitorInverseWithGivenCoproduct[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XCocartesianLeftUnitorInverseWithGivenCoproduct[110X.   [23XF:   (   a,  r  )  \mapsto
+  \mathtt{CocartesianLeftUnitorInverseWithGivenCoproduct}(a, r)[123X.[133X
+  
+  [1X2.4-8 AddCocartesianLeftUnitorWithGivenCoproduct[101X
+  
+  [33X[1;0Y[29X[2XAddCocartesianLeftUnitorWithGivenCoproduct[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XCocartesianLeftUnitorWithGivenCoproduct[110X.    [23XF:    (    a,    s   )   \mapsto
+  \mathtt{CocartesianLeftUnitorWithGivenCoproduct}(a, s)[123X.[133X
+  
+  [1X2.4-9 AddCocartesianRightUnitor[101X
+  
+  [33X[1;0Y[29X[2XAddCocartesianRightUnitor[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XCocartesianRightUnitor[110X. [23XF: ( a ) \mapsto \mathtt{CocartesianRightUnitor}(a)[123X.[133X
+  
+  [1X2.4-10 AddCocartesianRightUnitorInverse[101X
+  
+  [33X[1;0Y[29X[2XAddCocartesianRightUnitorInverse[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XCocartesianRightUnitorInverse[110X.       [23XF:       (       a       )      \mapsto
+  \mathtt{CocartesianRightUnitorInverse}(a)[123X.[133X
+  
+  [1X2.4-11 AddCocartesianRightUnitorInverseWithGivenCoproduct[101X
+  
+  [33X[1;0Y[29X[2XAddCocartesianRightUnitorInverseWithGivenCoproduct[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XCocartesianRightUnitorInverseWithGivenCoproduct[110X.   [23XF:   (  a,  r  )  \mapsto
+  \mathtt{CocartesianRightUnitorInverseWithGivenCoproduct}(a, r)[123X.[133X
+  
+  [1X2.4-12 AddCocartesianRightUnitorWithGivenCoproduct[101X
+  
+  [33X[1;0Y[29X[2XAddCocartesianRightUnitorWithGivenCoproduct[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XCocartesianRightUnitorWithGivenCoproduct[110X.    [23XF:    (    a,   s   )   \mapsto
+  \mathtt{CocartesianRightUnitorWithGivenCoproduct}(a, s)[123X.[133X
+  
+  [1X2.4-13 AddCoproductOnMorphisms[101X
+  
+  [33X[1;0Y[29X[2XAddCoproductOnMorphisms[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XCoproductOnMorphisms[110X.      [23XF:      (      alpha,      beta     )     \mapsto
+  \mathtt{CoproductOnMorphisms}(alpha, beta)[123X.[133X
+  
+  [1X2.4-14 AddCoproductOnMorphismsWithGivenCoproducts[101X
+  
+  [33X[1;0Y[29X[2XAddCoproductOnMorphismsWithGivenCoproducts[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XCoproductOnMorphismsWithGivenCoproducts[110X.  [23XF:  (  s, alpha, beta, r ) \mapsto
+  \mathtt{CoproductOnMorphismsWithGivenCoproducts}(s, alpha, beta, r)[123X.[133X
+  
+  [1X2.4-15 AddCocartesianBraiding[101X
+  
+  [33X[1;0Y[29X[2XAddCocartesianBraiding[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XCocartesianBraiding[110X. [23XF: ( a, b ) \mapsto \mathtt{CocartesianBraiding}(a, b)[123X.[133X
+  
+  [1X2.4-16 AddCocartesianBraidingInverse[101X
+  
+  [33X[1;0Y[29X[2XAddCocartesianBraidingInverse[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XCocartesianBraidingInverse[110X.      [23XF:      (      a,      b      )     \mapsto
+  \mathtt{CocartesianBraidingInverse}(a, b)[123X.[133X
+  
+  [1X2.4-17 AddCocartesianBraidingInverseWithGivenCoproducts[101X
+  
+  [33X[1;0Y[29X[2XAddCocartesianBraidingInverseWithGivenCoproducts[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XCocartesianBraidingInverseWithGivenCoproducts[110X.  [23XF:  (  s,  a, b, r ) \mapsto
+  \mathtt{CocartesianBraidingInverseWithGivenCoproducts}(s, a, b, r)[123X.[133X
+  
+  [1X2.4-18 AddCocartesianBraidingWithGivenCoproducts[101X
+  
+  [33X[1;0Y[29X[2XAddCocartesianBraidingWithGivenCoproducts[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XCocartesianBraidingWithGivenCoproducts[110X.   [23XF:   (   s,  a,  b,  r  )  \mapsto
+  \mathtt{CocartesianBraidingWithGivenCoproducts}(s, a, b, r)[123X.[133X
+  
+  [1X2.4-19 AddCocartesianCoevaluationMorphism[101X
+  
+  [33X[1;0Y[29X[2XAddCocartesianCoevaluationMorphism[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XCocartesianCoevaluationMorphism[110X.     [23XF:     (     a,     b     )     \mapsto
+  \mathtt{CocartesianCoevaluationMorphism}(a, b)[123X.[133X
+  
+  [1X2.4-20 AddCocartesianCoevaluationMorphismWithGivenSource[101X
+  
+  [33X[1;0Y[29X[2XAddCocartesianCoevaluationMorphismWithGivenSource[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XCocartesianCoevaluationMorphismWithGivenSource[110X.  [23XF:  (  a,  b,  s  ) \mapsto
+  \mathtt{CocartesianCoevaluationMorphismWithGivenSource}(a, b, s)[123X.[133X
+  
+  [1X2.4-21 AddCocartesianDualOnMorphisms[101X
+  
+  [33X[1;0Y[29X[2XAddCocartesianDualOnMorphisms[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XCocartesianDualOnMorphisms[110X.       [23XF:       (       alpha      )      \mapsto
+  \mathtt{CocartesianDualOnMorphisms}(alpha)[123X.[133X
+  
+  [1X2.4-22 AddCocartesianDualOnMorphismsWithGivenCocartesianDuals[101X
+  
+  [33X[1;0Y[29X[2XAddCocartesianDualOnMorphismsWithGivenCocartesianDuals[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XCocartesianDualOnMorphismsWithGivenCocartesianDuals[110X.  [23XF:  (  s,  alpha,  r )
+  \mapsto      \mathtt{CocartesianDualOnMorphismsWithGivenCocartesianDuals}(s,
+  alpha, r)[123X.[133X
+  
+  [1X2.4-23 AddCocartesianDualOnObjects[101X
+  
+  [33X[1;0Y[29X[2XAddCocartesianDualOnObjects[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XCocartesianDualOnObjects[110X.        [23XF:        (        a        )       \mapsto
+  \mathtt{CocartesianDualOnObjects}(a)[123X.[133X
+  
+  [1X2.4-24 AddCocartesianDualityCoproductCompatibilityMorphism[101X
+  
+  [33X[1;0Y[29X[2XAddCocartesianDualityCoproductCompatibilityMorphism[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XCocartesianDualityCoproductCompatibilityMorphism[110X.   [23XF:  (  a,  b  )  \mapsto
+  \mathtt{CocartesianDualityCoproductCompatibilityMorphism}(a, b)[123X.[133X
+  
+  [1X2.4-25 AddCocartesianDualityCoproductCompatibilityMorphismWithGivenObjects[101X
+  
+  [33X[1;0Y[29X[2XAddCocartesianDualityCoproductCompatibilityMorphismWithGivenObjects[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XCocartesianDualityCoproductCompatibilityMorphismWithGivenObjects[110X. [23XF: ( s, a,
+  b,                      r                      )                     \mapsto
+  \mathtt{CocartesianDualityCoproductCompatibilityMorphismWithGivenObjects}(s,
+  a, b, r)[123X.[133X
+  
+  [1X2.4-26 AddCocartesianEvaluationForCocartesianDual[101X
+  
+  [33X[1;0Y[29X[2XAddCocartesianEvaluationForCocartesianDual[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XCocartesianEvaluationForCocartesianDual[110X.     [23XF:     (     a     )    \mapsto
+  \mathtt{CocartesianEvaluationForCocartesianDual}(a)[123X.[133X
+  
+  [1X2.4-27 AddCocartesianEvaluationForCocartesianDualWithGivenCoproduct[101X
+  
+  [33X[1;0Y[29X[2XAddCocartesianEvaluationForCocartesianDualWithGivenCoproduct[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XCocartesianEvaluationForCocartesianDualWithGivenCoproduct[110X.  [23XF:  (  s, a, r )
+  \mapsto
+  \mathtt{CocartesianEvaluationForCocartesianDualWithGivenCoproduct}(s, a, r)[123X.[133X
+  
+  [1X2.4-28 AddCocartesianEvaluationMorphism[101X
+  
+  [33X[1;0Y[29X[2XAddCocartesianEvaluationMorphism[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XCocartesianEvaluationMorphism[110X.      [23XF:      (     a,     b     )     \mapsto
+  \mathtt{CocartesianEvaluationMorphism}(a, b)[123X.[133X
+  
+  [1X2.4-29 AddCocartesianEvaluationMorphismWithGivenRange[101X
+  
+  [33X[1;0Y[29X[2XAddCocartesianEvaluationMorphismWithGivenRange[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XCocartesianEvaluationMorphismWithGivenRange[110X.   [23XF:   (  a,  b,  r  )  \mapsto
+  \mathtt{CocartesianEvaluationMorphismWithGivenRange}(a, b, r)[123X.[133X
+  
+  [1X2.4-30 AddCocartesianLambdaElimination[101X
+  
+  [33X[1;0Y[29X[2XAddCocartesianLambdaElimination[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XCocartesianLambdaElimination[110X.    [23XF:    (    a,    b,    alpha    )   \mapsto
+  \mathtt{CocartesianLambdaElimination}(a, b, alpha)[123X.[133X
+  
+  [1X2.4-31 AddCocartesianLambdaIntroduction[101X
+  
+  [33X[1;0Y[29X[2XAddCocartesianLambdaIntroduction[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XCocartesianLambdaIntroduction[110X.      [23XF:      (      alpha      )      \mapsto
+  \mathtt{CocartesianLambdaIntroduction}(alpha)[123X.[133X
+  
+  [1X2.4-32 AddCocartesianPostCoComposeMorphism[101X
+  
+  [33X[1;0Y[29X[2XAddCocartesianPostCoComposeMorphism[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XCocartesianPostCoComposeMorphism[110X.    [23XF:    (    a,    b,    c    )   \mapsto
+  \mathtt{CocartesianPostCoComposeMorphism}(a, b, c)[123X.[133X
+  
+  [1X2.4-33 AddCocartesianPostCoComposeMorphismWithGivenObjects[101X
+  
+  [33X[1;0Y[29X[2XAddCocartesianPostCoComposeMorphismWithGivenObjects[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XCocartesianPostCoComposeMorphismWithGivenObjects[110X.  [23XF:  (  s,  a,  b,  c, r )
+  \mapsto  \mathtt{CocartesianPostCoComposeMorphismWithGivenObjects}(s,  a, b,
+  c, r)[123X.[133X
+  
+  [1X2.4-34 AddCocartesianPreCoComposeMorphism[101X
+  
+  [33X[1;0Y[29X[2XAddCocartesianPreCoComposeMorphism[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XCocartesianPreCoComposeMorphism[110X.    [23XF:    (    a,    b,    c    )    \mapsto
+  \mathtt{CocartesianPreCoComposeMorphism}(a, b, c)[123X.[133X
+  
+  [1X2.4-35 AddCocartesianPreCoComposeMorphismWithGivenObjects[101X
+  
+  [33X[1;0Y[29X[2XAddCocartesianPreCoComposeMorphismWithGivenObjects[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XCocartesianPreCoComposeMorphismWithGivenObjects[110X.  [23XF:  (  s,  a,  b,  c,  r )
+  \mapsto \mathtt{CocartesianPreCoComposeMorphismWithGivenObjects}(s, a, b, c,
+  r)[123X.[133X
+  
+  [1X2.4-36 AddCoexponentialCoproductCompatibilityMorphism[101X
+  
+  [33X[1;0Y[29X[2XAddCoexponentialCoproductCompatibilityMorphism[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XCoexponentialCoproductCompatibilityMorphism[110X.    [23XF:    (   list   )   \mapsto
+  \mathtt{CoexponentialCoproductCompatibilityMorphism}(list)[123X.[133X
+  
+  [1X2.4-37 AddCoexponentialCoproductCompatibilityMorphismWithGivenObjects[101X
+  
+  [33X[1;0Y[29X[2XAddCoexponentialCoproductCompatibilityMorphismWithGivenObjects[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XCoexponentialCoproductCompatibilityMorphismWithGivenObjects[110X.  [23XF:  (  source,
+  list,                    range                   )                   \mapsto
+  \mathtt{CoexponentialCoproductCompatibilityMorphismWithGivenObjects}(source,
+  list, range)[123X.[133X
+  
+  [1X2.4-38 AddCoexponentialOnMorphisms[101X
+  
+  [33X[1;0Y[29X[2XAddCoexponentialOnMorphisms[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XCoexponentialOnMorphisms[110X.     [23XF:     (     alpha,     beta     )     \mapsto
+  \mathtt{CoexponentialOnMorphisms}(alpha, beta)[123X.[133X
+  
+  [1X2.4-39 AddCoexponentialOnMorphismsWithGivenCoexponentials[101X
+  
+  [33X[1;0Y[29X[2XAddCoexponentialOnMorphismsWithGivenCoexponentials[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XCoexponentialOnMorphismsWithGivenCoexponentials[110X.  [23XF:  (  s, alpha, beta, r )
+  \mapsto  \mathtt{CoexponentialOnMorphismsWithGivenCoexponentials}(s,  alpha,
+  beta, r)[123X.[133X
+  
+  [1X2.4-40 AddCoexponentialOnObjects[101X
+  
+  [33X[1;0Y[29X[2XAddCoexponentialOnObjects[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XCoexponentialOnObjects[110X.       [23XF:       (       a,      b      )      \mapsto
+  \mathtt{CoexponentialOnObjects}(a, b)[123X.[133X
+  
+  [1X2.4-41 AddCoexponentialToCoproductAdjunctionMap[101X
+  
+  [33X[1;0Y[29X[2XAddCoexponentialToCoproductAdjunctionMap[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XCoexponentialToCoproductAdjunctionMap[110X.    [23XF:   (   a,   b,   f   )   \mapsto
+  \mathtt{CoexponentialToCoproductAdjunctionMap}(a, b, f)[123X.[133X
+  
+  [1X2.4-42 AddCoproductToCoexponentialAdjunctionMap[101X
+  
+  [33X[1;0Y[29X[2XAddCoproductToCoexponentialAdjunctionMap[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XCoproductToCoexponentialAdjunctionMap[110X.    [23XF:   (   b,   c,   g   )   \mapsto
+  \mathtt{CoproductToCoexponentialAdjunctionMap}(b, c, g)[123X.[133X
+  
+  [1X2.4-43 AddIsomorphismFromCocartesianDualToCoexponential[101X
+  
+  [33X[1;0Y[29X[2XAddIsomorphismFromCocartesianDualToCoexponential[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XIsomorphismFromCocartesianDualToCoexponential[110X.    [23XF:    (    a   )   \mapsto
+  \mathtt{IsomorphismFromCocartesianDualToCoexponential}(a)[123X.[133X
+  
+  [1X2.4-44 AddIsomorphismFromCoexponentialToCocartesianDual[101X
+  
+  [33X[1;0Y[29X[2XAddIsomorphismFromCoexponentialToCocartesianDual[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XIsomorphismFromCoexponentialToCocartesianDual[110X.    [23XF:    (    a   )   \mapsto
+  \mathtt{IsomorphismFromCoexponentialToCocartesianDual}(a)[123X.[133X
+  
+  [1X2.4-45 AddIsomorphismFromCoexponentialToObject[101X
+  
+  [33X[1;0Y[29X[2XAddIsomorphismFromCoexponentialToObject[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XIsomorphismFromCoexponentialToObject[110X.      [23XF:      (     a     )     \mapsto
+  \mathtt{IsomorphismFromCoexponentialToObject}(a)[123X.[133X
+  
+  [1X2.4-46 AddIsomorphismFromCoexponentialToObjectWithGivenCoexponential[101X
   
   [33X[1;0Y[29X[2XAddIsomorphismFromCoexponentialToObjectWithGivenCoexponential[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
   
   [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
   given    function    [23XF[123X   to   the   category   for   the   basic   operation
-  [10XIsomorphismFromCoexponentialToObjectWithGivenCoexponential[110X.    [23XF:    (    a,
-  \mathrm{Coexponential}(a,1)    )   \mapsto   (   \mathrm{Coexponential}(a,1)
-  \rightarrow a )[123X.[133X
+  [10XIsomorphismFromCoexponentialToObjectWithGivenCoexponential[110X.  [23XF:  (  a,  s  )
+  \mapsto
+  \mathtt{IsomorphismFromCoexponentialToObjectWithGivenCoexponential}(a, s)[123X.[133X
   
-  [33X[0;0YA  cocartesian  category  [23X\mathbf{C}[123X  which has for each functor [23Xb \sqcup -:
-  \mathbf{C}    \rightarrow    \mathbf{C}[123X   a   left   adjoint   (denoted   by
-  [23X\mathrm{Coexponential}(-,b)[123X)  is called a [13Xcoclosed cocartesian category[113X. The
-  corresponding GAP property is called [10XIsCocartesianCoclosedCategory[110X.[133X
+  [1X2.4-47 AddIsomorphismFromObjectToCoexponential[101X
+  
+  [33X[1;0Y[29X[2XAddIsomorphismFromObjectToCoexponential[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XIsomorphismFromObjectToCoexponential[110X.      [23XF:      (     a     )     \mapsto
+  \mathtt{IsomorphismFromObjectToCoexponential}(a)[123X.[133X
+  
+  [1X2.4-48 AddIsomorphismFromObjectToCoexponentialWithGivenCoexponential[101X
+  
+  [33X[1;0Y[29X[2XAddIsomorphismFromObjectToCoexponentialWithGivenCoexponential[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XIsomorphismFromObjectToCoexponentialWithGivenCoexponential[110X.  [23XF:  (  a,  r  )
+  \mapsto
+  \mathtt{IsomorphismFromObjectToCoexponentialWithGivenCoexponential}(a, r)[123X.[133X
+  
+  [1X2.4-49 AddMorphismFromCocartesianBidual[101X
+  
+  [33X[1;0Y[29X[2XAddMorphismFromCocartesianBidual[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XMorphismFromCocartesianBidual[110X.       [23XF:       (       a       )      \mapsto
+  \mathtt{MorphismFromCocartesianBidual}(a)[123X.[133X
+  
+  [1X2.4-50 AddMorphismFromCocartesianBidualWithGivenCocartesianBidual[101X
+  
+  [33X[1;0Y[29X[2XAddMorphismFromCocartesianBidualWithGivenCocartesianBidual[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XMorphismFromCocartesianBidualWithGivenCocartesianBidual[110X. [23XF: ( a, s ) \mapsto
+  \mathtt{MorphismFromCocartesianBidualWithGivenCocartesianBidual}(a, s)[123X.[133X
+  
+  [1X2.4-51 AddMorphismFromCoexponentialToCoproduct[101X
+  
+  [33X[1;0Y[29X[2XAddMorphismFromCoexponentialToCoproduct[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XMorphismFromCoexponentialToCoproduct[110X.     [23XF:    (    a,    b    )    \mapsto
+  \mathtt{MorphismFromCoexponentialToCoproduct}(a, b)[123X.[133X
+  
+  [1X2.4-52 AddMorphismFromCoexponentialToCoproductWithGivenObjects[101X
+  
+  [33X[1;0Y[29X[2XAddMorphismFromCoexponentialToCoproductWithGivenObjects[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XMorphismFromCoexponentialToCoproductWithGivenObjects[110X.  [23XF:  (  s,  a,  b, r )
+  \mapsto  \mathtt{MorphismFromCoexponentialToCoproductWithGivenObjects}(s, a,
+  b, r)[123X.[133X
+  
+  [1X2.4-53 AddUniversalPropertyOfCocartesianDual[101X
+  
+  [33X[1;0Y[29X[2XAddUniversalPropertyOfCocartesianDual[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XUniversalPropertyOfCocartesianDual[110X.   [23XF:   (   a,   t,   alpha   )   \mapsto
+  \mathtt{UniversalPropertyOfCocartesianDual}(a, t, alpha)[123X.[133X
+  
+  [1X2.4-54 AddLeftCocartesianDistributivityExpanding[101X
+  
+  [33X[1;0Y[29X[2XAddLeftCocartesianDistributivityExpanding[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XLeftCocartesianDistributivityExpanding[110X.    [23XF:    (    a,    L    )   \mapsto
+  \mathtt{LeftCocartesianDistributivityExpanding}(a, L)[123X.[133X
+  
+  [1X2.4-55 AddLeftCocartesianDistributivityExpandingWithGivenObjects[101X
+  
+  [33X[1;0Y[29X[2XAddLeftCocartesianDistributivityExpandingWithGivenObjects[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XLeftCocartesianDistributivityExpandingWithGivenObjects[110X.  [23XF:  (  s, a, L, r )
+  \mapsto   \mathtt{LeftCocartesianDistributivityExpandingWithGivenObjects}(s,
+  a, L, r)[123X.[133X
+  
+  [1X2.4-56 AddLeftCocartesianDistributivityFactoring[101X
+  
+  [33X[1;0Y[29X[2XAddLeftCocartesianDistributivityFactoring[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XLeftCocartesianDistributivityFactoring[110X.    [23XF:    (    a,    L    )   \mapsto
+  \mathtt{LeftCocartesianDistributivityFactoring}(a, L)[123X.[133X
+  
+  [1X2.4-57 AddLeftCocartesianDistributivityFactoringWithGivenObjects[101X
+  
+  [33X[1;0Y[29X[2XAddLeftCocartesianDistributivityFactoringWithGivenObjects[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XLeftCocartesianDistributivityFactoringWithGivenObjects[110X.  [23XF:  (  s, a, L, r )
+  \mapsto   \mathtt{LeftCocartesianDistributivityFactoringWithGivenObjects}(s,
+  a, L, r)[123X.[133X
+  
+  [1X2.4-58 AddRightCocartesianDistributivityExpanding[101X
+  
+  [33X[1;0Y[29X[2XAddRightCocartesianDistributivityExpanding[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XRightCocartesianDistributivityExpanding[110X.    [23XF:    (    L,    a   )   \mapsto
+  \mathtt{RightCocartesianDistributivityExpanding}(L, a)[123X.[133X
+  
+  [1X2.4-59 AddRightCocartesianDistributivityExpandingWithGivenObjects[101X
+  
+  [33X[1;0Y[29X[2XAddRightCocartesianDistributivityExpandingWithGivenObjects[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XRightCocartesianDistributivityExpandingWithGivenObjects[110X.  [23XF:  ( s, L, a, r )
+  \mapsto  \mathtt{RightCocartesianDistributivityExpandingWithGivenObjects}(s,
+  L, a, r)[123X.[133X
+  
+  [1X2.4-60 AddRightCocartesianDistributivityFactoring[101X
+  
+  [33X[1;0Y[29X[2XAddRightCocartesianDistributivityFactoring[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XRightCocartesianDistributivityFactoring[110X.    [23XF:    (    L,    a   )   \mapsto
+  \mathtt{RightCocartesianDistributivityFactoring}(L, a)[123X.[133X
+  
+  [1X2.4-61 AddRightCocartesianDistributivityFactoringWithGivenObjects[101X
+  
+  [33X[1;0Y[29X[2XAddRightCocartesianDistributivityFactoringWithGivenObjects[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XRightCocartesianDistributivityFactoringWithGivenObjects[110X.  [23XF:  ( s, L, a, r )
+  \mapsto  \mathtt{RightCocartesianDistributivityFactoringWithGivenObjects}(s,
+  L, a, r)[123X.[133X
   
