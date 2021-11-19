@@ -6,10 +6,10 @@
                               [1X Elementary toposes [101X
   
   
-                                   2021.11-14
+                                   2021.11-19
   
   
-                                16 November 2021
+                                19 November 2021
   
   
                                 Mohamed Barakat
@@ -320,39 +320,65 @@
     3.1 [33X[0;0YSubobject Classifier[133X
       3.1-1 SubobjectClassifier
       3.1-2 CartesianSquareOfSubobjectClassifier
-      3.1-3 TruthMorphismOfTrueWithGivenObjects
-      3.1-4 TruthMorphismOfTrue
-      3.1-5 TruthMorphismOfFalseWithGivenObjects
-      3.1-6 TruthMorphismOfFalse
-      3.1-7 TruthMorphismOfNotWithGivenObjects
-      3.1-8 TruthMorphismOfNot
-      3.1-9 TruthMorphismOfAndWithGivenObjects
-      3.1-10 TruthMorphismOfAnd
-      3.1-11 TruthMorphismOfOrWithGivenObjects
-      3.1-12 TruthMorphismOfOr
-      3.1-13 TruthMorphismOfImpliesWithGivenObjects
-      3.1-14 TruthMorphismOfImplies
-      3.1-15 ClassifyingMorphismOfSubobject
-      3.1-16 ClassifyingMorphismOfSubobjectWithGivenSubobjectClassifier
-      3.1-17 SubobjectOfClassifyingMorphism
-    3.2 [33X[0;0YAdd-methods[133X
-      3.2-1 AddCartesianSquareOfSubobjectClassifier
-      3.2-2 AddClassifyingMorphismOfSubobject
-      3.2-3 AddClassifyingMorphismOfSubobjectWithGivenSubobjectClassifier
-      3.2-4 AddSubobjectClassifier
-      3.2-5 AddSubobjectOfClassifyingMorphism
-      3.2-6 AddTruthMorphismOfAnd
-      3.2-7 AddTruthMorphismOfAndWithGivenObjects
-      3.2-8 AddTruthMorphismOfFalse
-      3.2-9 AddTruthMorphismOfFalseWithGivenObjects
-      3.2-10 AddTruthMorphismOfImplies
-      3.2-11 AddTruthMorphismOfImpliesWithGivenObjects
-      3.2-12 AddTruthMorphismOfNot
-      3.2-13 AddTruthMorphismOfNotWithGivenObjects
-      3.2-14 AddTruthMorphismOfOr
-      3.2-15 AddTruthMorphismOfOrWithGivenObjects
-      3.2-16 AddTruthMorphismOfTrue
-      3.2-17 AddTruthMorphismOfTrueWithGivenObjects
+      3.1-3 ClassifyingMorphismOfSubobject
+      3.1-4 ClassifyingMorphismOfSubobjectWithGivenSubobjectClassifier
+      3.1-5 SubobjectOfClassifyingMorphism
+    3.2 [33X[0;0YTruth Morphisms[133X
+      3.2-1 TruthMorphismOfTrue
+      3.2-2 TruthMorphismOfTrueWithGivenObjects
+      3.2-3 TruthMorphismOfFalse
+      3.2-4 TruthMorphismOfFalseWithGivenObjects
+      3.2-5 TruthMorphismOfNot
+      3.2-6 TruthMorphismOfNotWithGivenObjects
+      3.2-7 TruthMorphismOfAnd
+      3.2-8 TruthMorphismOfAndWithGivenObjects
+      3.2-9 TruthMorphismOfOr
+      3.2-10 TruthMorphismOfOrWithGivenObjects
+      3.2-11 TruthMorphismOfImplies
+      3.2-12 TruthMorphismOfImpliesWithGivenObjects
+    3.3 [33X[0;0YHeyting Algebra of Subobjects[133X
+      3.3-1 PseudoComplementSubobject
+      3.3-2 EmbeddingOfPseudoComplementSubobject
+      3.3-3 EmbeddingOfPseudoComplementSubobjectWithGivenPseudoComplement
+      3.3-4 IntersectionSubobject
+      3.3-5 EmbeddingOfIntersectionSubobject
+      3.3-6 EmbeddingOfIntersectionSubobjectWithGivenIntersection
+      3.3-7 UnionSubobject
+      3.3-8 EmbeddingOfUnionSubobject
+      3.3-9 EmbeddingOfUnionSubobjectWithGivenUnion
+      3.3-10 RelativePseudoComplementSuboject
+      3.3-11 EmbeddingOfRelativePseudoComplementSuboject
+      3.3-12 EmbeddingOfRelativePseudoComplementSubojectWithGivenImplication
+    3.4 [33X[0;0YAdd-methods[133X
+      3.4-1 AddCartesianSquareOfSubobjectClassifier
+      3.4-2 AddClassifyingMorphismOfSubobject
+      3.4-3 AddClassifyingMorphismOfSubobjectWithGivenSubobjectClassifier
+      3.4-4 AddEmbeddingOfIntersectionSubobject
+      3.4-5 AddEmbeddingOfIntersectionSubobjectWithGivenIntersection
+      3.4-6 AddEmbeddingOfPseudoComplementSubobject
+      3.4-7 AddEmbeddingOfPseudoComplementSubobjectWithGivenPseudoComplement
+      3.4-8 AddEmbeddingOfRelativePseudoComplementSuboject
+      3.4-9 AddEmbeddingOfRelativePseudoComplementSubojectWithGivenImplication
+      3.4-10 AddEmbeddingOfUnionSubobject
+      3.4-11 AddEmbeddingOfUnionSubobjectWithGivenUnion
+      3.4-12 AddIntersectionSubobject
+      3.4-13 AddPseudoComplementSubobject
+      3.4-14 AddRelativePseudoComplementSuboject
+      3.4-15 AddSubobjectClassifier
+      3.4-16 AddSubobjectOfClassifyingMorphism
+      3.4-17 AddTruthMorphismOfAnd
+      3.4-18 AddTruthMorphismOfAndWithGivenObjects
+      3.4-19 AddTruthMorphismOfFalse
+      3.4-20 AddTruthMorphismOfFalseWithGivenObjects
+      3.4-21 AddTruthMorphismOfImplies
+      3.4-22 AddTruthMorphismOfImpliesWithGivenObjects
+      3.4-23 AddTruthMorphismOfNot
+      3.4-24 AddTruthMorphismOfNotWithGivenObjects
+      3.4-25 AddTruthMorphismOfOr
+      3.4-26 AddTruthMorphismOfOrWithGivenObjects
+      3.4-27 AddTruthMorphismOfTrue
+      3.4-28 AddTruthMorphismOfTrueWithGivenObjects
+      3.4-29 AddUnionSubobject
   
   
   [32X
