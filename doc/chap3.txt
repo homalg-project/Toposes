@@ -396,9 +396,9 @@
   [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
   given    function    [23XF[123X   to   the   category   for   the   basic   operation
   [10XEmbeddingOfRelativePseudoComplementSubojectWithGivenImplication[110X. [23XF: ( iota1,
-  iota2,                   union                   )                   \mapsto
+  iota2,                 implication                 )                 \mapsto
   \mathtt{EmbeddingOfRelativePseudoComplementSubojectWithGivenImplication}(iota1,
-  iota2, union)[123X.[133X
+  iota2, implication)[123X.[133X
   
   [1X3.4-10 AddEmbeddingOfUnionSubobject[101X
   
