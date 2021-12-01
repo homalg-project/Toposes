@@ -226,10 +226,10 @@
   [2XCoexponentialOnMorphisms[102X, for IsCapCategoryMorphism, IsCapCategoryMorphism 2.2-2 
   [2XCoexponentialOnMorphismsWithGivenCoexponentials[102X, for IsCapCategoryObject, IsCapCategoryMorphism, IsCapCategoryMorphism, IsCapCategoryObject 2.2-3 
   [2XCoexponentialOnObjects[102X, for IsCapCategoryObject, IsCapCategoryObject 2.2-1 
-  [2XCoexponentialToCoproductAdjunctionMap[102X, for IsCapCategoryObject, IsCapCategoryObject, IsCapCategoryMorphism 2.2-8 
+  [2XCoexponentialToCoproductAdjunctionMap[102X, for IsCapCategoryObject, IsCapCategoryObject, IsCapCategoryMorphism 2.2-9 
   [2XCoproductOnMorphisms[102X, for IsCapCategoryMorphism, IsCapCategoryMorphism 2.1-1 
   [2XCoproductOnMorphismsWithGivenCoproducts[102X, for IsCapCategoryObject, IsCapCategoryMorphism, IsCapCategoryMorphism, IsCapCategoryObject 2.1-2 
-  [2XCoproductToCoexponentialAdjunctionMap[102X, for IsCapCategoryObject, IsCapCategoryObject, IsCapCategoryMorphism 2.2-9 
+  [2XCoproductToCoexponentialAdjunctionMap[102X, for IsCapCategoryObject, IsCapCategoryObject, IsCapCategoryMorphism 2.2-8 
   [2XDirectProductCartesianDualityCompatibilityMorphism[102X, for IsCapCategoryObject, IsCapCategoryObject 1.2-23 
   [2XDirectProductCartesianDualityCompatibilityMorphismWithGivenObjects[102X, for IsCapCategoryObject, IsCapCategoryObject, IsCapCategoryObject, IsCapCategoryObject 1.2-24 
   [2XDirectProductExponentialCompatibilityMorphism[102X, for IsList 1.2-21 

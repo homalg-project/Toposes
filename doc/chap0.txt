@@ -6,10 +6,10 @@
                               [1X Elementary toposes [101X
   
   
-                                   2021.11-22
+                                   2021.11-23
   
   
-                                28 November 2021
+                                30 November 2021
   
   
                                 Mohamed Barakat
@@ -224,8 +224,8 @@
       2.2-5 CocartesianEvaluationMorphismWithGivenRange
       2.2-6 CocartesianCoevaluationMorphism
       2.2-7 CocartesianCoevaluationMorphismWithGivenSource
-      2.2-8 CoexponentialToCoproductAdjunctionMap
-      2.2-9 CoproductToCoexponentialAdjunctionMap
+      2.2-8 CoproductToCoexponentialAdjunctionMap
+      2.2-9 CoexponentialToCoproductAdjunctionMap
       2.2-10 CocartesianPreCoComposeMorphism
       2.2-11 CocartesianPreCoComposeMorphismWithGivenObjects
       2.2-12 CocartesianPostCoComposeMorphism

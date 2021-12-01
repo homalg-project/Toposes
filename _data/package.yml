@@ -1,7 +1,7 @@
 name: Toposes
-version: "2021.11-22"
+version: "2021.11-23"
 license: "GPL-2.0-or-later"
-date: 2021-11-28
+date: 2021-11-30
 description: |
     Elementary toposes
 
@@ -37,10 +37,10 @@ needed-pkgs:
 
 suggested-pkgs:
     - name: "MonoidalCategories"
-      version: ">= 2021.11-04"
+      version: ">= 2021.11-05"
       url: "https://homalg-project.github.io/pkg/MonoidalCategories"
     - name: "CategoryConstructor"
-      version: ">= 2021.11-07"
+      version: ">= 2021.11-08"
       url: "https://homalg-project.github.io/pkg/CategoryConstructor"
 
 www: https://homalg-project.github.io/pkg/Toposes
@@ -49,11 +49,11 @@ packageinfo: https://homalg-project.github.io/Toposes/PackageInfo.g
 
 downloads:
     - name: .tar.gz
-      url: https://github.com/homalg-project/Toposes/releases/download/v2021.11-22/Toposes-2021.11-22.tar.gz
+      url: https://github.com/homalg-project/Toposes/releases/download/v2021.11-23/Toposes-2021.11-23.tar.gz
     - name: .zip
-      url: https://github.com/homalg-project/Toposes/releases/download/v2021.11-22/Toposes-2021.11-22.zip
+      url: https://github.com/homalg-project/Toposes/releases/download/v2021.11-23/Toposes-2021.11-23.zip
 
-pdf: https://github.com/homalg-project/Toposes/releases/download/v2021.11-22/Toposes-2021.11-22.pdf
+pdf: https://github.com/homalg-project/Toposes/releases/download/v2021.11-23/Toposes-2021.11-23.pdf
 
 abstract: |
 
@@ -66,7 +66,7 @@ citeas: |
     <p class='BibEntry'>
     [<span class='BibKey'>BZRK21</span>]   <b class='BibAuthor'>Barakat, M., Zickgraf, F., Román, M. and Kuhmichel, T.</b>,
      <i class='BibTitle'>Toposes, Elementary toposes,
-             Version 2021.11-22</i>
+             Version 2021.11-23</i>
      (<span class='BibYear'>2021</span>)<br />
     (<span class='BibNote'>GAP package</span>),
     <span class='BibHowpublished'><a href="https://homalg-project.github.io/pkg/Toposes">https://homalg-project.github.io/pkg/Toposes</a></span>.
@@ -74,10 +74,10 @@ citeas: |
     
 
 bibtex: |
-    @misc{ Toposes2021.11-22,
+    @misc{ Toposes2021.11-23,
       author =           {Barakat,  M.  and  Zickgraf, F. and Rom{\a'a}n, M. and
                           Kuhmichel, T.},
-      title =            {{Toposes}, Elementary toposes, {V}ersion 2021.11-22},
+      title =            {{Toposes}, Elementary toposes, {V}ersion 2021.11-23},
       month =            {Nov},
       year =             {2021},
       note =             {GAP package},
