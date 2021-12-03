@@ -1,7 +1,7 @@
 name: Toposes
 version: "2021.12-02"
 license: "GPL-2.0-or-later"
-date: 2021-12-01
+date: 2021-12-03
 description: |
     Elementary toposes
 
@@ -37,10 +37,10 @@ needed-pkgs:
 
 suggested-pkgs:
     - name: "MonoidalCategories"
-      version: ">= 2021.11-05"
+      version: ">= 2021.12-01"
       url: "https://homalg-project.github.io/pkg/MonoidalCategories"
     - name: "CategoryConstructor"
-      version: ">= 2021.11-08"
+      version: ">= 2021.12-02"
       url: "https://homalg-project.github.io/pkg/CategoryConstructor"
 
 www: https://homalg-project.github.io/pkg/Toposes
