@@ -6,10 +6,10 @@
                               [1X Elementary toposes [101X
   
   
-                                   2021.12-03
+                                   2021.12-04
   
   
-                                10 December 2021
+                                11 December 2021
   
   
                                 Mohamed Barakat
@@ -62,32 +62,32 @@
   
   1 [33X[0;0YCartesian Categories[133X
     1.1 [33X[0;0YCartesian Categories[133X
-      1.1-1 DirectProductOnMorphisms
-      1.1-2 DirectProductOnMorphismsWithGivenDirectProducts
-      1.1-3 CartesianAssociatorRightToLeft
-      1.1-4 CartesianAssociatorRightToLeftWithGivenDirectProducts
-      1.1-5 CartesianAssociatorLeftToRight
-      1.1-6 CartesianAssociatorLeftToRightWithGivenDirectProducts
-      1.1-7 CartesianLeftUnitor
-      1.1-8 CartesianLeftUnitorWithGivenDirectProduct
-      1.1-9 CartesianLeftUnitorInverse
-      1.1-10 CartesianLeftUnitorInverseWithGivenDirectProduct
-      1.1-11 CartesianRightUnitor
-      1.1-12 CartesianRightUnitorWithGivenDirectProduct
-      1.1-13 CartesianRightUnitorInverse
-      1.1-14 CartesianRightUnitorInverseWithGivenDirectProduct
-      1.1-15 LeftCartesianDistributivityExpanding
-      1.1-16 LeftCartesianDistributivityExpandingWithGivenObjects
-      1.1-17 LeftCartesianDistributivityFactoring
-      1.1-18 LeftCartesianDistributivityFactoringWithGivenObjects
-      1.1-19 RightCartesianDistributivityExpanding
-      1.1-20 RightCartesianDistributivityExpandingWithGivenObjects
-      1.1-21 RightCartesianDistributivityFactoring
-      1.1-22 RightCartesianDistributivityFactoringWithGivenObjects
-      1.1-23 CartesianBraiding
-      1.1-24 CartesianBraidingWithGivenDirectProducts
-      1.1-25 CartesianBraidingInverse
-      1.1-26 CartesianBraidingInverseWithGivenDirectProducts
+      1.1-1 CartesianBraiding
+      1.1-2 CartesianBraidingWithGivenDirectProducts
+      1.1-3 CartesianBraidingInverse
+      1.1-4 CartesianBraidingInverseWithGivenDirectProducts
+      1.1-5 DirectProductOnMorphisms
+      1.1-6 DirectProductOnMorphismsWithGivenDirectProducts
+      1.1-7 CartesianAssociatorRightToLeft
+      1.1-8 CartesianAssociatorRightToLeftWithGivenDirectProducts
+      1.1-9 CartesianAssociatorLeftToRight
+      1.1-10 CartesianAssociatorLeftToRightWithGivenDirectProducts
+      1.1-11 CartesianLeftUnitor
+      1.1-12 CartesianLeftUnitorWithGivenDirectProduct
+      1.1-13 CartesianLeftUnitorInverse
+      1.1-14 CartesianLeftUnitorInverseWithGivenDirectProduct
+      1.1-15 CartesianRightUnitor
+      1.1-16 CartesianRightUnitorWithGivenDirectProduct
+      1.1-17 CartesianRightUnitorInverse
+      1.1-18 CartesianRightUnitorInverseWithGivenDirectProduct
+      1.1-19 LeftCartesianDistributivityExpanding
+      1.1-20 LeftCartesianDistributivityExpandingWithGivenObjects
+      1.1-21 LeftCartesianDistributivityFactoring
+      1.1-22 LeftCartesianDistributivityFactoringWithGivenObjects
+      1.1-23 RightCartesianDistributivityExpanding
+      1.1-24 RightCartesianDistributivityExpandingWithGivenObjects
+      1.1-25 RightCartesianDistributivityFactoring
+      1.1-26 RightCartesianDistributivityFactoringWithGivenObjects
     1.2 [33X[0;0YCartesian Closed Categories[133X
       1.2-1 ExponentialOnObjects
       1.2-2 ExponentialOnMorphisms
@@ -127,95 +127,95 @@
     1.3 [33X[0;0YConvenience Methods[133X
       1.3-1 Exponential
     1.4 [33X[0;0YAdd-methods[133X
-      1.4-1 AddCartesianAssociatorLeftToRight
-      1.4-2 AddCartesianAssociatorLeftToRightWithGivenDirectProducts
-      1.4-3 AddCartesianAssociatorRightToLeft
-      1.4-4 AddCartesianAssociatorRightToLeftWithGivenDirectProducts
-      1.4-5 AddCartesianLeftUnitor
-      1.4-6 AddCartesianLeftUnitorInverse
-      1.4-7 AddCartesianLeftUnitorInverseWithGivenDirectProduct
-      1.4-8 AddCartesianLeftUnitorWithGivenDirectProduct
-      1.4-9 AddCartesianRightUnitor
-      1.4-10 AddCartesianRightUnitorInverse
-      1.4-11 AddCartesianRightUnitorInverseWithGivenDirectProduct
-      1.4-12 AddCartesianRightUnitorWithGivenDirectProduct
-      1.4-13 AddDirectProductOnMorphisms
-      1.4-14 AddDirectProductOnMorphismsWithGivenDirectProducts
-      1.4-15 AddLeftCartesianDistributivityExpanding
-      1.4-16 AddLeftCartesianDistributivityExpandingWithGivenObjects
-      1.4-17 AddLeftCartesianDistributivityFactoring
-      1.4-18 AddLeftCartesianDistributivityFactoringWithGivenObjects
-      1.4-19 AddRightCartesianDistributivityExpanding
-      1.4-20 AddRightCartesianDistributivityExpandingWithGivenObjects
-      1.4-21 AddRightCartesianDistributivityFactoring
-      1.4-22 AddRightCartesianDistributivityFactoringWithGivenObjects
-      1.4-23 AddCartesianBraiding
-      1.4-24 AddCartesianBraidingInverse
-      1.4-25 AddCartesianBraidingInverseWithGivenDirectProducts
-      1.4-26 AddCartesianBraidingWithGivenDirectProducts
-      1.4-27 AddCartesianCoevaluationMorphism
-      1.4-28 AddCartesianCoevaluationMorphismWithGivenRange
-      1.4-29 AddCartesianDualOnMorphisms
-      1.4-30 AddCartesianDualOnMorphismsWithGivenCartesianDuals
-      1.4-31 AddCartesianDualOnObjects
-      1.4-32 AddCartesianEvaluationForCartesianDual
-      1.4-33 AddCartesianEvaluationForCartesianDualWithGivenDirectProduct
-      1.4-34 AddCartesianEvaluationMorphism
-      1.4-35 AddCartesianEvaluationMorphismWithGivenSource
-      1.4-36 AddCartesianLambdaElimination
-      1.4-37 AddCartesianLambdaIntroduction
-      1.4-38 AddCartesianPostComposeMorphism
-      1.4-39 AddCartesianPostComposeMorphismWithGivenObjects
-      1.4-40 AddCartesianPreComposeMorphism
-      1.4-41 AddCartesianPreComposeMorphismWithGivenObjects
-      1.4-42 AddDirectProductCartesianDualityCompatibilityMorphism
-      1.4-43 AddDirectProductCartesianDualityCompatibilityMorphismWithGivenObjects
-      1.4-44 AddDirectProductExponentialCompatibilityMorphism
-      1.4-45 AddDirectProductExponentialCompatibilityMorphismWithGivenObjects
-      1.4-46 AddDirectProductToExponentialAdjunctionMap
-      1.4-47 AddExponentialOnMorphisms
-      1.4-48 AddExponentialOnMorphismsWithGivenExponentials
-      1.4-49 AddExponentialOnObjects
-      1.4-50 AddExponentialToDirectProductAdjunctionMap
-      1.4-51 AddIsomorphismFromCartesianDualToExponential
-      1.4-52 AddIsomorphismFromExponentialToCartesianDual
-      1.4-53 AddIsomorphismFromExponentialToObject
-      1.4-54 AddIsomorphismFromExponentialToObjectWithGivenExponential
-      1.4-55 AddIsomorphismFromObjectToExponential
-      1.4-56 AddIsomorphismFromObjectToExponentialWithGivenExponential
-      1.4-57 AddMorphismFromDirectProductToExponential
-      1.4-58 AddMorphismFromDirectProductToExponentialWithGivenObjects
-      1.4-59 AddMorphismToCartesianBidual
-      1.4-60 AddMorphismToCartesianBidualWithGivenCartesianBidual
-      1.4-61 AddUniversalPropertyOfCartesianDual
+      1.4-1 AddCartesianBraiding
+      1.4-2 AddCartesianBraidingInverse
+      1.4-3 AddCartesianBraidingInverseWithGivenDirectProducts
+      1.4-4 AddCartesianBraidingWithGivenDirectProducts
+      1.4-5 AddCartesianAssociatorLeftToRight
+      1.4-6 AddCartesianAssociatorLeftToRightWithGivenDirectProducts
+      1.4-7 AddCartesianAssociatorRightToLeft
+      1.4-8 AddCartesianAssociatorRightToLeftWithGivenDirectProducts
+      1.4-9 AddCartesianLeftUnitor
+      1.4-10 AddCartesianLeftUnitorInverse
+      1.4-11 AddCartesianLeftUnitorInverseWithGivenDirectProduct
+      1.4-12 AddCartesianLeftUnitorWithGivenDirectProduct
+      1.4-13 AddCartesianRightUnitor
+      1.4-14 AddCartesianRightUnitorInverse
+      1.4-15 AddCartesianRightUnitorInverseWithGivenDirectProduct
+      1.4-16 AddCartesianRightUnitorWithGivenDirectProduct
+      1.4-17 AddDirectProductOnMorphisms
+      1.4-18 AddDirectProductOnMorphismsWithGivenDirectProducts
+      1.4-19 AddCartesianCoevaluationMorphism
+      1.4-20 AddCartesianCoevaluationMorphismWithGivenRange
+      1.4-21 AddCartesianDualOnMorphisms
+      1.4-22 AddCartesianDualOnMorphismsWithGivenCartesianDuals
+      1.4-23 AddCartesianDualOnObjects
+      1.4-24 AddCartesianEvaluationForCartesianDual
+      1.4-25 AddCartesianEvaluationForCartesianDualWithGivenDirectProduct
+      1.4-26 AddCartesianEvaluationMorphism
+      1.4-27 AddCartesianEvaluationMorphismWithGivenSource
+      1.4-28 AddCartesianLambdaElimination
+      1.4-29 AddCartesianLambdaIntroduction
+      1.4-30 AddCartesianPostComposeMorphism
+      1.4-31 AddCartesianPostComposeMorphismWithGivenObjects
+      1.4-32 AddCartesianPreComposeMorphism
+      1.4-33 AddCartesianPreComposeMorphismWithGivenObjects
+      1.4-34 AddDirectProductCartesianDualityCompatibilityMorphism
+      1.4-35 AddDirectProductCartesianDualityCompatibilityMorphismWithGivenObjects
+      1.4-36 AddDirectProductExponentialCompatibilityMorphism
+      1.4-37 AddDirectProductExponentialCompatibilityMorphismWithGivenObjects
+      1.4-38 AddDirectProductToExponentialAdjunctionMap
+      1.4-39 AddExponentialOnMorphisms
+      1.4-40 AddExponentialOnMorphismsWithGivenExponentials
+      1.4-41 AddExponentialOnObjects
+      1.4-42 AddExponentialToDirectProductAdjunctionMap
+      1.4-43 AddIsomorphismFromCartesianDualToExponential
+      1.4-44 AddIsomorphismFromExponentialToCartesianDual
+      1.4-45 AddIsomorphismFromExponentialToObject
+      1.4-46 AddIsomorphismFromExponentialToObjectWithGivenExponential
+      1.4-47 AddIsomorphismFromObjectToExponential
+      1.4-48 AddIsomorphismFromObjectToExponentialWithGivenExponential
+      1.4-49 AddMorphismFromDirectProductToExponential
+      1.4-50 AddMorphismFromDirectProductToExponentialWithGivenObjects
+      1.4-51 AddMorphismToCartesianBidual
+      1.4-52 AddMorphismToCartesianBidualWithGivenCartesianBidual
+      1.4-53 AddUniversalPropertyOfCartesianDual
+      1.4-54 AddLeftCartesianDistributivityExpanding
+      1.4-55 AddLeftCartesianDistributivityExpandingWithGivenObjects
+      1.4-56 AddLeftCartesianDistributivityFactoring
+      1.4-57 AddLeftCartesianDistributivityFactoringWithGivenObjects
+      1.4-58 AddRightCartesianDistributivityExpanding
+      1.4-59 AddRightCartesianDistributivityExpandingWithGivenObjects
+      1.4-60 AddRightCartesianDistributivityFactoring
+      1.4-61 AddRightCartesianDistributivityFactoringWithGivenObjects
   2 [33X[0;0YCocartesian Categories[133X
     2.1 [33X[0;0YCocartesian Categories[133X
-      2.1-1 CoproductOnMorphisms
-      2.1-2 CoproductOnMorphismsWithGivenCoproducts
-      2.1-3 CocartesianAssociatorRightToLeft
-      2.1-4 CocartesianAssociatorRightToLeftWithGivenCoproducts
-      2.1-5 CocartesianAssociatorLeftToRight
-      2.1-6 CocartesianAssociatorLeftToRightWithGivenCoproducts
-      2.1-7 CocartesianLeftUnitor
-      2.1-8 CocartesianLeftUnitorWithGivenCoproduct
-      2.1-9 CocartesianLeftUnitorInverse
-      2.1-10 CocartesianLeftUnitorInverseWithGivenCoproduct
-      2.1-11 CocartesianRightUnitor
-      2.1-12 CocartesianRightUnitorWithGivenCoproduct
-      2.1-13 CocartesianRightUnitorInverse
-      2.1-14 CocartesianRightUnitorInverseWithGivenCoproduct
-      2.1-15 LeftCocartesianDistributivityExpanding
-      2.1-16 LeftCocartesianDistributivityExpandingWithGivenObjects
-      2.1-17 LeftCocartesianDistributivityFactoring
-      2.1-18 LeftCocartesianDistributivityFactoringWithGivenObjects
-      2.1-19 RightCocartesianDistributivityExpanding
-      2.1-20 RightCocartesianDistributivityExpandingWithGivenObjects
-      2.1-21 RightCocartesianDistributivityFactoring
-      2.1-22 RightCocartesianDistributivityFactoringWithGivenObjects
-      2.1-23 CocartesianBraiding
-      2.1-24 CocartesianBraidingWithGivenCoproducts
-      2.1-25 CocartesianBraidingInverse
-      2.1-26 CocartesianBraidingInverseWithGivenCoproducts
+      2.1-1 CocartesianBraiding
+      2.1-2 CocartesianBraidingWithGivenCoproducts
+      2.1-3 CocartesianBraidingInverse
+      2.1-4 CocartesianBraidingInverseWithGivenCoproducts
+      2.1-5 CoproductOnMorphisms
+      2.1-6 CoproductOnMorphismsWithGivenCoproducts
+      2.1-7 CocartesianAssociatorRightToLeft
+      2.1-8 CocartesianAssociatorRightToLeftWithGivenCoproducts
+      2.1-9 CocartesianAssociatorLeftToRight
+      2.1-10 CocartesianAssociatorLeftToRightWithGivenCoproducts
+      2.1-11 CocartesianLeftUnitor
+      2.1-12 CocartesianLeftUnitorWithGivenCoproduct
+      2.1-13 CocartesianLeftUnitorInverse
+      2.1-14 CocartesianLeftUnitorInverseWithGivenCoproduct
+      2.1-15 CocartesianRightUnitor
+      2.1-16 CocartesianRightUnitorWithGivenCoproduct
+      2.1-17 CocartesianRightUnitorInverse
+      2.1-18 CocartesianRightUnitorInverseWithGivenCoproduct
+      2.1-19 LeftCocartesianDistributivityExpanding
+      2.1-20 LeftCocartesianDistributivityExpandingWithGivenObjects
+      2.1-21 LeftCocartesianDistributivityFactoring
+      2.1-22 LeftCocartesianDistributivityFactoringWithGivenObjects
+      2.1-23 RightCocartesianDistributivityExpanding
+      2.1-24 RightCocartesianDistributivityExpandingWithGivenObjects
+      2.1-25 RightCocartesianDistributivityFactoring
+      2.1-26 RightCocartesianDistributivityFactoringWithGivenObjects
     2.2 [33X[0;0YCocartesian Coclosed Categories[133X
       2.2-1 CoexponentialOnObjects
       2.2-2 CoexponentialOnMorphisms
@@ -255,24 +255,24 @@
     2.3 [33X[0;0YConvenience Methods[133X
       2.3-1 Coexponential
     2.4 [33X[0;0YAdd-methods[133X
-      2.4-1 AddCocartesianAssociatorLeftToRight
-      2.4-2 AddCocartesianAssociatorLeftToRightWithGivenCoproducts
-      2.4-3 AddCocartesianAssociatorRightToLeft
-      2.4-4 AddCocartesianAssociatorRightToLeftWithGivenCoproducts
-      2.4-5 AddCocartesianLeftUnitor
-      2.4-6 AddCocartesianLeftUnitorInverse
-      2.4-7 AddCocartesianLeftUnitorInverseWithGivenCoproduct
-      2.4-8 AddCocartesianLeftUnitorWithGivenCoproduct
-      2.4-9 AddCocartesianRightUnitor
-      2.4-10 AddCocartesianRightUnitorInverse
-      2.4-11 AddCocartesianRightUnitorInverseWithGivenCoproduct
-      2.4-12 AddCocartesianRightUnitorWithGivenCoproduct
-      2.4-13 AddCoproductOnMorphisms
-      2.4-14 AddCoproductOnMorphismsWithGivenCoproducts
-      2.4-15 AddCocartesianBraiding
-      2.4-16 AddCocartesianBraidingInverse
-      2.4-17 AddCocartesianBraidingInverseWithGivenCoproducts
-      2.4-18 AddCocartesianBraidingWithGivenCoproducts
+      2.4-1 AddCocartesianBraiding
+      2.4-2 AddCocartesianBraidingInverse
+      2.4-3 AddCocartesianBraidingInverseWithGivenCoproducts
+      2.4-4 AddCocartesianBraidingWithGivenCoproducts
+      2.4-5 AddCocartesianAssociatorLeftToRight
+      2.4-6 AddCocartesianAssociatorLeftToRightWithGivenCoproducts
+      2.4-7 AddCocartesianAssociatorRightToLeft
+      2.4-8 AddCocartesianAssociatorRightToLeftWithGivenCoproducts
+      2.4-9 AddCocartesianLeftUnitor
+      2.4-10 AddCocartesianLeftUnitorInverse
+      2.4-11 AddCocartesianLeftUnitorInverseWithGivenCoproduct
+      2.4-12 AddCocartesianLeftUnitorWithGivenCoproduct
+      2.4-13 AddCocartesianRightUnitor
+      2.4-14 AddCocartesianRightUnitorInverse
+      2.4-15 AddCocartesianRightUnitorInverseWithGivenCoproduct
+      2.4-16 AddCocartesianRightUnitorWithGivenCoproduct
+      2.4-17 AddCoproductOnMorphisms
+      2.4-18 AddCoproductOnMorphismsWithGivenCoproducts
       2.4-19 AddCocartesianCoevaluationMorphism
       2.4-20 AddCocartesianCoevaluationMorphismWithGivenSource
       2.4-21 AddCocartesianDualOnMorphisms
