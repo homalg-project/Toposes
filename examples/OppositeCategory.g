@@ -11,6 +11,7 @@ LoadPackage( "FinSetsForCAP", false );
 
 op := Opposite( SkeletalFinSets );;
 ListKnownCategoricalProperties( op );
-#! [ "IsCartesianCategory", "IsCocartesianCategory", "IsSkeletalCategory" ]
+#! [ "IsCartesianCategory", "IsCocartesianCategory",
+#!   "IsEquippedWithHomomorphismStructure", "IsSkeletalCategory" ]
 
 #! @EndExample
