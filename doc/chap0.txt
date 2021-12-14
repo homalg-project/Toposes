@@ -6,7 +6,7 @@
                               [1X Elementary toposes [101X
   
   
-                                   2021.12-05
+                                   2021.12-06
   
   
                                 14 December 2021
@@ -400,6 +400,8 @@
       4.3-9 HonestRepresentative
     4.4 [33X[0;0YProperties[133X
       4.4-1 IsHonest
+  5 [33X[0;0YExamples and Tests[133X
+    5.1 [33X[0;0YOpposite category[133X
   
   
   [32X
