@@ -351,7 +351,7 @@
   
   [1X2.2-8 CoproductToCoexponentialAdjunctionMap[101X
   
-  [33X[1;0Y[29X[2XCoproductToCoexponentialAdjunctionMap[102X( [3Xb[103X, [3Xc[103X, [3Xg[103X ) [32X operation[133X
+  [33X[1;0Y[29X[2XCoproductToCoexponentialAdjunctionMap[102X( [3Xc[103X, [3Xb[103X, [3Xg[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ya morphism in [23X\mathrm{Hom}( \mathrm{Coexponential}(a,b), c )[123X.[133X
   
   [33X[0;0YThe  arguments  are  objects [23Xc,b[123X and a morphism [23Xg: a \rightarrow c \sqcup b[123X.
