@@ -1,7 +1,7 @@
 name: Toposes
-version: "2021.12-06"
+version: "2021.12-07"
 license: "GPL-2.0-or-later"
-date: 2021-12-14
+date: 2021-12-15
 description: |
     Elementary toposes
 
@@ -32,12 +32,12 @@ needed-pkgs:
       version: ">= 1.5"
       url: "http://www.math.rwth-aachen.de/~Frank.Luebeck/GAPDoc"
     - name: "CAP"
-      version: ">= 2021.12-06"
+      version: ">= 2021.12-07"
       url: "https://homalg-project.github.io/pkg/CAP"
 
 suggested-pkgs:
     - name: "MonoidalCategories"
-      version: ">= 2021.12-07"
+      version: ">= 2021.12-08"
       url: "https://homalg-project.github.io/pkg/MonoidalCategories"
     - name: "CategoryConstructor"
       version: ">= 2021.12-05"
@@ -49,11 +49,11 @@ packageinfo: https://homalg-project.github.io/Toposes/PackageInfo.g
 
 downloads:
     - name: .tar.gz
-      url: https://github.com/homalg-project/Toposes/releases/download/v2021.12-06/Toposes-2021.12-06.tar.gz
+      url: https://github.com/homalg-project/Toposes/releases/download/v2021.12-07/Toposes-2021.12-07.tar.gz
     - name: .zip
-      url: https://github.com/homalg-project/Toposes/releases/download/v2021.12-06/Toposes-2021.12-06.zip
+      url: https://github.com/homalg-project/Toposes/releases/download/v2021.12-07/Toposes-2021.12-07.zip
 
-pdf: https://github.com/homalg-project/Toposes/releases/download/v2021.12-06/Toposes-2021.12-06.pdf
+pdf: https://github.com/homalg-project/Toposes/releases/download/v2021.12-07/Toposes-2021.12-07.pdf
 
 abstract: |
 
@@ -66,7 +66,7 @@ citeas: |
     <p class='BibEntry'>
     [<span class='BibKey'>BZRK21</span>]   <b class='BibAuthor'>Barakat, M., Zickgraf, F., Román, M. and Kuhmichel, T.</b>,
      <i class='BibTitle'>Toposes, Elementary toposes,
-             Version 2021.12-06</i>
+             Version 2021.12-07</i>
      (<span class='BibYear'>2021</span>)<br />
     (<span class='BibNote'>GAP package</span>),
     <span class='BibHowpublished'><a href="https://homalg-project.github.io/pkg/Toposes">https://homalg-project.github.io/pkg/Toposes</a></span>.
@@ -74,10 +74,10 @@ citeas: |
     
 
 bibtex: |
-    @misc{ Toposes2021.12-06,
+    @misc{ Toposes2021.12-07,
       author =           {Barakat,  M.  and  Zickgraf, F. and Rom{\a'a}n, M. and
                           Kuhmichel, T.},
-      title =            {{Toposes}, Elementary toposes, {V}ersion 2021.12-06},
+      title =            {{Toposes}, Elementary toposes, {V}ersion 2021.12-07},
       month =            {Dec},
       year =             {2021},
       note =             {GAP package},
