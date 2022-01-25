@@ -921,3 +921,27 @@ AddDerivationToCAP( CocartesianPostCoComposeMorphismWithGivenObjects,
     
 end : CategoryFilter := IsCocartesianCoclosedCategory and IsStrictCocartesianCategory,
       Description := "CocartesianPostCoComposeMorphismWithGivenObjects using coclosed evaluation, and cohom tensor adjunction" );
+
+##
+AddDerivationToCAP( IsomorphismFromCoexponentialToCocartesianDual,
+        
+  function( cat, a )
+    
+    return PreCompose( cat,
+                   MorphismFromCoexponentialToCoproduct( cat, InitialObject( cat ), a ),
+                   CocartesianRightUnitorWithGivenCoproduct( cat, a ) );
+    
+end : CategoryFilter := IsCocartesianCoclosedCategory,
+      Description := "IsomorphismFromCoexponentialToCocartesianDual using MorphismFromCoexponentialToCoproduct" );
+
+##
+AddDerivationToCAP( IsomorphismFromCoexponentialToCocartesianDualWithGivenObjects,
+        
+  function( cat, source, a, range )
+    
+    return PreCompose( cat,
+                   MorphismFromCoexponentialToCoproductWithGivenObjects( cat, source, InitialObject( cat ), a, range ),
+                   CocartesianRightUnitorWithGivenCoproduct( cat, a, range ) );
+    
+end : CategoryFilter := IsCocartesianCoclosedCategory,
+      Description := "IsomorphismFromCoexponentialToCocartesianDualWithGivenObjects using MorphismFromCoexponentialToCoproductWithGivenObjects" );

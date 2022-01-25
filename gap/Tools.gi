@@ -161,6 +161,9 @@ WriteFileForClosedMonoidalStructure(
                                ## IsomorphismFromDualToInternalHom
                                [ "dual_operation := \"IsomorphismFromInternalCoHomToCoDual\"",
                                  "dual_operation := \"IsomorphismFromCoexponentialToCocartesianDual\"" ],
+                               ## IsomorphismFromDualToInternalHomWithGivenObjects
+                               [ "dual_operation := \"IsomorphismFromInternalCoHomToCoDualWithGivenObjects\"",
+                                 "dual_operation := \"IsomorphismFromCoexponentialToCocartesianDualWithGivenObjects\"" ],
                                ## IsomorphismFromInternalHomToDual
                                [ "dual_operation := \"IsomorphismFromCoDualToInternalCoHom\"",
                                  "dual_operation := \"IsomorphismFromCocartesianDualToCoexponential\"" ],
@@ -395,6 +398,9 @@ WriteFileForCoclosedMonoidalStructure(
                                ## IsomorphismFromInternalCoHomToCoDual
                                [ "dual_operation := \"IsomorphismFromDualToInternalHom\"",
                                  "dual_operation := \"IsomorphismFromCartesianDualToExponential\"" ],
+                               ## IsomorphismFromInternalCoHomToCoDualWithGivenObjects
+                               [ "dual_operation := \"IsomorphismFromDualToInternalHomWithGivenObjects\"",
+                                 "dual_operation := \"IsomorphismFromCartesianDualToExponentialWithGivenObjects\"" ],
                                ## IsomorphismFromCoDualToInternalCoHom
                                [ "dual_operation := \"IsomorphismFromInternalHomToDual\"",
                                  "dual_operation := \"IsomorphismFromExponentialToCartesianDual\"" ],

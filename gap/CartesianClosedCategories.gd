@@ -280,6 +280,18 @@ DeclareAttribute( "IsomorphismFromCartesianDualToExponential",
                   IsCapCategoryObject );
 
 #! @Description
+#! The arguments are an object $s = a^{\vee}$,
+#! an object $a$,
+#! and an object $r = \mathrm{Exponential}(a,1)$.
+#! The argument is an object $a$.
+#! The output is the isomorphism
+#! $\mathrm{IsomorphismFromCartesianDualToExponential}_{a}: a^{\vee} \rightarrow \mathrm{Exponential}(a,1)$.
+#! @Returns a morphism in $\mathrm{Hom}(a^{\vee}, \mathrm{Exponential}(a,1))$.
+#! @Arguments s,a,r
+DeclareOperation( "IsomorphismFromCartesianDualToExponentialWithGivenObjects",
+                  [ IsCapCategoryObject, IsCapCategoryObject, IsCapCategoryObject ] );
+
+#! @Description
 #! The argument is an object $a$.
 #! The output is the isomorphism
 #! $\mathrm{IsomorphismFromExponentialToCartesianDual}_{a}: \mathrm{Exponential}(a,1) \rightarrow a^{\vee}$.

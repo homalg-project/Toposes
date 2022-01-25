@@ -286,6 +286,18 @@ DeclareAttribute( "IsomorphismFromCoexponentialToCocartesianDual",
                   IsCapCategoryObject );
 
 #! @Description
+#! The arguments are an object $s = \mathrm{Coexponential}(1,a)$,
+#! an object $a$,
+#! and an object $r = a_{\vee}$.
+#! The argument is an object $a$.
+#! The output is the isomorphism
+#! $\mathrm{IsomorphismFromCoexponentialToCocartesianDual}_{a}: \mathrm{Coexponential}(1,a) \rightarrow a_{\vee}$.
+#! @Returns a morphism in $\mathrm{Hom}(\mathrm{Coexponential}(1,a), a_{\vee})$.
+#! @Arguments s,a,r
+DeclareOperation( "IsomorphismFromCoexponentialToCocartesianDualWithGivenObjects",
+                  [ IsCapCategoryObject, IsCapCategoryObject, IsCapCategoryObject ] );
+
+#! @Description
 #! The arguments are two objects $t,a$,
 #! and a morphism $\alpha: 1 \rightarrow t \sqcup a$.
 #! The output is the morphism $a_{\vee} \rightarrow t$

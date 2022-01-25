@@ -909,3 +909,27 @@ AddDerivationToCAP( CartesianPostComposeMorphismWithGivenObjects,
     
 end : CategoryFilter := IsCartesianClosedCategory and IsStrictCartesianCategory,
       Description := "CartesianPostComposeMorphismWithGivenObjects using evaluation, and direct product-exponential adjunction" );
+
+##
+AddDerivationToCAP( IsomorphismFromCartesianDualToExponential,
+        
+  function( cat, a )
+    
+    return PreCompose( cat,
+                   CartesianRightUnitorInverseWithGivenDirectProduct( cat, a ),
+                   MorphismFromDirectProductToExponential( cat, a, TerminalObject( cat ) ) );
+    
+end : CategoryFilter := IsCartesianClosedCategory,
+      Description := "IsomorphismFromCartesianDualToExponential using MorphismFromDirectProductToExponential" );
+
+##
+AddDerivationToCAP( IsomorphismFromCartesianDualToExponentialWithGivenObjects,
+        
+  function( cat, source, a, range )
+    
+    return PreCompose( cat,
+                   CartesianRightUnitorInverseWithGivenDirectProduct( cat, a, source ),
+                   MorphismFromDirectProductToExponentialWithGivenObjects( cat, source, a, TerminalObject( cat ), range ) );
+    
+end : CategoryFilter := IsCartesianClosedCategory,
+      Description := "IsomorphismFromCartesianDualToExponentialWithGivenObjects using MorphismFromDirectProductToExponentialWithGivenObjects" );

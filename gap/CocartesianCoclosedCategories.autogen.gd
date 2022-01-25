@@ -506,6 +506,25 @@ DeclareOperation( "AddIsomorphismFromCoexponentialToCocartesianDual",
 #! @Description
 #! The arguments are a category $C$ and a function $F$.
 #! This operation adds the given function $F$
+#! to the category for the basic operation `IsomorphismFromCoexponentialToCocartesianDualWithGivenObjects`.
+#! $F: ( s, a, r ) \mapsto \mathtt{IsomorphismFromCoexponentialToCocartesianDualWithGivenObjects}(s, a, r)$.
+#! @Returns nothing
+#! @Arguments C, F
+DeclareOperation( "AddIsomorphismFromCoexponentialToCocartesianDualWithGivenObjects",
+                  [ IsCapCategory, IsFunction ] );
+
+DeclareOperation( "AddIsomorphismFromCoexponentialToCocartesianDualWithGivenObjects",
+                  [ IsCapCategory, IsFunction, IsInt ] );
+
+DeclareOperation( "AddIsomorphismFromCoexponentialToCocartesianDualWithGivenObjects",
+                  [ IsCapCategory, IsList, IsInt ] );
+
+DeclareOperation( "AddIsomorphismFromCoexponentialToCocartesianDualWithGivenObjects",
+                  [ IsCapCategory, IsList ] );
+
+#! @Description
+#! The arguments are a category $C$ and a function $F$.
+#! This operation adds the given function $F$
 #! to the category for the basic operation `IsomorphismFromCoexponentialToObject`.
 #! $F: ( a ) \mapsto \mathtt{IsomorphismFromCoexponentialToObject}(a)$.
 #! @Returns nothing

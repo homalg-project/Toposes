@@ -263,8 +263,19 @@ IsomorphismFromCocartesianDualToCoexponential := rec(
 IsomorphismFromCoexponentialToCocartesianDual := rec(
   filter_list := [ "category", "object" ],
   io_type := [ [ "a" ], [ "i", "d" ] ],
+  output_source_getter_string := "CoexponentialOnObjects( cat, InitialObject( cat ), a )",
+  output_range_getter_string := "CocartesianDualOnObjects( cat, a )",
+  with_given_object_position := "both",
   return_type := "morphism",
   dual_operation := "IsomorphismFromCartesianDualToExponential",
+),
+
+IsomorphismFromCoexponentialToCocartesianDualWithGivenObjects := rec(
+  filter_list := [ "category", "object", "object", "object" ],
+  io_type := [ [ "s", "a", "r" ], [ "s", "r" ] ],
+  return_type := "morphism",
+  dual_operation := "IsomorphismFromCartesianDualToExponentialWithGivenObjects",
+  dual_arguments_reversed := true,
 ),
 
 UniversalPropertyOfCocartesianDual := rec(

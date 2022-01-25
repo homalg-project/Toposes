@@ -263,8 +263,19 @@ IsomorphismFromExponentialToCartesianDual := rec(
 IsomorphismFromCartesianDualToExponential := rec(
   filter_list := [ "category", "object" ],
   io_type := [ [ "a" ], [ "d", "i" ] ],
+  output_source_getter_string := "CartesianDualOnObjects( cat, a )",
+  output_range_getter_string := "ExponentialOnObjects( cat, a, TerminalObject( cat ) )",
+  with_given_object_position := "both",
   return_type := "morphism",
   dual_operation := "IsomorphismFromCoexponentialToCocartesianDual",
+),
+
+IsomorphismFromCartesianDualToExponentialWithGivenObjects := rec(
+  filter_list := [ "category", "object", "object", "object" ],
+  io_type := [ [ "s", "a", "r" ], [ "s", "r" ] ],
+  return_type := "morphism",
+  dual_operation := "IsomorphismFromCoexponentialToCocartesianDualWithGivenObjects",
+  dual_arguments_reversed := true,
 ),
 
 UniversalPropertyOfCartesianDual := rec(
