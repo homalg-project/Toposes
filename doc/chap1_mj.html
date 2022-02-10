@@ -464,7 +464,7 @@
 <div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; ExponentialOnObjects</code>( <var class="Arg">a</var>, <var class="Arg">b</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
 <p>Returns: an object</p>
 
-<p>The arguments are two objects <span class="SimpleMath">\(a,b\)</span>. The output is the internal hom object <span class="SimpleMath">\(\mathrm{Exponential}(a,b)\)</span>.</p>
+<p>The arguments are two objects <span class="SimpleMath">\(a,b\)</span>. The output is the exponential object <span class="SimpleMath">\(\mathrm{Exponential}(a,b)\)</span>.</p>
 
 <p><a id="X7FD20C248191563C" name="X7FD20C248191563C"></a></p>
 
@@ -473,7 +473,7 @@
 <div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; ExponentialOnMorphisms</code>( <var class="Arg">alpha</var>, <var class="Arg">beta</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
 <p>Returns: a morphism in <span class="SimpleMath">\(\mathrm{Hom}( \mathrm{Exponential}(a',b), \mathrm{Exponential}(a,b') )\)</span></p>
 
-<p>The arguments are two morphisms <span class="SimpleMath">\(\alpha: a \rightarrow a', \beta: b \rightarrow b'\)</span>. The output is the internal hom morphism <span class="SimpleMath">\(\mathrm{Exponential}(\alpha,\beta): \mathrm{Exponential}(a',b) \rightarrow \mathrm{Exponential}(a,b')\)</span>.</p>
+<p>The arguments are two morphisms <span class="SimpleMath">\(\alpha: a \rightarrow a', \beta: b \rightarrow b'\)</span>. The output is the exponential morphism <span class="SimpleMath">\(\mathrm{Exponential}(\alpha,\beta): \mathrm{Exponential}(a',b) \rightarrow \mathrm{Exponential}(a,b')\)</span>.</p>
 
 <p><a id="X838501A77ED126DE" name="X838501A77ED126DE"></a></p>
 
@@ -482,7 +482,7 @@
 <div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; ExponentialOnMorphismsWithGivenExponentials</code>( <var class="Arg">s</var>, <var class="Arg">alpha</var>, <var class="Arg">beta</var>, <var class="Arg">r</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
 <p>Returns: a morphism in <span class="SimpleMath">\(\mathrm{Hom}( \mathrm{Exponential}(a',b), \mathrm{Exponential}(a,b') )\)</span></p>
 
-<p>The arguments are an object <span class="SimpleMath">\(s = \mathrm{Exponential}(a',b)\)</span>, two morphisms <span class="SimpleMath">\(\alpha: a \rightarrow a', \beta: b \rightarrow b'\)</span>, and an object <span class="SimpleMath">\(r = \mathrm{Exponential}(a,b')\)</span>. The output is the internal hom morphism <span class="SimpleMath">\(\mathrm{Exponential}(\alpha,\beta): \mathrm{Exponential}(a',b) \rightarrow \mathrm{Exponential}(a,b')\)</span>.</p>
+<p>The arguments are an object <span class="SimpleMath">\(s = \mathrm{Exponential}(a',b)\)</span>, two morphisms <span class="SimpleMath">\(\alpha: a \rightarrow a', \beta: b \rightarrow b'\)</span>, and an object <span class="SimpleMath">\(r = \mathrm{Exponential}(a,b')\)</span>. The output is the exponential morphism <span class="SimpleMath">\(\mathrm{Exponential}(\alpha,\beta): \mathrm{Exponential}(a',b) \rightarrow \mathrm{Exponential}(a,b')\)</span>.</p>
 
 <p><a id="X82AEDB9080EFBA02" name="X82AEDB9080EFBA02"></a></p>
 
@@ -783,7 +783,7 @@
 <div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; Exponential</code>( <var class="Arg">a</var>, <var class="Arg">b</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
 <p>Returns: a cell</p>
 
-<p>This is a convenience method. The arguments are two cells <span class="SimpleMath">\(a,b\)</span>. The output is the internal hom cell. If <span class="SimpleMath">\(a,b\)</span> are two CAP objects the output is the internal Hom object <span class="SimpleMath">\(\mathrm{Exponential}(a,b)\)</span>. If at least one of the arguments is a CAP morphism the output is a CAP morphism, namely the internal hom on morphisms, where any object is replaced by its identity morphism.</p>
+<p>This is a convenience method. The arguments are two cells <span class="SimpleMath">\(a,b\)</span>. The output is the exponential cell. If <span class="SimpleMath">\(a,b\)</span> are two CAP objects the output is the internal Hom object <span class="SimpleMath">\(\mathrm{Exponential}(a,b)\)</span>. If at least one of the arguments is a CAP morphism the output is a CAP morphism, namely the exponential on morphisms, where any object is replaced by its identity morphism.</p>
 
 <p><a id="X85C8C80F785AEB5E" name="X85C8C80F785AEB5E"></a></p>
 

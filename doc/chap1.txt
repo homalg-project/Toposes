@@ -281,7 +281,7 @@
   [33X[1;0Y[29X[2XExponentialOnObjects[102X( [3Xa[103X, [3Xb[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Yan object[133X
   
-  [33X[0;0YThe  arguments  are  two  objects [23Xa,b[123X. The output is the internal hom object
+  [33X[0;0YThe  arguments  are  two  objects  [23Xa,b[123X. The output is the exponential object
   [23X\mathrm{Exponential}(a,b)[123X.[133X
   
   [1X1.2-2 ExponentialOnMorphisms[101X
@@ -291,7 +291,7 @@
             \mathrm{Exponential}(a,b') )[123X[133X
   
   [33X[0;0YThe  arguments  are  two  morphisms  [23X\alpha:  a  \rightarrow  a',  \beta:  b
-  \rightarrow    b'[123X.    The    output    is    the   internal   hom   morphism
+  \rightarrow     b'[123X.    The    output    is    the    exponential    morphism
   [23X\mathrm{Exponential}(\alpha,\beta):  \mathrm{Exponential}(a',b)  \rightarrow
   \mathrm{Exponential}(a,b')[123X.[133X
   
@@ -303,7 +303,7 @@
   
   [33X[0;0YThe  arguments  are  an object [23Xs = \mathrm{Exponential}(a',b)[123X, two morphisms
   [23X\alpha:  a  \rightarrow  a',  \beta:  b  \rightarrow  b'[123X,  and an object [23Xr =
-  \mathrm{Exponential}(a,b')[123X.   The   output  is  the  internal  hom  morphism
+  \mathrm{Exponential}(a,b')[123X.   The   output   is   the  exponential  morphism
   [23X\mathrm{Exponential}(\alpha,\beta):  \mathrm{Exponential}(a',b)  \rightarrow
   \mathrm{Exponential}(a,b')[123X.[133X
   
@@ -631,9 +631,9 @@
   [6XReturns:[106X  [33X[0;10Ya cell[133X
   
   [33X[0;0YThis is a convenience method. The arguments are two cells [23Xa,b[123X. The output is
-  the internal hom cell. If [23Xa,b[123X are two CAP objects the output is the internal
+  the  exponential cell. If [23Xa,b[123X are two CAP objects the output is the internal
   Hom  object [23X\mathrm{Exponential}(a,b)[123X. If at least one of the arguments is a
-  CAP  morphism  the  output  is  a  CAP  morphism, namely the internal hom on
+  CAP  morphism  the  output  is  a  CAP  morphism,  namely the exponential on
   morphisms, where any object is replaced by its identity morphism.[133X
   
   
