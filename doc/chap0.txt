@@ -6,10 +6,10 @@
                               [1X Elementary toposes [101X
   
   
-                                   2022.03-02
+                                   2022.03-04
   
   
-                                 29 March 2022
+                                 31 March 2022
   
   
                                 Mohamed Barakat
@@ -323,6 +323,7 @@
       3.1-3 ClassifyingMorphismOfSubobject
       3.1-4 ClassifyingMorphismOfSubobjectWithGivenSubobjectClassifier
       3.1-5 SubobjectOfClassifyingMorphism
+      3.1-6 ListOfSubobjects
     3.2 [33X[0;0YTruth Morphisms[133X
       3.2-1 TruthMorphismOfTrue
       3.2-2 TruthMorphismOfTrueWithGivenObjects
@@ -362,23 +363,24 @@
       3.4-10 AddEmbeddingOfUnionSubobject
       3.4-11 AddEmbeddingOfUnionSubobjectWithGivenUnion
       3.4-12 AddIntersectionSubobject
-      3.4-13 AddPseudoComplementSubobject
-      3.4-14 AddRelativePseudoComplementSuboject
-      3.4-15 AddSubobjectClassifier
-      3.4-16 AddSubobjectOfClassifyingMorphism
-      3.4-17 AddTruthMorphismOfAnd
-      3.4-18 AddTruthMorphismOfAndWithGivenObjects
-      3.4-19 AddTruthMorphismOfFalse
-      3.4-20 AddTruthMorphismOfFalseWithGivenObjects
-      3.4-21 AddTruthMorphismOfImplies
-      3.4-22 AddTruthMorphismOfImpliesWithGivenObjects
-      3.4-23 AddTruthMorphismOfNot
-      3.4-24 AddTruthMorphismOfNotWithGivenObjects
-      3.4-25 AddTruthMorphismOfOr
-      3.4-26 AddTruthMorphismOfOrWithGivenObjects
-      3.4-27 AddTruthMorphismOfTrue
-      3.4-28 AddTruthMorphismOfTrueWithGivenObjects
-      3.4-29 AddUnionSubobject
+      3.4-13 AddListOfSubobjects
+      3.4-14 AddPseudoComplementSubobject
+      3.4-15 AddRelativePseudoComplementSuboject
+      3.4-16 AddSubobjectClassifier
+      3.4-17 AddSubobjectOfClassifyingMorphism
+      3.4-18 AddTruthMorphismOfAnd
+      3.4-19 AddTruthMorphismOfAndWithGivenObjects
+      3.4-20 AddTruthMorphismOfFalse
+      3.4-21 AddTruthMorphismOfFalseWithGivenObjects
+      3.4-22 AddTruthMorphismOfImplies
+      3.4-23 AddTruthMorphismOfImpliesWithGivenObjects
+      3.4-24 AddTruthMorphismOfNot
+      3.4-25 AddTruthMorphismOfNotWithGivenObjects
+      3.4-26 AddTruthMorphismOfOr
+      3.4-27 AddTruthMorphismOfOrWithGivenObjects
+      3.4-28 AddTruthMorphismOfTrue
+      3.4-29 AddTruthMorphismOfTrueWithGivenObjects
+      3.4-30 AddUnionSubobject
   4 [33X[0;0YExamples and Tests[133X
     4.1 [33X[0;0YTest functions[133X
       4.1-1 BraidedCartesianCategoriesTest
