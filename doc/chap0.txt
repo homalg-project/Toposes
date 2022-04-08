@@ -6,10 +6,10 @@
                               [1X Elementary toposes [101X
   
   
-                                   2022.04-01
+                                   2022.04-02
   
   
-                                  7 April 2022
+                                  8 April 2022
   
   
                                 Mohamed Barakat
@@ -349,9 +349,9 @@
       3.4-7 UnionSubobject
       3.4-8 EmbeddingOfUnionSubobject
       3.4-9 EmbeddingOfUnionSubobjectWithGivenUnion
-      3.4-10 RelativePseudoComplementSuboject
-      3.4-11 EmbeddingOfRelativePseudoComplementSuboject
-      3.4-12 EmbeddingOfRelativePseudoComplementSubojectWithGivenImplication
+      3.4-10 RelativePseudoComplementSubobject
+      3.4-11 EmbeddingOfRelativePseudoComplementSubobject
+      3.4-12 EmbeddingOfRelativePseudoComplementSubobjectWithGivenImplication
     3.5 [33X[0;0YAdd-methods[133X
       3.5-1 AddCartesianSquareOfSubobjectClassifier
       3.5-2 AddClassifyingMorphismOfSubobject
@@ -360,15 +360,15 @@
       3.5-5 AddEmbeddingOfIntersectionSubobjectWithGivenIntersection
       3.5-6 AddEmbeddingOfPseudoComplementSubobject
       3.5-7 AddEmbeddingOfPseudoComplementSubobjectWithGivenPseudoComplement
-      3.5-8 AddEmbeddingOfRelativePseudoComplementSuboject
-      3.5-9 AddEmbeddingOfRelativePseudoComplementSubojectWithGivenImplication
+      3.5-8 AddEmbeddingOfRelativePseudoComplementSubobject
+      3.5-9 AddEmbeddingOfRelativePseudoComplementSubobjectWithGivenImplication
       3.5-10 AddEmbeddingOfUnionSubobject
       3.5-11 AddEmbeddingOfUnionSubobjectWithGivenUnion
       3.5-12 AddIntersectionSubobject
       3.5-13 AddListOfSubobjects
       3.5-14 AddMorphismsOfExternalHom
       3.5-15 AddPseudoComplementSubobject
-      3.5-16 AddRelativePseudoComplementSuboject
+      3.5-16 AddRelativePseudoComplementSubobject
       3.5-17 AddSubobjectClassifier
       3.5-18 AddSubobjectOfClassifyingMorphism
       3.5-19 AddTruthMorphismOfAnd

@@ -290,31 +290,31 @@
   and an object [23XT[123X with [10XIsEqualForObjects[110X([23XT[123X, [10XUnionSubobject[110X([23X\iota[123X)). The output
   is the embedding [23XT \hookrightarrow A[123X of their union subobject [23XT[123X.[133X
   
-  [1X3.4-10 RelativePseudoComplementSuboject[101X
+  [1X3.4-10 RelativePseudoComplementSubobject[101X
   
-  [33X[1;0Y[29X[2XRelativePseudoComplementSuboject[102X( [3Xiota1[103X, [3Xiota2[103X ) [32X operation[133X
+  [33X[1;0Y[29X[2XRelativePseudoComplementSubobject[102X( [3Xiota1[103X, [3Xiota2[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Yan object[133X
   
   [33X[0;0YThe  arguments  are  two  monomorphisms  [23X\iota_i:  S_i \hookrightarrow A[123X for
   [23Xi=1,2[123X. The output is the [21Xrelative pseudo-complement of [23XS_1[123X relative to [23XS_2[123X[121X.[133X
   
-  [1X3.4-11 EmbeddingOfRelativePseudoComplementSuboject[101X
+  [1X3.4-11 EmbeddingOfRelativePseudoComplementSubobject[101X
   
-  [33X[1;0Y[29X[2XEmbeddingOfRelativePseudoComplementSuboject[102X( [3Xiota[103X ) [32X operation[133X
+  [33X[1;0Y[29X[2XEmbeddingOfRelativePseudoComplementSubobject[102X( [3Xiota[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Yan object[133X
   
   [33X[0;0YThe  arguments  are  two  monomorphisms  [23X\iota_i:  S_i \hookrightarrow A[123X for
-  [23Xi=1,2[123X.  The  output is the embedding [10XRelativePseudoComplementSuboject[110X([23X\iota[123X)
+  [23Xi=1,2[123X.  The output is the embedding [10XRelativePseudoComplementSubobject[110X([23X\iota[123X)
   [23X\hookrightarrow A[123X of their relative pseudo-complement into [23XA[123X.[133X
   
-  [1X3.4-12 EmbeddingOfRelativePseudoComplementSubojectWithGivenImplication[101X
+  [1X3.4-12 EmbeddingOfRelativePseudoComplementSubobjectWithGivenImplication[101X
   
-  [33X[1;0Y[29X[2XEmbeddingOfRelativePseudoComplementSubojectWithGivenImplication[102X( [3Xiota[103X ) [32X operation[133X
+  [33X[1;0Y[29X[2XEmbeddingOfRelativePseudoComplementSubobjectWithGivenImplication[102X( [3Xiota[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Yan object[133X
   
   [33X[0;0YThe arguments are two monomorphisms [23X\iota_i: S_i \hookrightarrow A[123X for [23Xi=1,2[123X
   and        an        object        [23XT[123X        with        [10XIsEqualForObjects[110X([23XT[123X,
-  [10XRelativePseudoComplementSuboject[110X([23X\iota[123X)).  The  output  is  the  embedding [23XT
+  [10XRelativePseudoComplementSubobject[110X([23X\iota[123X)).  The  output  is  the embedding [23XT
   \hookrightarrow A[123X of their relative pseudo-complement [23XT[123X into [23XA[123X.[133X
   
   
@@ -396,26 +396,26 @@
   \mathtt{EmbeddingOfPseudoComplementSubobjectWithGivenPseudoComplement}(iota,
   complement)[123X.[133X
   
-  [1X3.5-8 AddEmbeddingOfRelativePseudoComplementSuboject[101X
+  [1X3.5-8 AddEmbeddingOfRelativePseudoComplementSubobject[101X
   
-  [33X[1;0Y[29X[2XAddEmbeddingOfRelativePseudoComplementSuboject[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [33X[1;0Y[29X[2XAddEmbeddingOfRelativePseudoComplementSubobject[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
   
   [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
   given    function    [23XF[123X   to   the   category   for   the   basic   operation
-  [10XEmbeddingOfRelativePseudoComplementSuboject[110X.  [23XF:  (  iota1,  iota2 ) \mapsto
-  \mathtt{EmbeddingOfRelativePseudoComplementSuboject}(iota1, iota2)[123X.[133X
+  [10XEmbeddingOfRelativePseudoComplementSubobject[110X.  [23XF:  (  iota1, iota2 ) \mapsto
+  \mathtt{EmbeddingOfRelativePseudoComplementSubobject}(iota1, iota2)[123X.[133X
   
-  [1X3.5-9 AddEmbeddingOfRelativePseudoComplementSubojectWithGivenImplication[101X
+  [1X3.5-9 AddEmbeddingOfRelativePseudoComplementSubobjectWithGivenImplication[101X
   
-  [33X[1;0Y[29X[2XAddEmbeddingOfRelativePseudoComplementSubojectWithGivenImplication[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [33X[1;0Y[29X[2XAddEmbeddingOfRelativePseudoComplementSubobjectWithGivenImplication[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
   
   [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
   given    function    [23XF[123X   to   the   category   for   the   basic   operation
-  [10XEmbeddingOfRelativePseudoComplementSubojectWithGivenImplication[110X. [23XF: ( iota1,
-  iota2,                 implication                 )                 \mapsto
-  \mathtt{EmbeddingOfRelativePseudoComplementSubojectWithGivenImplication}(iota1,
+  [10XEmbeddingOfRelativePseudoComplementSubobjectWithGivenImplication[110X.    [23XF:    (
+  iota1,            iota2,           implication           )           \mapsto
+  \mathtt{EmbeddingOfRelativePseudoComplementSubobjectWithGivenImplication}(iota1,
   iota2, implication)[123X.[133X
   
   [1X3.5-10 AddEmbeddingOfUnionSubobject[101X
@@ -477,15 +477,15 @@
   [10XPseudoComplementSubobject[110X.       [23XF:       (       arg2       )       \mapsto
   \mathtt{PseudoComplementSubobject}(arg2)[123X.[133X
   
-  [1X3.5-16 AddRelativePseudoComplementSuboject[101X
+  [1X3.5-16 AddRelativePseudoComplementSubobject[101X
   
-  [33X[1;0Y[29X[2XAddRelativePseudoComplementSuboject[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [33X[1;0Y[29X[2XAddRelativePseudoComplementSubobject[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
   
   [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
   given    function    [23XF[123X   to   the   category   for   the   basic   operation
-  [10XRelativePseudoComplementSuboject[110X.    [23XF:    (    arg2,    arg3    )   \mapsto
-  \mathtt{RelativePseudoComplementSuboject}(arg2, arg3)[123X.[133X
+  [10XRelativePseudoComplementSubobject[110X.    [23XF:    (    arg2,    arg3   )   \mapsto
+  \mathtt{RelativePseudoComplementSubobject}(arg2, arg3)[123X.[133X
   
   [1X3.5-17 AddSubobjectClassifier[101X
   
