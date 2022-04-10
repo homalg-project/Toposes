@@ -114,10 +114,10 @@
   [2XAddLeftCartesianDistributivityExpandingWithGivenObjects[102X, for IsCapCategory, IsFunction 1.4-55 
   [2XAddLeftCartesianDistributivityFactoring[102X, for IsCapCategory, IsFunction 1.4-56 
   [2XAddLeftCartesianDistributivityFactoringWithGivenObjects[102X, for IsCapCategory, IsFunction 1.4-57 
-  [2XAddLeftCocartesianDistributivityExpanding[102X, for IsCapCategory, IsFunction 2.4-54 
-  [2XAddLeftCocartesianDistributivityExpandingWithGivenObjects[102X, for IsCapCategory, IsFunction 2.4-55 
-  [2XAddLeftCocartesianDistributivityFactoring[102X, for IsCapCategory, IsFunction 2.4-56 
-  [2XAddLeftCocartesianDistributivityFactoringWithGivenObjects[102X, for IsCapCategory, IsFunction 2.4-57 
+  [2XAddLeftCocartesianCodistributivityExpanding[102X, for IsCapCategory, IsFunction 2.4-54 
+  [2XAddLeftCocartesianCodistributivityExpandingWithGivenObjects[102X, for IsCapCategory, IsFunction 2.4-55 
+  [2XAddLeftCocartesianCodistributivityFactoring[102X, for IsCapCategory, IsFunction 2.4-56 
+  [2XAddLeftCocartesianCodistributivityFactoringWithGivenObjects[102X, for IsCapCategory, IsFunction 2.4-57 
   [2XAddListOfSubobjects[102X, for IsCapCategory, IsFunction 3.5-13 
   [2XAddMorphismFromCocartesianBidual[102X, for IsCapCategory, IsFunction 2.4-49 
   [2XAddMorphismFromCocartesianBidualWithGivenCocartesianBidual[102X, for IsCapCategory, IsFunction 2.4-50 
@@ -134,10 +134,10 @@
   [2XAddRightCartesianDistributivityExpandingWithGivenObjects[102X, for IsCapCategory, IsFunction 1.4-59 
   [2XAddRightCartesianDistributivityFactoring[102X, for IsCapCategory, IsFunction 1.4-60 
   [2XAddRightCartesianDistributivityFactoringWithGivenObjects[102X, for IsCapCategory, IsFunction 1.4-61 
-  [2XAddRightCocartesianDistributivityExpanding[102X, for IsCapCategory, IsFunction 2.4-58 
-  [2XAddRightCocartesianDistributivityExpandingWithGivenObjects[102X, for IsCapCategory, IsFunction 2.4-59 
-  [2XAddRightCocartesianDistributivityFactoring[102X, for IsCapCategory, IsFunction 2.4-60 
-  [2XAddRightCocartesianDistributivityFactoringWithGivenObjects[102X, for IsCapCategory, IsFunction 2.4-61 
+  [2XAddRightCocartesianCodistributivityExpanding[102X, for IsCapCategory, IsFunction 2.4-58 
+  [2XAddRightCocartesianCodistributivityExpandingWithGivenObjects[102X, for IsCapCategory, IsFunction 2.4-59 
+  [2XAddRightCocartesianCodistributivityFactoring[102X, for IsCapCategory, IsFunction 2.4-60 
+  [2XAddRightCocartesianCodistributivityFactoringWithGivenObjects[102X, for IsCapCategory, IsFunction 2.4-61 
   [2XAddSubobjectClassifier[102X, for IsCapCategory, IsFunction 3.5-17 
   [2XAddSubobjectOfClassifyingMorphism[102X, for IsCapCategory, IsFunction 3.5-18 
   [2XAddTruthMorphismOfAnd[102X, for IsCapCategory, IsFunction 3.5-19 
@@ -284,10 +284,10 @@
   [2XLeftCartesianDistributivityExpandingWithGivenObjects[102X, for IsCapCategoryObject, IsCapCategoryObject, IsList, IsCapCategoryObject 1.1-20 
   [2XLeftCartesianDistributivityFactoring[102X, for IsCapCategoryObject, IsList 1.1-21 
   [2XLeftCartesianDistributivityFactoringWithGivenObjects[102X, for IsCapCategoryObject, IsCapCategoryObject, IsList, IsCapCategoryObject 1.1-22 
-  [2XLeftCocartesianDistributivityExpanding[102X, for IsCapCategoryObject, IsList 2.1-19 
-  [2XLeftCocartesianDistributivityExpandingWithGivenObjects[102X, for IsCapCategoryObject, IsCapCategoryObject, IsList, IsCapCategoryObject 2.1-20 
-  [2XLeftCocartesianDistributivityFactoring[102X, for IsCapCategoryObject, IsList 2.1-21 
-  [2XLeftCocartesianDistributivityFactoringWithGivenObjects[102X, for IsCapCategoryObject, IsCapCategoryObject, IsList, IsCapCategoryObject 2.1-22 
+  [2XLeftCocartesianCodistributivityExpanding[102X, for IsCapCategoryObject, IsList 2.1-19 
+  [2XLeftCocartesianCodistributivityExpandingWithGivenObjects[102X, for IsCapCategoryObject, IsCapCategoryObject, IsList, IsCapCategoryObject 2.1-20 
+  [2XLeftCocartesianCodistributivityFactoring[102X, for IsCapCategoryObject, IsList 2.1-21 
+  [2XLeftCocartesianCodistributivityFactoringWithGivenObjects[102X, for IsCapCategoryObject, IsCapCategoryObject, IsList, IsCapCategoryObject 2.1-22 
   [2XListOfSubobjects[102X, for IsCapCategoryObject 3.2-6 
   [2XMaximalRelationIntoTerminalObject[102X, for IsObjectInCategoryOfRelations 5.3-2 
   [2XMorphismByStandardizedSpan[102X, for IsMorphismInCategoryOfRelations 5.3-8 
@@ -308,10 +308,10 @@
   [2XRightCartesianDistributivityExpandingWithGivenObjects[102X, for IsCapCategoryObject, IsList, IsCapCategoryObject, IsCapCategoryObject 1.1-24 
   [2XRightCartesianDistributivityFactoring[102X, for IsList, IsCapCategoryObject 1.1-25 
   [2XRightCartesianDistributivityFactoringWithGivenObjects[102X, for IsCapCategoryObject, IsList, IsCapCategoryObject, IsCapCategoryObject 1.1-26 
-  [2XRightCocartesianDistributivityExpanding[102X, for IsList, IsCapCategoryObject 2.1-23 
-  [2XRightCocartesianDistributivityExpandingWithGivenObjects[102X, for IsCapCategoryObject, IsList, IsCapCategoryObject, IsCapCategoryObject 2.1-24 
-  [2XRightCocartesianDistributivityFactoring[102X, for IsList, IsCapCategoryObject 2.1-25 
-  [2XRightCocartesianDistributivityFactoringWithGivenObjects[102X, for IsCapCategoryObject, IsList, IsCapCategoryObject, IsCapCategoryObject 2.1-26 
+  [2XRightCocartesianCodistributivityExpanding[102X, for IsList, IsCapCategoryObject 2.1-23 
+  [2XRightCocartesianCodistributivityExpandingWithGivenObjects[102X, for IsCapCategoryObject, IsList, IsCapCategoryObject, IsCapCategoryObject 2.1-24 
+  [2XRightCocartesianCodistributivityFactoring[102X, for IsList, IsCapCategoryObject 2.1-25 
+  [2XRightCocartesianCodistributivityFactoringWithGivenObjects[102X, for IsCapCategoryObject, IsList, IsCapCategoryObject, IsCapCategoryObject 2.1-26 
   [2XSourceProjection[102X, for IsMorphismInCategoryOfRelations 5.3-5 
   [2XStandardizedSpan[102X, for IsMorphismInCategoryOfRelations 5.3-7 
   [2XSubobjectClassifier[102X, for IsCapCategory 3.2-1 

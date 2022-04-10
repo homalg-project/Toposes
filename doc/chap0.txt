@@ -6,10 +6,10 @@
                               [1X Elementary toposes [101X
   
   
-                                   2022.04-04
+                                   2022.04-05
   
   
-                                  9 April 2022
+                                 10 April 2022
   
   
                                 Mohamed Barakat
@@ -208,14 +208,14 @@
       2.1-16 CocartesianRightUnitorWithGivenCoproduct
       2.1-17 CocartesianRightUnitorInverse
       2.1-18 CocartesianRightUnitorInverseWithGivenCoproduct
-      2.1-19 LeftCocartesianDistributivityExpanding
-      2.1-20 LeftCocartesianDistributivityExpandingWithGivenObjects
-      2.1-21 LeftCocartesianDistributivityFactoring
-      2.1-22 LeftCocartesianDistributivityFactoringWithGivenObjects
-      2.1-23 RightCocartesianDistributivityExpanding
-      2.1-24 RightCocartesianDistributivityExpandingWithGivenObjects
-      2.1-25 RightCocartesianDistributivityFactoring
-      2.1-26 RightCocartesianDistributivityFactoringWithGivenObjects
+      2.1-19 LeftCocartesianCodistributivityExpanding
+      2.1-20 LeftCocartesianCodistributivityExpandingWithGivenObjects
+      2.1-21 LeftCocartesianCodistributivityFactoring
+      2.1-22 LeftCocartesianCodistributivityFactoringWithGivenObjects
+      2.1-23 RightCocartesianCodistributivityExpanding
+      2.1-24 RightCocartesianCodistributivityExpandingWithGivenObjects
+      2.1-25 RightCocartesianCodistributivityFactoring
+      2.1-26 RightCocartesianCodistributivityFactoringWithGivenObjects
     2.2 [33X[0;0YCocartesian Coclosed Categories[133X
       2.2-1 CoexponentialOnObjects
       2.2-2 CoexponentialOnMorphisms
@@ -308,14 +308,14 @@
       2.4-51 AddMorphismFromCoexponentialToCoproduct
       2.4-52 AddMorphismFromCoexponentialToCoproductWithGivenObjects
       2.4-53 AddUniversalPropertyOfCocartesianDual
-      2.4-54 AddLeftCocartesianDistributivityExpanding
-      2.4-55 AddLeftCocartesianDistributivityExpandingWithGivenObjects
-      2.4-56 AddLeftCocartesianDistributivityFactoring
-      2.4-57 AddLeftCocartesianDistributivityFactoringWithGivenObjects
-      2.4-58 AddRightCocartesianDistributivityExpanding
-      2.4-59 AddRightCocartesianDistributivityExpandingWithGivenObjects
-      2.4-60 AddRightCocartesianDistributivityFactoring
-      2.4-61 AddRightCocartesianDistributivityFactoringWithGivenObjects
+      2.4-54 AddLeftCocartesianCodistributivityExpanding
+      2.4-55 AddLeftCocartesianCodistributivityExpandingWithGivenObjects
+      2.4-56 AddLeftCocartesianCodistributivityFactoring
+      2.4-57 AddLeftCocartesianCodistributivityFactoringWithGivenObjects
+      2.4-58 AddRightCocartesianCodistributivityExpanding
+      2.4-59 AddRightCocartesianCodistributivityExpandingWithGivenObjects
+      2.4-60 AddRightCocartesianCodistributivityFactoring
+      2.4-61 AddRightCocartesianCodistributivityFactoringWithGivenObjects
   3 [33X[0;0YToposes[133X
     3.1 [33X[0;0YMorphisms of external Hom[133X
       3.1-1 MorphismsOfExternalHom

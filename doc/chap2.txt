@@ -187,9 +187,9 @@
   [33X[0;0YThe  arguments  are  an object [23Xa[123X and an object [23Xr = a \sqcup 1[123X. The output is
   the inverse of the right unitor [23X\rho_a^{-1}: a \rightarrow a \sqcup 1[123X.[133X
   
-  [1X2.1-19 LeftCocartesianDistributivityExpanding[101X
+  [1X2.1-19 LeftCocartesianCodistributivityExpanding[101X
   
-  [33X[1;0Y[29X[2XLeftCocartesianDistributivityExpanding[102X( [3Xa[103X, [3XL[103X ) [32X operation[133X
+  [33X[1;0Y[29X[2XLeftCocartesianCodistributivityExpanding[102X( [3Xa[103X, [3XL[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ya  morphism  in  [23X\mathrm{Hom}(  a  \sqcup (b_1 \times \dots \times
             b_n), (a \sqcup b_1) \times \dots \times (a \sqcup b_n) )[123X[133X
   
@@ -197,9 +197,9 @@
   The  output  is  the left distributivity morphism [23Xa \sqcup (b_1 \times \dots
   \times b_n) \rightarrow (a \sqcup b_1) \times \dots \times (a \sqcup b_n)[123X.[133X
   
-  [1X2.1-20 LeftCocartesianDistributivityExpandingWithGivenObjects[101X
+  [1X2.1-20 LeftCocartesianCodistributivityExpandingWithGivenObjects[101X
   
-  [33X[1;0Y[29X[2XLeftCocartesianDistributivityExpandingWithGivenObjects[102X( [3Xs[103X, [3Xa[103X, [3XL[103X, [3Xr[103X ) [32X operation[133X
+  [33X[1;0Y[29X[2XLeftCocartesianCodistributivityExpandingWithGivenObjects[102X( [3Xs[103X, [3Xa[103X, [3XL[103X, [3Xr[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ya morphism in [23X\mathrm{Hom}( s, r )[123X[133X
   
   [33X[0;0YThe  arguments  are an object [23Xs = a \sqcup (b_1 \times \dots \times b_n)[123X, an
@@ -207,9 +207,9 @@
   \sqcup  b_1)  \times  \dots  \times  (a  \sqcup b_n)[123X. The output is the left
   distributivity morphism [23Xs \rightarrow r[123X.[133X
   
-  [1X2.1-21 LeftCocartesianDistributivityFactoring[101X
+  [1X2.1-21 LeftCocartesianCodistributivityFactoring[101X
   
-  [33X[1;0Y[29X[2XLeftCocartesianDistributivityFactoring[102X( [3Xa[103X, [3XL[103X ) [32X operation[133X
+  [33X[1;0Y[29X[2XLeftCocartesianCodistributivityFactoring[102X( [3Xa[103X, [3XL[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ya  morphism in [23X\mathrm{Hom}( (a \sqcup b_1) \times \dots \times (a
             \sqcup b_n), a \sqcup (b_1 \times \dots \times b_n) )[123X[133X
   
@@ -217,9 +217,9 @@
   The  output  is the left distributivity morphism [23X(a \sqcup b_1) \times \dots
   \times (a \sqcup b_n) \rightarrow a \sqcup (b_1 \times \dots \times b_n)[123X.[133X
   
-  [1X2.1-22 LeftCocartesianDistributivityFactoringWithGivenObjects[101X
+  [1X2.1-22 LeftCocartesianCodistributivityFactoringWithGivenObjects[101X
   
-  [33X[1;0Y[29X[2XLeftCocartesianDistributivityFactoringWithGivenObjects[102X( [3Xs[103X, [3Xa[103X, [3XL[103X, [3Xr[103X ) [32X operation[133X
+  [33X[1;0Y[29X[2XLeftCocartesianCodistributivityFactoringWithGivenObjects[102X( [3Xs[103X, [3Xa[103X, [3XL[103X, [3Xr[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ya morphism in [23X\mathrm{Hom}( s, r )[123X[133X
   
   [33X[0;0YThe arguments are an object [23Xs = (a \sqcup b_1) \times \dots \times (a \sqcup
@@ -227,9 +227,9 @@
   =  a  \sqcup  (b_1  \times  \dots  \times  b_n)[123X.  The  output  is  the  left
   distributivity morphism [23Xs \rightarrow r[123X.[133X
   
-  [1X2.1-23 RightCocartesianDistributivityExpanding[101X
+  [1X2.1-23 RightCocartesianCodistributivityExpanding[101X
   
-  [33X[1;0Y[29X[2XRightCocartesianDistributivityExpanding[102X( [3XL[103X, [3Xa[103X ) [32X operation[133X
+  [33X[1;0Y[29X[2XRightCocartesianCodistributivityExpanding[102X( [3XL[103X, [3Xa[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ya  morphism  in [23X\mathrm{Hom}( (b_1 \times \dots \times b_n) \sqcup
             a, (b_1 \sqcup a) \times \dots \times (b_n \sqcup a) )[123X[133X
   
@@ -237,9 +237,9 @@
   The  output  is  the  right distributivity morphism [23X(b_1 \times \dots \times
   b_n) \sqcup a \rightarrow (b_1 \sqcup a) \times \dots \times (b_n \sqcup a)[123X.[133X
   
-  [1X2.1-24 RightCocartesianDistributivityExpandingWithGivenObjects[101X
+  [1X2.1-24 RightCocartesianCodistributivityExpandingWithGivenObjects[101X
   
-  [33X[1;0Y[29X[2XRightCocartesianDistributivityExpandingWithGivenObjects[102X( [3Xs[103X, [3XL[103X, [3Xa[103X, [3Xr[103X ) [32X operation[133X
+  [33X[1;0Y[29X[2XRightCocartesianCodistributivityExpandingWithGivenObjects[102X( [3Xs[103X, [3XL[103X, [3Xa[103X, [3Xr[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ya morphism in [23X\mathrm{Hom}( s, r )[123X[133X
   
   [33X[0;0YThe  arguments  are  an object [23Xs = (b_1 \times \dots \times b_n) \sqcup a[123X, a
@@ -247,9 +247,9 @@
   \sqcup  a)  \times  \dots  \times  (b_n  \sqcup  a)[123X. The output is the right
   distributivity morphism [23Xs \rightarrow r[123X.[133X
   
-  [1X2.1-25 RightCocartesianDistributivityFactoring[101X
+  [1X2.1-25 RightCocartesianCodistributivityFactoring[101X
   
-  [33X[1;0Y[29X[2XRightCocartesianDistributivityFactoring[102X( [3XL[103X, [3Xa[103X ) [32X operation[133X
+  [33X[1;0Y[29X[2XRightCocartesianCodistributivityFactoring[102X( [3XL[103X, [3Xa[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ya  morphism  in  [23X\mathrm{Hom}(  (b_1 \sqcup a) \times \dots \times
             (b_n \sqcup a), (b_1 \times \dots \times b_n) \sqcup a)[123X[133X
   
@@ -257,9 +257,9 @@
   The  output is the right distributivity morphism [23X(b_1 \sqcup a) \times \dots
   \times (b_n \sqcup a) \rightarrow (b_1 \times \dots \times b_n) \sqcup a [123X.[133X
   
-  [1X2.1-26 RightCocartesianDistributivityFactoringWithGivenObjects[101X
+  [1X2.1-26 RightCocartesianCodistributivityFactoringWithGivenObjects[101X
   
-  [33X[1;0Y[29X[2XRightCocartesianDistributivityFactoringWithGivenObjects[102X( [3Xs[103X, [3XL[103X, [3Xa[103X, [3Xr[103X ) [32X operation[133X
+  [33X[1;0Y[29X[2XRightCocartesianCodistributivityFactoringWithGivenObjects[102X( [3Xs[103X, [3XL[103X, [3Xa[103X, [3Xr[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ya morphism in [23X\mathrm{Hom}( s, r )[123X[133X
   
   [33X[0;0YThe  arguments  are  an  object  [23Xs = (b_1 \sqcup a) \times \dots \times (b_n
@@ -1183,87 +1183,89 @@
   [10XUniversalPropertyOfCocartesianDual[110X.   [23XF:   (   t,   a,   alpha   )   \mapsto
   \mathtt{UniversalPropertyOfCocartesianDual}(t, a, alpha)[123X.[133X
   
-  [1X2.4-54 AddLeftCocartesianDistributivityExpanding[101X
+  [1X2.4-54 AddLeftCocartesianCodistributivityExpanding[101X
   
-  [33X[1;0Y[29X[2XAddLeftCocartesianDistributivityExpanding[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [33X[1;0Y[29X[2XAddLeftCocartesianCodistributivityExpanding[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
   
   [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
   given    function    [23XF[123X   to   the   category   for   the   basic   operation
-  [10XLeftCocartesianDistributivityExpanding[110X.    [23XF:    (    a,    L    )   \mapsto
-  \mathtt{LeftCocartesianDistributivityExpanding}(a, L)[123X.[133X
+  [10XLeftCocartesianCodistributivityExpanding[110X.    [23XF:    (    a,   L   )   \mapsto
+  \mathtt{LeftCocartesianCodistributivityExpanding}(a, L)[123X.[133X
   
-  [1X2.4-55 AddLeftCocartesianDistributivityExpandingWithGivenObjects[101X
+  [1X2.4-55 AddLeftCocartesianCodistributivityExpandingWithGivenObjects[101X
   
-  [33X[1;0Y[29X[2XAddLeftCocartesianDistributivityExpandingWithGivenObjects[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [33X[1;0Y[29X[2XAddLeftCocartesianCodistributivityExpandingWithGivenObjects[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
   
   [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
   given    function    [23XF[123X   to   the   category   for   the   basic   operation
-  [10XLeftCocartesianDistributivityExpandingWithGivenObjects[110X.  [23XF:  (  s, a, L, r )
-  \mapsto   \mathtt{LeftCocartesianDistributivityExpandingWithGivenObjects}(s,
+  [10XLeftCocartesianCodistributivityExpandingWithGivenObjects[110X.  [23XF: ( s, a, L, r )
+  \mapsto \mathtt{LeftCocartesianCodistributivityExpandingWithGivenObjects}(s,
   a, L, r)[123X.[133X
   
-  [1X2.4-56 AddLeftCocartesianDistributivityFactoring[101X
+  [1X2.4-56 AddLeftCocartesianCodistributivityFactoring[101X
   
-  [33X[1;0Y[29X[2XAddLeftCocartesianDistributivityFactoring[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [33X[1;0Y[29X[2XAddLeftCocartesianCodistributivityFactoring[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
   
   [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
   given    function    [23XF[123X   to   the   category   for   the   basic   operation
-  [10XLeftCocartesianDistributivityFactoring[110X.    [23XF:    (    a,    L    )   \mapsto
-  \mathtt{LeftCocartesianDistributivityFactoring}(a, L)[123X.[133X
+  [10XLeftCocartesianCodistributivityFactoring[110X.    [23XF:    (    a,   L   )   \mapsto
+  \mathtt{LeftCocartesianCodistributivityFactoring}(a, L)[123X.[133X
   
-  [1X2.4-57 AddLeftCocartesianDistributivityFactoringWithGivenObjects[101X
+  [1X2.4-57 AddLeftCocartesianCodistributivityFactoringWithGivenObjects[101X
   
-  [33X[1;0Y[29X[2XAddLeftCocartesianDistributivityFactoringWithGivenObjects[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [33X[1;0Y[29X[2XAddLeftCocartesianCodistributivityFactoringWithGivenObjects[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
   
   [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
   given    function    [23XF[123X   to   the   category   for   the   basic   operation
-  [10XLeftCocartesianDistributivityFactoringWithGivenObjects[110X.  [23XF:  (  s, a, L, r )
-  \mapsto   \mathtt{LeftCocartesianDistributivityFactoringWithGivenObjects}(s,
+  [10XLeftCocartesianCodistributivityFactoringWithGivenObjects[110X.  [23XF: ( s, a, L, r )
+  \mapsto \mathtt{LeftCocartesianCodistributivityFactoringWithGivenObjects}(s,
   a, L, r)[123X.[133X
   
-  [1X2.4-58 AddRightCocartesianDistributivityExpanding[101X
+  [1X2.4-58 AddRightCocartesianCodistributivityExpanding[101X
   
-  [33X[1;0Y[29X[2XAddRightCocartesianDistributivityExpanding[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [33X[1;0Y[29X[2XAddRightCocartesianCodistributivityExpanding[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
   
   [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
   given    function    [23XF[123X   to   the   category   for   the   basic   operation
-  [10XRightCocartesianDistributivityExpanding[110X.    [23XF:    (    L,    a   )   \mapsto
-  \mathtt{RightCocartesianDistributivityExpanding}(L, a)[123X.[133X
+  [10XRightCocartesianCodistributivityExpanding[110X.    [23XF:    (   L,   a   )   \mapsto
+  \mathtt{RightCocartesianCodistributivityExpanding}(L, a)[123X.[133X
   
-  [1X2.4-59 AddRightCocartesianDistributivityExpandingWithGivenObjects[101X
+  [1X2.4-59 AddRightCocartesianCodistributivityExpandingWithGivenObjects[101X
   
-  [33X[1;0Y[29X[2XAddRightCocartesianDistributivityExpandingWithGivenObjects[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [33X[1;0Y[29X[2XAddRightCocartesianCodistributivityExpandingWithGivenObjects[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
   
   [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
   given    function    [23XF[123X   to   the   category   for   the   basic   operation
-  [10XRightCocartesianDistributivityExpandingWithGivenObjects[110X.  [23XF:  ( s, L, a, r )
-  \mapsto  \mathtt{RightCocartesianDistributivityExpandingWithGivenObjects}(s,
-  L, a, r)[123X.[133X
+  [10XRightCocartesianCodistributivityExpandingWithGivenObjects[110X. [23XF: ( s, L, a, r )
+  \mapsto
+  \mathtt{RightCocartesianCodistributivityExpandingWithGivenObjects}(s,  L, a,
+  r)[123X.[133X
   
-  [1X2.4-60 AddRightCocartesianDistributivityFactoring[101X
+  [1X2.4-60 AddRightCocartesianCodistributivityFactoring[101X
   
-  [33X[1;0Y[29X[2XAddRightCocartesianDistributivityFactoring[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [33X[1;0Y[29X[2XAddRightCocartesianCodistributivityFactoring[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
   
   [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
   given    function    [23XF[123X   to   the   category   for   the   basic   operation
-  [10XRightCocartesianDistributivityFactoring[110X.    [23XF:    (    L,    a   )   \mapsto
-  \mathtt{RightCocartesianDistributivityFactoring}(L, a)[123X.[133X
+  [10XRightCocartesianCodistributivityFactoring[110X.    [23XF:    (   L,   a   )   \mapsto
+  \mathtt{RightCocartesianCodistributivityFactoring}(L, a)[123X.[133X
   
-  [1X2.4-61 AddRightCocartesianDistributivityFactoringWithGivenObjects[101X
+  [1X2.4-61 AddRightCocartesianCodistributivityFactoringWithGivenObjects[101X
   
-  [33X[1;0Y[29X[2XAddRightCocartesianDistributivityFactoringWithGivenObjects[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [33X[1;0Y[29X[2XAddRightCocartesianCodistributivityFactoringWithGivenObjects[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
   
   [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
   given    function    [23XF[123X   to   the   category   for   the   basic   operation
-  [10XRightCocartesianDistributivityFactoringWithGivenObjects[110X.  [23XF:  ( s, L, a, r )
-  \mapsto  \mathtt{RightCocartesianDistributivityFactoringWithGivenObjects}(s,
-  L, a, r)[123X.[133X
+  [10XRightCocartesianCodistributivityFactoringWithGivenObjects[110X. [23XF: ( s, L, a, r )
+  \mapsto
+  \mathtt{RightCocartesianCodistributivityFactoringWithGivenObjects}(s,  L, a,
+  r)[123X.[133X
   
