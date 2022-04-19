@@ -230,6 +230,7 @@
   [2XCocartesianRightUnitorInverse[102X, for IsCapCategoryObject 2.1-17 
   [2XCocartesianRightUnitorInverseWithGivenCoproduct[102X, for IsCapCategoryObject, IsCapCategoryObject 2.1-18 
   [2XCocartesianRightUnitorWithGivenCoproduct[102X, for IsCapCategoryObject, IsCapCategoryObject 2.1-16 
+  [2XCodistributiveCocartesianCategoriesTest[102X 4.1-7 
   [2XCoexponential[102X, for IsCapCategoryCell, IsCapCategoryCell 2.3-1 
   [2XCoexponentialCoproductCompatibilityMorphism[102X, for IsList 2.2-21 
   [2XCoexponentialCoproductCompatibilityMorphismWithGivenObjects[102X, for IsCapCategoryObject, IsList, IsCapCategoryObject 2.2-22 
@@ -247,6 +248,7 @@
   [2XDirectProductOnMorphisms[102X, for IsCapCategoryMorphism, IsCapCategoryMorphism 1.1-5 
   [2XDirectProductOnMorphismsWithGivenDirectProducts[102X, for IsCapCategoryObject, IsCapCategoryMorphism, IsCapCategoryMorphism, IsCapCategoryObject 1.1-6 
   [2XDirectProductToExponentialAdjunctionMap[102X, for IsCapCategoryObject, IsCapCategoryObject, IsCapCategoryMorphism 1.2-8 
+  [2XDistributiveCartesianCategoriesTest[102X 4.1-8 
   [2XEmbeddingOfIntersectionSubobject[102X, for IsCapCategoryMorphism, IsCapCategoryMorphism 3.4-5 
   [2XEmbeddingOfIntersectionSubobjectWithGivenIntersection[102X, for IsCapCategoryMorphism, IsCapCategoryMorphism, IsCapCategoryObject 3.4-6 
   [2XEmbeddingOfPseudoComplementSubobject[102X, for IsCapCategoryMorphism 3.4-2 

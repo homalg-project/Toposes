@@ -6,10 +6,10 @@
                               [1X Elementary toposes [101X
   
   
-                                   2022.04-16
+                                   2022.04-17
   
   
-                                 13 April 2022
+                                 19 April 2022
   
   
                                 Mohamed Barakat
@@ -392,6 +392,8 @@
       4.1-4 CartesianClosedCategoriesTest
       4.1-5 CocartesianCategoriesTest
       4.1-6 CocartesianCoclosedCategoriesTest
+      4.1-7 CodistributiveCocartesianCategoriesTest
+      4.1-8 DistributiveCartesianCategoriesTest
     4.2 [33X[0;0YOpposite category[133X
   5 [33X[0;0YCategory of relations[133X
     5.1 [33X[0;0YGAP categories[133X
