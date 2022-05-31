@@ -5,7 +5,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
-<title>GAP (Toposes) - Chapter 4: Examples and Tests</title>
+<title>GAP (Toposes) - Chapter 4: Category of relations</title>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
 <meta name="generator" content="GAPDoc2HTML" />
 <link rel="stylesheet" type="text/css" href="manual.css" />
@@ -20,313 +20,159 @@
 <div class="chlinkprevnexttop">&nbsp;<a href="chap0.html">[Top of Book]</a>&nbsp;  <a href="chap0.html#contents">[Contents]</a>&nbsp;  &nbsp;<a href="chap3.html">[Previous Chapter]</a>&nbsp;  &nbsp;<a href="chap5.html">[Next Chapter]</a>&nbsp;  </div>
 
 <p id="mathjaxlink" class="pcenter"><a href="chap4_mj.html">[MathJax on]</a></p>
-<p><a id="X7967FE8E7BBDF485" name="X7967FE8E7BBDF485"></a></p>
-<div class="ChapSects"><a href="chap4.html#X7967FE8E7BBDF485">4 <span class="Heading">Examples and Tests</span></a>
-<div class="ContSect"><span class="tocline"><span class="nocss">&nbsp;</span><a href="chap4.html#X7862428B781B1F3D">4.1 <span class="Heading">Test functions</span></a>
+<p><a id="X789E61CF843CF960" name="X789E61CF843CF960"></a></p>
+<div class="ChapSects"><a href="chap4.html#X789E61CF843CF960">4 <span class="Heading">Category of relations</span></a>
+<div class="ContSect"><span class="tocline"><span class="nocss">&nbsp;</span><a href="chap4.html#X7D03633A7D98026B">4.1 <span class="Heading">GAP categories</span></a>
 </span>
 <div class="ContSSBlock">
-<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap4.html#X83B0BC037D5E2C95">4.1-1 BraidedCartesianCategoriesTest</a></span>
-<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap4.html#X815F4404798F05F3">4.1-2 BraidedCocartesianCategoriesTest</a></span>
-<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap4.html#X7BC67B107EB54EE2">4.1-3 CartesianCategoriesTest</a></span>
-<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap4.html#X7C19A72D81FD3652">4.1-4 CartesianClosedCategoriesTest</a></span>
-<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap4.html#X8581ECE37E4E8470">4.1-5 CocartesianCategoriesTest</a></span>
-<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap4.html#X7C25BAD3807EE56E">4.1-6 CocartesianCoclosedCategoriesTest</a></span>
-<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap4.html#X7EA2684984BCCF6B">4.1-7 CodistributiveCocartesianCategoriesTest</a></span>
-<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap4.html#X78CA53ED85B4FEFF">4.1-8 DistributiveCartesianCategoriesTest</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap4.html#X7CADFF907D5AE74F">4.1-1 IsCategoryOfRelations</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap4.html#X7BFF307C7B6CC3DC">4.1-2 IsCellInCategoryOfRelations</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap4.html#X79C3ED0E7C57114B">4.1-3 IsObjectInCategoryOfRelations</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap4.html#X7C2695477C5483B2">4.1-4 IsMorphismInCategoryOfRelations</a></span>
 </div></div>
-<div class="ContSect"><span class="tocline"><span class="nocss">&nbsp;</span><a href="chap4.html#X84410C637B3C1D0E">4.2 <span class="Heading">Opposite category</span></a>
+<div class="ContSect"><span class="tocline"><span class="nocss">&nbsp;</span><a href="chap4.html#X86EC0F0A78ECBC10">4.2 <span class="Heading">Constructors</span></a>
 </span>
+<div class="ContSSBlock">
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap4.html#X80F28CB2854F4D40">4.2-1 CategoryOfRelations</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap4.html#X7A5BE8267D48632F">4.2-2 AsMorphismInCategoryOfRelations</a></span>
+</div></div>
+<div class="ContSect"><span class="tocline"><span class="nocss">&nbsp;</span><a href="chap4.html#X7C701DBF7BAE649A">4.3 <span class="Heading">Attributes</span></a>
+</span>
+<div class="ContSSBlock">
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap4.html#X85F97D7881301C60">4.3-1 UnitObjectInCategoryOfRelations</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap4.html#X852AF40978C2C250">4.3-2 MaximalRelationIntoTerminalObject</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap4.html#X8364F83581DF3057">4.3-3 PseudoInverse</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap4.html#X809DD05C81A23CD9">4.3-4 EmbeddingOfRelationInDirectProduct</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap4.html#X7B111B3781884B0F">4.3-5 SourceProjection</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap4.html#X7DAA3F077E401FF6">4.3-6 RangeProjection</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap4.html#X79A78D777CC60E38">4.3-7 StandardizedSpan</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap4.html#X81997FB97BBDA8DF">4.3-8 MorphismByStandardizedSpan</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap4.html#X85BFEB9D86893A4F">4.3-9 HonestRepresentative</a></span>
+</div></div>
+<div class="ContSect"><span class="tocline"><span class="nocss">&nbsp;</span><a href="chap4.html#X871597447BB998A1">4.4 <span class="Heading">Properties</span></a>
+</span>
+<div class="ContSSBlock">
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap4.html#X7B9595917EFC385E">4.4-1 IsHonest</a></span>
+</div></div>
 </div>
-</div>
 
-<h3>4 <span class="Heading">Examples and Tests</span></h3>
+<h3>4 <span class="Heading">Category of relations</span></h3>
 
-<p><a id="X7862428B781B1F3D" name="X7862428B781B1F3D"></a></p>
+<p><a id="X7D03633A7D98026B" name="X7D03633A7D98026B"></a></p>
 
-<h4>4.1 <span class="Heading">Test functions</span></h4>
+<h4>4.1 <span class="Heading">GAP categories</span></h4>
 
-<p><a id="X83B0BC037D5E2C95" name="X83B0BC037D5E2C95"></a></p>
+<p><a id="X7CADFF907D5AE74F" name="X7CADFF907D5AE74F"></a></p>
 
-<h5>4.1-1 BraidedCartesianCategoriesTest</h5>
+<h5>4.1-1 IsCategoryOfRelations</h5>
 
-<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; BraidedCartesianCategoriesTest</code>( <var class="Arg">cat</var>, <var class="Arg">a</var>, <var class="Arg">b</var> )</td><td class="tdright">(&nbsp;function&nbsp;)</td></tr></table></div>
-<p>The arguments are</p>
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; IsCategoryOfRelations</code>( <var class="Arg">arg</var> )</td><td class="tdright">(&nbsp;filter&nbsp;)</td></tr></table></div>
+<p>Returns: <code class="keyw">true</code> or <code class="keyw">false</code></p>
 
+<p>The <strong class="pkg">GAP</strong> category of a category of relations</p>
 
-<ul>
-<li><p>a CAP category <span class="Math">cat</span></p>
+<p><a id="X7BFF307C7B6CC3DC" name="X7BFF307C7B6CC3DC"></a></p>
 
-</li>
-<li><p>objects <span class="Math">a, b</span></p>
+<h5>4.1-2 IsCellInCategoryOfRelations</h5>
 
-</li>
-</ul>
-<p>This function checks for every operation declared in BraidedCartesianCategories.gd if it is computable in the CAP category <span class="Math">cat</span>. If yes, then the operation is executed with the parameters given above and compared to the equivalent computation in the opposite category of <span class="Math">cat</span>. Pass the options</p>
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; IsCellInCategoryOfRelations</code>( <var class="Arg">arg</var> )</td><td class="tdright">(&nbsp;filter&nbsp;)</td></tr></table></div>
+<p>Returns: <code class="keyw">true</code> or <code class="keyw">false</code></p>
 
+<p>The <strong class="pkg">GAP</strong> category of cells in a full subcategory.</p>
 
-<ul>
-<li><p><code class="code">verbose := true</code> to output more information.</p>
+<p><a id="X79C3ED0E7C57114B" name="X79C3ED0E7C57114B"></a></p>
 
-</li>
-<li><p><code class="code">only_primitive_operations := true</code>, which is passed on to Opposite(), to only primitively install dual operations for primitively installed operations in <span class="Math">cat</span>. The advantage is, that more derivations might be tested. On the downside, this might test fewer dual_pre/postprocessor_funcs.</p>
+<h5>4.1-3 IsObjectInCategoryOfRelations</h5>
 
-</li>
-</ul>
-<p><a id="X815F4404798F05F3" name="X815F4404798F05F3"></a></p>
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; IsObjectInCategoryOfRelations</code>( <var class="Arg">arg</var> )</td><td class="tdright">(&nbsp;filter&nbsp;)</td></tr></table></div>
+<p>Returns: <code class="keyw">true</code> or <code class="keyw">false</code></p>
 
-<h5>4.1-2 BraidedCocartesianCategoriesTest</h5>
+<p>The <strong class="pkg">GAP</strong> category of objects in a full subcategory.</p>
 
-<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; BraidedCocartesianCategoriesTest</code>( <var class="Arg">cat</var>, <var class="Arg">a</var>, <var class="Arg">b</var> )</td><td class="tdright">(&nbsp;function&nbsp;)</td></tr></table></div>
-<p>The arguments are</p>
+<p><a id="X7C2695477C5483B2" name="X7C2695477C5483B2"></a></p>
 
+<h5>4.1-4 IsMorphismInCategoryOfRelations</h5>
 
-<ul>
-<li><p>a CAP category <span class="Math">cat</span></p>
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; IsMorphismInCategoryOfRelations</code>( <var class="Arg">arg</var> )</td><td class="tdright">(&nbsp;filter&nbsp;)</td></tr></table></div>
+<p>Returns: <code class="keyw">true</code> or <code class="keyw">false</code></p>
 
-</li>
-<li><p>objects <span class="Math">a, b</span></p>
+<p>The <strong class="pkg">GAP</strong> category of morphisms in a full subcategory.</p>
 
-</li>
-</ul>
-<p>This function checks for every operation declared in BraidedCocartesianCategories.gd if it is computable in the CAP category <span class="Math">cat</span>. If yes, then the operation is executed with the parameters given above and compared to the equivalent computation in the opposite category of <span class="Math">cat</span>. Pass the options</p>
+<p><a id="X86EC0F0A78ECBC10" name="X86EC0F0A78ECBC10"></a></p>
 
+<h4>4.2 <span class="Heading">Constructors</span></h4>
 
-<ul>
-<li><p><code class="code">verbose := true</code> to output more information.</p>
+<p><a id="X80F28CB2854F4D40" name="X80F28CB2854F4D40"></a></p>
 
-</li>
-<li><p><code class="code">only_primitive_operations := true</code>, which is passed on to Opposite(), to only primitively install dual operations for primitively installed operations in <span class="Math">cat</span>. The advantage is, that more derivations might be tested. On the downside, this might test fewer dual_pre/postprocessor_funcs.</p>
+<h5>4.2-1 CategoryOfRelations</h5>
 
-</li>
-</ul>
-<p><a id="X7BC67B107EB54EE2" name="X7BC67B107EB54EE2"></a></p>
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; CategoryOfRelations</code>( <var class="Arg">arg</var> )</td><td class="tdright">(&nbsp;attribute&nbsp;)</td></tr></table></div>
+<p><a id="X7A5BE8267D48632F" name="X7A5BE8267D48632F"></a></p>
 
-<h5>4.1-3 CartesianCategoriesTest</h5>
+<h5>4.2-2 AsMorphismInCategoryOfRelations</h5>
 
-<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; CartesianCategoriesTest</code>( <var class="Arg">cat</var>, <var class="Arg">a</var>, <var class="Arg">b</var>, <var class="Arg">c</var>, <var class="Arg">alpha</var>, <var class="Arg">beta</var> )</td><td class="tdright">(&nbsp;function&nbsp;)</td></tr></table></div>
-<p>The arguments are</p>
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; AsMorphismInCategoryOfRelations</code>( <var class="Arg">arg</var> )</td><td class="tdright">(&nbsp;attribute&nbsp;)</td></tr></table></div>
+<p><a id="X7C701DBF7BAE649A" name="X7C701DBF7BAE649A"></a></p>
 
+<h4>4.3 <span class="Heading">Attributes</span></h4>
 
-<ul>
-<li><p>a CAP category <span class="Math">cat</span></p>
+<p><a id="X85F97D7881301C60" name="X85F97D7881301C60"></a></p>
 
-</li>
-<li><p>objects <span class="Math">a, b, c</span></p>
+<h5>4.3-1 UnitObjectInCategoryOfRelations</h5>
 
-</li>
-<li><p>a morphism <span class="Math">\alpha: a \rightarrow b</span></p>
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; UnitObjectInCategoryOfRelations</code>( <var class="Arg">arg</var> )</td><td class="tdright">(&nbsp;attribute&nbsp;)</td></tr></table></div>
+<p><a id="X852AF40978C2C250" name="X852AF40978C2C250"></a></p>
 
-</li>
-<li><p>a morphism <span class="Math">\beta: c \rightarrow d</span></p>
+<h5>4.3-2 MaximalRelationIntoTerminalObject</h5>
 
-</li>
-</ul>
-<p>This function checks for every operation declared in CartesianCategories.gd if it is computable in the CAP category <span class="Math">cat</span>. If yes, then the operation is executed with the parameters given above and compared to the equivalent computation in the opposite category of <span class="Math">cat</span>. Pass the options</p>
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; MaximalRelationIntoTerminalObject</code>( <var class="Arg">arg</var> )</td><td class="tdright">(&nbsp;attribute&nbsp;)</td></tr></table></div>
+<p><a id="X8364F83581DF3057" name="X8364F83581DF3057"></a></p>
 
+<h5>4.3-3 PseudoInverse</h5>
 
-<ul>
-<li><p><code class="code">verbose := true</code> to output more information.</p>
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; PseudoInverse</code>( <var class="Arg">arg</var> )</td><td class="tdright">(&nbsp;attribute&nbsp;)</td></tr></table></div>
+<p><a id="X809DD05C81A23CD9" name="X809DD05C81A23CD9"></a></p>
 
-</li>
-<li><p><code class="code">only_primitive_operations := true</code>, which is passed on to Opposite(), to only primitively install dual operations for primitively installed operations in <span class="Math">cat</span>. The advantage is, that more derivations might be tested. On the downside, this might test fewer dual_pre/postprocessor_funcs.</p>
+<h5>4.3-4 EmbeddingOfRelationInDirectProduct</h5>
 
-</li>
-</ul>
-<p><a id="X7C19A72D81FD3652" name="X7C19A72D81FD3652"></a></p>
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; EmbeddingOfRelationInDirectProduct</code>( <var class="Arg">arg</var> )</td><td class="tdright">(&nbsp;attribute&nbsp;)</td></tr></table></div>
+<p><a id="X7B111B3781884B0F" name="X7B111B3781884B0F"></a></p>
 
-<h5>4.1-4 CartesianClosedCategoriesTest</h5>
+<h5>4.3-5 SourceProjection</h5>
 
-<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; CartesianClosedCategoriesTest</code>( <var class="Arg">cat</var>, <var class="Arg">a</var>, <var class="Arg">b</var>, <var class="Arg">c</var>, <var class="Arg">d</var>, <var class="Arg">alpha</var>, <var class="Arg">beta</var>, <var class="Arg">gamma</var>, <var class="Arg">delta</var>, <var class="Arg">epsilon</var>, <var class="Arg">zeta</var> )</td><td class="tdright">(&nbsp;function&nbsp;)</td></tr></table></div>
-<p>The arguments are</p>
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; SourceProjection</code>( <var class="Arg">arg</var> )</td><td class="tdright">(&nbsp;attribute&nbsp;)</td></tr></table></div>
+<p><a id="X7DAA3F077E401FF6" name="X7DAA3F077E401FF6"></a></p>
 
+<h5>4.3-6 RangeProjection</h5>
 
-<ul>
-<li><p>a CAP category <span class="Math">cat</span></p>
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; RangeProjection</code>( <var class="Arg">arg</var> )</td><td class="tdright">(&nbsp;attribute&nbsp;)</td></tr></table></div>
+<p><a id="X79A78D777CC60E38" name="X79A78D777CC60E38"></a></p>
 
-</li>
-<li><p>objects <span class="Math">a, b, c, d</span></p>
+<h5>4.3-7 StandardizedSpan</h5>
 
-</li>
-<li><p>a morphism <span class="Math">\alpha: a \rightarrow b</span></p>
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; StandardizedSpan</code>( <var class="Arg">arg</var> )</td><td class="tdright">(&nbsp;attribute&nbsp;)</td></tr></table></div>
+<p><a id="X81997FB97BBDA8DF" name="X81997FB97BBDA8DF"></a></p>
 
-</li>
-<li><p>a morphism <span class="Math">\beta: c \rightarrow d</span></p>
+<h5>4.3-8 MorphismByStandardizedSpan</h5>
 
-</li>
-<li><p>a morphism <span class="Math">\gamma: a \times b \rightarrow 1</span></p>
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; MorphismByStandardizedSpan</code>( <var class="Arg">arg</var> )</td><td class="tdright">(&nbsp;attribute&nbsp;)</td></tr></table></div>
+<p><a id="X85BFEB9D86893A4F" name="X85BFEB9D86893A4F"></a></p>
 
-</li>
-<li><p>a morphism <span class="Math">\delta: c \times d \rightarrow 1</span></p>
+<h5>4.3-9 HonestRepresentative</h5>
 
-</li>
-<li><p>a morphism <span class="Math">\epsilon: 1 \rightarrow \mathrm{Hom}(a,b)</span></p>
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; HonestRepresentative</code>( <var class="Arg">arg</var> )</td><td class="tdright">(&nbsp;attribute&nbsp;)</td></tr></table></div>
+<p><a id="X871597447BB998A1" name="X871597447BB998A1"></a></p>
 
-</li>
-<li><p>a morphism <span class="Math">\zeta: 1 \rightarrow \mathrm{Hom}(c,d)</span></p>
+<h4>4.4 <span class="Heading">Properties</span></h4>
 
-</li>
-</ul>
-<p>This function checks for every operation declared in CartesianClosedCategories.gd if it is computable in the CAP category <span class="Math">cat</span>. If yes, then the operation is executed with the parameters given above and compared to the equivalent computation in the opposite category of <span class="Math">cat</span>. Pass the options</p>
+<p><a id="X7B9595917EFC385E" name="X7B9595917EFC385E"></a></p>
 
+<h5>4.4-1 IsHonest</h5>
 
-<ul>
-<li><p><code class="code">verbose := true</code> to output more information.</p>
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; IsHonest</code>( <var class="Arg">rho</var> )</td><td class="tdright">(&nbsp;property&nbsp;)</td></tr></table></div>
+<p>Returns: CapFullSubcategory</p>
 
-</li>
-<li><p><code class="code">only_primitive_operations := true</code>, which is passed on to Opposite(), to only primitively install dual operations for primitively installed operations in <span class="Math">cat</span>. The advantage is, that more derivations might be tested. On the downside, this might test fewer dual_pre/postprocessor_funcs.</p>
-
-</li>
-</ul>
-<p><a id="X8581ECE37E4E8470" name="X8581ECE37E4E8470"></a></p>
-
-<h5>4.1-5 CocartesianCategoriesTest</h5>
-
-<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; CocartesianCategoriesTest</code>( <var class="Arg">cat</var>, <var class="Arg">a</var>, <var class="Arg">b</var>, <var class="Arg">c</var>, <var class="Arg">alpha</var>, <var class="Arg">beta</var> )</td><td class="tdright">(&nbsp;function&nbsp;)</td></tr></table></div>
-<p>The arguments are</p>
-
-
-<ul>
-<li><p>a CAP category <span class="Math">cat</span></p>
-
-</li>
-<li><p>objects <span class="Math">a, b, c</span></p>
-
-</li>
-<li><p>a morphism <span class="Math">\alpha: a \rightarrow b</span></p>
-
-</li>
-<li><p>a morphism <span class="Math">\beta: c \rightarrow d</span></p>
-
-</li>
-</ul>
-<p>This function checks for every operation declared in CocartesianCategories.gd if it is computable in the CAP category <span class="Math">cat</span>. If yes, then the operation is executed with the parameters given above and compared to the equivalent computation in the opposite category of <span class="Math">cat</span>. Pass the options</p>
-
-
-<ul>
-<li><p><code class="code">verbose := true</code> to output more information.</p>
-
-</li>
-<li><p><code class="code">only_primitive_operations := true</code>, which is passed on to Opposite(), to only primitively install dual operations for primitively installed operations in <span class="Math">cat</span>. The advantage is, that more derivations might be tested. On the downside, this might test fewer dual_pre/postprocessor_funcs.</p>
-
-</li>
-</ul>
-<p><a id="X7C25BAD3807EE56E" name="X7C25BAD3807EE56E"></a></p>
-
-<h5>4.1-6 CocartesianCoclosedCategoriesTest</h5>
-
-<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; CocartesianCoclosedCategoriesTest</code>( <var class="Arg">cat</var>, <var class="Arg">a</var>, <var class="Arg">b</var>, <var class="Arg">c</var>, <var class="Arg">d</var>, <var class="Arg">alpha</var>, <var class="Arg">beta</var>, <var class="Arg">gamma</var>, <var class="Arg">delta</var>, <var class="Arg">epsilon</var>, <var class="Arg">zeta</var> )</td><td class="tdright">(&nbsp;function&nbsp;)</td></tr></table></div>
-<p>The arguments are a CAP category <span class="Math">cat</span> objects <span class="Math">a, b, c, d</span></p>
-
-
-<ul>
-<li><p>a morphism <span class="Math">\alpha: a \rightarrow b</span></p>
-
-</li>
-<li><p>a morphism <span class="Math">\beta: c \rightarrow d</span></p>
-
-</li>
-<li><p>a morphism <span class="Math">\gamma: 1 \rightarrow a \sqcup b</span></p>
-
-</li>
-<li><p>a morphism <span class="Math">\delta: 1 \rightarrow c \sqcup d</span></p>
-
-</li>
-<li><p>a morphism <span class="Math">\epsilon: \mathrm{coHom}(a,b) \rightarrow 1</span></p>
-
-</li>
-<li><p>a morphism <span class="Math">\zeta: \mathrm{coHom}(c,d) \rightarrow 1</span></p>
-
-</li>
-</ul>
-<p>This function checks for every operation declared in CocartesianCoclosedCategories.gd if it is computable in the CAP category <span class="Math">cat</span>. If yes, then the operation is executed with the parameters given above and compared to the equivalent computation in the opposite category of <span class="Math">cat</span>. Pass the options</p>
-
-
-<ul>
-<li><p><code class="code">verbose := true</code> to output more information.</p>
-
-</li>
-<li><p><code class="code">only_primitive_operations := true</code>, which is passed on to Opposite(), to only primitively install dual operations for primitively installed operations in <span class="Math">cat</span>. The advantage is, that more derivations might be tested. On the downside, this might test fewer dual_pre/postprocessor_funcs.</p>
-
-</li>
-</ul>
-<p><a id="X7EA2684984BCCF6B" name="X7EA2684984BCCF6B"></a></p>
-
-<h5>4.1-7 CodistributiveCocartesianCategoriesTest</h5>
-
-<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; CodistributiveCocartesianCategoriesTest</code>( <var class="Arg">cat</var>, <var class="Arg">a</var>, <var class="Arg">L</var> )</td><td class="tdright">(&nbsp;function&nbsp;)</td></tr></table></div>
-<p>The arguments are</p>
-
-
-<ul>
-<li><p>a CAP category <span class="Math">cat</span></p>
-
-</li>
-<li><p>an object <span class="Math">a</span></p>
-
-</li>
-<li><p>a list <span class="Math">L</span> of objects</p>
-
-</li>
-</ul>
-<p>This function checks for every operation declared in CodistributiveCocartesianCategories.gd if it is computable in the CAP category <span class="Math">cat</span>. If yes, then the operation is executed with the parameters given above and compared to the equivalent computation in the opposite category of <span class="Math">cat</span>. Pass the options</p>
-
-
-<ul>
-<li><p><code class="code">verbose := true</code> to output more information.</p>
-
-</li>
-<li><p><code class="code">only_primitive_operations := true</code>, which is passed on to Opposite(), to only primitively install dual operations for primitively installed operations in <span class="Math">cat</span>. The advantage is, that more derivations might be tested. On the downside, this might test fewer dual_pre/postprocessor_funcs.</p>
-
-</li>
-</ul>
-<p><a id="X78CA53ED85B4FEFF" name="X78CA53ED85B4FEFF"></a></p>
-
-<h5>4.1-8 DistributiveCartesianCategoriesTest</h5>
-
-<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; DistributiveCartesianCategoriesTest</code>( <var class="Arg">cat</var>, <var class="Arg">a</var>, <var class="Arg">L</var> )</td><td class="tdright">(&nbsp;function&nbsp;)</td></tr></table></div>
-<p>The arguments are</p>
-
-
-<ul>
-<li><p>a CAP category <span class="Math">cat</span></p>
-
-</li>
-<li><p>an object <span class="Math">a</span></p>
-
-</li>
-<li><p>a list <span class="Math">L</span> of objects</p>
-
-</li>
-</ul>
-<p>This function checks for every operation declared in DistributiveCartesianCategories.gd if it is computable in the CAP category <span class="Math">cat</span>. If yes, then the operation is executed with the parameters given above and compared to the equivalent computation in the opposite category of <span class="Math">cat</span>. Pass the options</p>
-
-
-<ul>
-<li><p><code class="code">verbose := true</code> to output more information.</p>
-
-</li>
-<li><p><code class="code">only_primitive_operations := true</code>, which is passed on to Opposite(), to only primitively install dual operations for primitively installed operations in <span class="Math">cat</span>. The advantage is, that more derivations might be tested. On the downside, this might test fewer dual_pre/postprocessor_funcs.</p>
-
-</li>
-</ul>
-<p><a id="X84410C637B3C1D0E" name="X84410C637B3C1D0E"></a></p>
-
-<h4>4.2 <span class="Heading">Opposite category</span></h4>
-
-
-<div class="example"><pre>
-<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">LoadPackage( "Toposes", false );</span>
-true
-<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">LoadPackage( "FinSetsForCAP", "&gt;= 2021.12-09", false );</span>
-true
-<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">op := Opposite( SkeletalFinSets );;</span>
-<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">ListKnownCategoricalProperties( op );</span>
-[ "IsBicartesianCategory", "IsBicartesianCoclosedCategory",
-  "IsCartesianCategory", "IsCocartesianCategory",
-  "IsCocartesianCoclosedCategory", "IsCodistributiveCocartesianCategory",
-  "IsEquippedWithHomomorphismStructure", "IsFiniteCocompleteCategory",
-  "IsFiniteCompleteCategory", "IsSkeletalCategory" ]
-</pre></div>
+<p>The input is a morphsm <span class="Math">\rho</span> in the category of relations. The output is <code class="code">true</code> if the domain of <span class="Math">\rho</span> is an isomorphism.</p>
 
 
 <div class="chlinkprevnextbot">&nbsp;<a href="chap0.html">[Top of Book]</a>&nbsp;  <a href="chap0.html#contents">[Contents]</a>&nbsp;  &nbsp;<a href="chap3.html">[Previous Chapter]</a>&nbsp;  &nbsp;<a href="chap5.html">[Next Chapter]</a>&nbsp;  </div>
