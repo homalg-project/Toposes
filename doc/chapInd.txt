@@ -38,6 +38,7 @@
   [2XCategoryOfRelations[102X, for IsCapCategory 4.2-1 
   [2XClassifyingMorphismOfSubobject[102X, for IsCapCategoryMorphism 3.2-3 
   [2XClassifyingMorphismOfSubobjectWithGivenSubobjectClassifier[102X, for IsCapCategoryMorphism, IsCapCategoryObject 3.2-4 
+  [2XDigraphOfSubobjects[102X, for IsCapCategoryObject 3.2-7 
   [2XEmbeddingOfIntersectionSubobject[102X, for IsCapCategoryMorphism, IsCapCategoryMorphism 3.4-5 
   [2XEmbeddingOfIntersectionSubobjectWithGivenIntersection[102X, for IsCapCategoryMorphism, IsCapCategoryMorphism, IsCapCategoryObject 3.4-6 
   [2XEmbeddingOfPseudoComplementSubobject[102X, for IsCapCategoryMorphism 3.4-2 

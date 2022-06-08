@@ -80,6 +80,13 @@
   
   [33X[0;0YThe argument is an object [3XA[103X. The output is a list of all subobjects of [3XA[103X.[133X
   
+  [1X3.2-7 DigraphOfSubobjects[101X
+  
+  [33X[1;0Y[29X[2XDigraphOfSubobjects[102X( [3XA[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ya list of monomorphism[133X
+  
+  [33X[0;0YThe argument is an object [3XA[103X. The output is the poset of all subobjects of [3XA[103X.[133X
+  
   
   [1X3.3 [33X[0;0YTruth Morphisms[133X[101X
   

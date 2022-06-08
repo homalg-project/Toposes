@@ -6,10 +6,10 @@
                               [1X Elementary toposes [101X
   
   
-                                   2022.06-02
+                                   2022.06-03
   
   
-                                  1 June 2022
+                                  9 June 2022
   
   
                                 Mohamed Barakat
@@ -80,6 +80,7 @@
       3.2-4 ClassifyingMorphismOfSubobjectWithGivenSubobjectClassifier
       3.2-5 SubobjectOfClassifyingMorphism
       3.2-6 ListOfSubobjects
+      3.2-7 DigraphOfSubobjects
     3.3 [33X[0;0YTruth Morphisms[133X
       3.3-1 TruthMorphismOfTrue
       3.3-2 TruthMorphismOfTrueWithGivenObjects
