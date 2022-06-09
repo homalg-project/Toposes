@@ -6,10 +6,10 @@
                               [1X Elementary toposes [101X
   
   
-                                   2022.06-03
+                                   2022.06-04
   
   
-                                  9 June 2022
+                                  10 June 2022
   
   
                                 Mohamed Barakat
@@ -60,108 +60,100 @@
   
   [1XContents (Toposes)[101X
   
-  1 [33X[0;0YCartesian Categories[133X
-    1.1 [33X[0;0YCartesian Categories[133X
-    1.2 [33X[0;0YCartesian Closed Categories[133X
-    1.3 [33X[0;0YConvenience Methods[133X
-    1.4 [33X[0;0YAdd-methods[133X
-  2 [33X[0;0YCocartesian Categories[133X
-    2.1 [33X[0;0YCocartesian Categories[133X
-    2.2 [33X[0;0YCocartesian Coclosed Categories[133X
-    2.3 [33X[0;0YConvenience Methods[133X
-    2.4 [33X[0;0YAdd-methods[133X
-  3 [33X[0;0YToposes[133X
-    3.1 [33X[0;0YMorphisms of external Hom[133X
-      3.1-1 MorphismsOfExternalHom
-    3.2 [33X[0;0YSubobject Classifier[133X
-      3.2-1 SubobjectClassifier
-      3.2-2 CartesianSquareOfSubobjectClassifier
-      3.2-3 ClassifyingMorphismOfSubobject
-      3.2-4 ClassifyingMorphismOfSubobjectWithGivenSubobjectClassifier
-      3.2-5 SubobjectOfClassifyingMorphism
-      3.2-6 ListOfSubobjects
-      3.2-7 DigraphOfSubobjects
-    3.3 [33X[0;0YTruth Morphisms[133X
-      3.3-1 TruthMorphismOfTrue
-      3.3-2 TruthMorphismOfTrueWithGivenObjects
-      3.3-3 TruthMorphismOfFalse
-      3.3-4 TruthMorphismOfFalseWithGivenObjects
-      3.3-5 TruthMorphismOfNot
-      3.3-6 TruthMorphismOfNotWithGivenObjects
-      3.3-7 TruthMorphismOfAnd
-      3.3-8 TruthMorphismOfAndWithGivenObjects
-      3.3-9 TruthMorphismOfOr
-      3.3-10 TruthMorphismOfOrWithGivenObjects
-      3.3-11 TruthMorphismOfImplies
-      3.3-12 TruthMorphismOfImpliesWithGivenObjects
-    3.4 [33X[0;0YHeyting Algebra of Subobjects[133X
-      3.4-1 PseudoComplementSubobject
-      3.4-2 EmbeddingOfPseudoComplementSubobject
-      3.4-3 EmbeddingOfPseudoComplementSubobjectWithGivenPseudoComplement
-      3.4-4 IntersectionSubobject
-      3.4-5 EmbeddingOfIntersectionSubobject
-      3.4-6 EmbeddingOfIntersectionSubobjectWithGivenIntersection
-      3.4-7 UnionSubobject
-      3.4-8 EmbeddingOfUnionSubobject
-      3.4-9 EmbeddingOfUnionSubobjectWithGivenUnion
-      3.4-10 RelativePseudoComplementSubobject
-      3.4-11 EmbeddingOfRelativePseudoComplementSubobject
-      3.4-12 EmbeddingOfRelativePseudoComplementSubobjectWithGivenImplication
-    3.5 [33X[0;0YAdd-methods[133X
-      3.5-1 AddCartesianSquareOfSubobjectClassifier
-      3.5-2 AddClassifyingMorphismOfSubobject
-      3.5-3 AddClassifyingMorphismOfSubobjectWithGivenSubobjectClassifier
-      3.5-4 AddEmbeddingOfIntersectionSubobject
-      3.5-5 AddEmbeddingOfIntersectionSubobjectWithGivenIntersection
-      3.5-6 AddEmbeddingOfPseudoComplementSubobject
-      3.5-7 AddEmbeddingOfPseudoComplementSubobjectWithGivenPseudoComplement
-      3.5-8 AddEmbeddingOfRelativePseudoComplementSubobject
-      3.5-9 AddEmbeddingOfRelativePseudoComplementSubobjectWithGivenImplication
-      3.5-10 AddEmbeddingOfUnionSubobject
-      3.5-11 AddEmbeddingOfUnionSubobjectWithGivenUnion
-      3.5-12 AddIntersectionSubobject
-      3.5-13 AddListOfSubobjects
-      3.5-14 AddMorphismsOfExternalHom
-      3.5-15 AddPseudoComplementSubobject
-      3.5-16 AddRelativePseudoComplementSubobject
-      3.5-17 AddSubobjectClassifier
-      3.5-18 AddSubobjectOfClassifyingMorphism
-      3.5-19 AddTruthMorphismOfAnd
-      3.5-20 AddTruthMorphismOfAndWithGivenObjects
-      3.5-21 AddTruthMorphismOfFalse
-      3.5-22 AddTruthMorphismOfFalseWithGivenObjects
-      3.5-23 AddTruthMorphismOfImplies
-      3.5-24 AddTruthMorphismOfImpliesWithGivenObjects
-      3.5-25 AddTruthMorphismOfNot
-      3.5-26 AddTruthMorphismOfNotWithGivenObjects
-      3.5-27 AddTruthMorphismOfOr
-      3.5-28 AddTruthMorphismOfOrWithGivenObjects
-      3.5-29 AddTruthMorphismOfTrue
-      3.5-30 AddTruthMorphismOfTrueWithGivenObjects
-      3.5-31 AddUnionSubobject
-  4 [33X[0;0YCategory of relations[133X
-    4.1 [33X[0;0YGAP categories[133X
-      4.1-1 IsCategoryOfRelations
-      4.1-2 IsCellInCategoryOfRelations
-      4.1-3 IsObjectInCategoryOfRelations
-      4.1-4 IsMorphismInCategoryOfRelations
-    4.2 [33X[0;0YConstructors[133X
-      4.2-1 CategoryOfRelations
-      4.2-2 AsMorphismInCategoryOfRelations
-    4.3 [33X[0;0YAttributes[133X
-      4.3-1 UnitObjectInCategoryOfRelations
-      4.3-2 MaximalRelationIntoTerminalObject
-      4.3-3 PseudoInverse
-      4.3-4 EmbeddingOfRelationInDirectProduct
-      4.3-5 SourceProjection
-      4.3-6 RangeProjection
-      4.3-7 StandardizedSpan
-      4.3-8 MorphismByStandardizedSpan
-      4.3-9 HonestRepresentative
-    4.4 [33X[0;0YProperties[133X
-      4.4-1 IsHonest
-  5 [33X[0;0YExamples and Tests[133X
-    5.1 [33X[0;0YOpposite category[133X
+  1 [33X[0;0YToposes[133X
+    1.1 [33X[0;0YMorphisms of external Hom[133X
+      1.1-1 MorphismsOfExternalHom
+    1.2 [33X[0;0YSubobject Classifier[133X
+      1.2-1 SubobjectClassifier
+      1.2-2 CartesianSquareOfSubobjectClassifier
+      1.2-3 ClassifyingMorphismOfSubobject
+      1.2-4 ClassifyingMorphismOfSubobjectWithGivenSubobjectClassifier
+      1.2-5 SubobjectOfClassifyingMorphism
+      1.2-6 ListOfSubobjects
+    1.3 [33X[0;0YTruth Morphisms[133X
+      1.3-1 TruthMorphismOfTrue
+      1.3-2 TruthMorphismOfTrueWithGivenObjects
+      1.3-3 TruthMorphismOfFalse
+      1.3-4 TruthMorphismOfFalseWithGivenObjects
+      1.3-5 TruthMorphismOfNot
+      1.3-6 TruthMorphismOfNotWithGivenObjects
+      1.3-7 TruthMorphismOfAnd
+      1.3-8 TruthMorphismOfAndWithGivenObjects
+      1.3-9 TruthMorphismOfOr
+      1.3-10 TruthMorphismOfOrWithGivenObjects
+      1.3-11 TruthMorphismOfImplies
+      1.3-12 TruthMorphismOfImpliesWithGivenObjects
+    1.4 [33X[0;0YHeyting Algebra of Subobjects[133X
+      1.4-1 PseudoComplementSubobject
+      1.4-2 EmbeddingOfPseudoComplementSubobject
+      1.4-3 EmbeddingOfPseudoComplementSubobjectWithGivenPseudoComplement
+      1.4-4 IntersectionSubobject
+      1.4-5 EmbeddingOfIntersectionSubobject
+      1.4-6 EmbeddingOfIntersectionSubobjectWithGivenIntersection
+      1.4-7 UnionSubobject
+      1.4-8 EmbeddingOfUnionSubobject
+      1.4-9 EmbeddingOfUnionSubobjectWithGivenUnion
+      1.4-10 RelativePseudoComplementSubobject
+      1.4-11 EmbeddingOfRelativePseudoComplementSubobject
+      1.4-12 EmbeddingOfRelativePseudoComplementSubobjectWithGivenImplication
+    1.5 [33X[0;0YAdd-methods[133X
+      1.5-1 AddCartesianSquareOfSubobjectClassifier
+      1.5-2 AddClassifyingMorphismOfSubobject
+      1.5-3 AddClassifyingMorphismOfSubobjectWithGivenSubobjectClassifier
+      1.5-4 AddEmbeddingOfIntersectionSubobject
+      1.5-5 AddEmbeddingOfIntersectionSubobjectWithGivenIntersection
+      1.5-6 AddEmbeddingOfPseudoComplementSubobject
+      1.5-7 AddEmbeddingOfPseudoComplementSubobjectWithGivenPseudoComplement
+      1.5-8 AddEmbeddingOfRelativePseudoComplementSubobject
+      1.5-9 AddEmbeddingOfRelativePseudoComplementSubobjectWithGivenImplication
+      1.5-10 AddEmbeddingOfUnionSubobject
+      1.5-11 AddEmbeddingOfUnionSubobjectWithGivenUnion
+      1.5-12 AddIntersectionSubobject
+      1.5-13 AddListOfSubobjects
+      1.5-14 AddMorphismsOfExternalHom
+      1.5-15 AddPseudoComplementSubobject
+      1.5-16 AddRelativePseudoComplementSubobject
+      1.5-17 AddSubobjectClassifier
+      1.5-18 AddSubobjectOfClassifyingMorphism
+      1.5-19 AddTruthMorphismOfAnd
+      1.5-20 AddTruthMorphismOfAndWithGivenObjects
+      1.5-21 AddTruthMorphismOfFalse
+      1.5-22 AddTruthMorphismOfFalseWithGivenObjects
+      1.5-23 AddTruthMorphismOfImplies
+      1.5-24 AddTruthMorphismOfImpliesWithGivenObjects
+      1.5-25 AddTruthMorphismOfNot
+      1.5-26 AddTruthMorphismOfNotWithGivenObjects
+      1.5-27 AddTruthMorphismOfOr
+      1.5-28 AddTruthMorphismOfOrWithGivenObjects
+      1.5-29 AddTruthMorphismOfTrue
+      1.5-30 AddTruthMorphismOfTrueWithGivenObjects
+      1.5-31 AddUnionSubobject
+  2 [33X[0;0YCategory of relations[133X
+    2.1 [33X[0;0YGAP categories[133X
+      2.1-1 IsCategoryOfRelations
+      2.1-2 IsCellInCategoryOfRelations
+      2.1-3 IsObjectInCategoryOfRelations
+      2.1-4 IsMorphismInCategoryOfRelations
+    2.2 [33X[0;0YConstructors[133X
+      2.2-1 CategoryOfRelations
+      2.2-2 AsMorphismInCategoryOfRelations
+    2.3 [33X[0;0YAttributes[133X
+      2.3-1 UnitObjectInCategoryOfRelations
+      2.3-2 MaximalRelationIntoTerminalObject
+      2.3-3 PseudoInverse
+      2.3-4 EmbeddingOfRelationInDirectProduct
+      2.3-5 SourceProjection
+      2.3-6 RangeProjection
+      2.3-7 StandardizedSpan
+      2.3-8 MorphismByStandardizedSpan
+      2.3-9 HonestRepresentative
+    2.4 [33X[0;0YProperties[133X
+      2.4-1 IsHonest
+  3 [33X[0;0YTools[133X
+    3.1 [33X[0;0YVisualizing posets of subobjects[133X
+      3.1-1 DigraphOfSubobjects
+  4 [33X[0;0YExamples and Tests[133X
+    4.1 [33X[0;0YOpposite category[133X
   
   
   [32X
