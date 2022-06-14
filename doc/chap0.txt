@@ -6,10 +6,10 @@
                               [1X Elementary toposes [101X
   
   
-                                   2022.06-06
+                                   2022.06-07
   
   
-                                  10 June 2022
+                                  14 June 2022
   
   
                                 Mohamed Barakat
@@ -138,15 +138,16 @@
       2.2-1 CategoryOfRelations
       2.2-2 AsMorphismInCategoryOfRelations
     2.3 [33X[0;0YAttributes[133X
-      2.3-1 UnitObjectInCategoryOfRelations
-      2.3-2 MaximalRelationIntoTerminalObject
-      2.3-3 PseudoInverse
-      2.3-4 EmbeddingOfRelationInDirectProduct
-      2.3-5 SourceProjection
-      2.3-6 RangeProjection
-      2.3-7 StandardizedSpan
-      2.3-8 MorphismByStandardizedSpan
-      2.3-9 HonestRepresentative
+      2.3-1 UnderlyingCategory
+      2.3-2 UnitObjectInCategoryOfRelations
+      2.3-3 MaximalRelationIntoTerminalObject
+      2.3-4 PseudoInverse
+      2.3-5 EmbeddingOfRelationInDirectProduct
+      2.3-6 SourceProjection
+      2.3-7 RangeProjection
+      2.3-8 StandardizedSpan
+      2.3-9 MorphismByStandardizedSpan
+      2.3-10 HonestRepresentative
     2.4 [33X[0;0YProperties[133X
       2.4-1 IsHonest
   3 [33X[0;0YTools[133X

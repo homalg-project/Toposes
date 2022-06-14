@@ -46,39 +46,43 @@
   
   [1X2.3 [33X[0;0YAttributes[133X[101X
   
-  [1X2.3-1 UnitObjectInCategoryOfRelations[101X
+  [1X2.3-1 UnderlyingCategory[101X
+  
+  [33X[1;0Y[29X[2XUnderlyingCategory[102X( [3Xarg[103X ) [32X attribute[133X
+  
+  [1X2.3-2 UnitObjectInCategoryOfRelations[101X
   
   [33X[1;0Y[29X[2XUnitObjectInCategoryOfRelations[102X( [3Xarg[103X ) [32X attribute[133X
   
-  [1X2.3-2 MaximalRelationIntoTerminalObject[101X
+  [1X2.3-3 MaximalRelationIntoTerminalObject[101X
   
   [33X[1;0Y[29X[2XMaximalRelationIntoTerminalObject[102X( [3Xarg[103X ) [32X attribute[133X
   
-  [1X2.3-3 PseudoInverse[101X
+  [1X2.3-4 PseudoInverse[101X
   
   [33X[1;0Y[29X[2XPseudoInverse[102X( [3Xarg[103X ) [32X attribute[133X
   
-  [1X2.3-4 EmbeddingOfRelationInDirectProduct[101X
+  [1X2.3-5 EmbeddingOfRelationInDirectProduct[101X
   
   [33X[1;0Y[29X[2XEmbeddingOfRelationInDirectProduct[102X( [3Xarg[103X ) [32X attribute[133X
   
-  [1X2.3-5 SourceProjection[101X
+  [1X2.3-6 SourceProjection[101X
   
   [33X[1;0Y[29X[2XSourceProjection[102X( [3Xarg[103X ) [32X attribute[133X
   
-  [1X2.3-6 RangeProjection[101X
+  [1X2.3-7 RangeProjection[101X
   
   [33X[1;0Y[29X[2XRangeProjection[102X( [3Xarg[103X ) [32X attribute[133X
   
-  [1X2.3-7 StandardizedSpan[101X
+  [1X2.3-8 StandardizedSpan[101X
   
   [33X[1;0Y[29X[2XStandardizedSpan[102X( [3Xarg[103X ) [32X attribute[133X
   
-  [1X2.3-8 MorphismByStandardizedSpan[101X
+  [1X2.3-9 MorphismByStandardizedSpan[101X
   
   [33X[1;0Y[29X[2XMorphismByStandardizedSpan[102X( [3Xarg[103X ) [32X attribute[133X
   
-  [1X2.3-9 HonestRepresentative[101X
+  [1X2.3-10 HonestRepresentative[101X
   
   [33X[1;0Y[29X[2XHonestRepresentative[102X( [3Xarg[103X ) [32X attribute[133X
   
