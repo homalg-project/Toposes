@@ -6,10 +6,10 @@
                               [1X Elementary toposes [101X
   
   
-                                   2022.06-07
+                                   2022.06-08
   
   
-                                  14 June 2022
+                                  15 June 2022
   
   
                                 Mohamed Barakat
@@ -153,8 +153,13 @@
   3 [33X[0;0YTools[133X
     3.1 [33X[0;0YVisualizing posets of subobjects[133X
       3.1-1 DigraphOfSubobjects
-  4 [33X[0;0YExamples and Tests[133X
-    4.1 [33X[0;0YOpposite category[133X
+  4 [33X[0;0YThe initial category[133X
+    4.1 [33X[0;0Y[5XGAP[105X Categories[133X
+      4.1-1 IsInitialCapCategory
+    4.2 [33X[0;0YConstructor[133X
+      4.2-1 InitialCategory
+  5 [33X[0;0YExamples and Tests[133X
+    5.1 [33X[0;0YOpposite category[133X
   
   
   [32X
