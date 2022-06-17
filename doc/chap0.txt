@@ -6,10 +6,10 @@
                               [1X Elementary toposes [101X
   
   
-                                   2022.06-10
+                                   2022.06-12
   
   
-                                  16 June 2022
+                                  17 June 2022
   
   
                                 Mohamed Barakat
@@ -96,38 +96,47 @@
       1.4-10 RelativePseudoComplementSubobject
       1.4-11 EmbeddingOfRelativePseudoComplementSubobject
       1.4-12 EmbeddingOfRelativePseudoComplementSubobjectWithGivenImplication
-    1.5 [33X[0;0YAdd-methods[133X
-      1.5-1 AddCartesianSquareOfSubobjectClassifier
-      1.5-2 AddClassifyingMorphismOfSubobject
-      1.5-3 AddClassifyingMorphismOfSubobjectWithGivenSubobjectClassifier
-      1.5-4 AddEmbeddingOfIntersectionSubobject
-      1.5-5 AddEmbeddingOfIntersectionSubobjectWithGivenIntersection
-      1.5-6 AddEmbeddingOfPseudoComplementSubobject
-      1.5-7 AddEmbeddingOfPseudoComplementSubobjectWithGivenPseudoComplement
-      1.5-8 AddEmbeddingOfRelativePseudoComplementSubobject
-      1.5-9 AddEmbeddingOfRelativePseudoComplementSubobjectWithGivenImplication
-      1.5-10 AddEmbeddingOfUnionSubobject
-      1.5-11 AddEmbeddingOfUnionSubobjectWithGivenUnion
-      1.5-12 AddIntersectionSubobject
-      1.5-13 AddListOfSubobjects
-      1.5-14 AddMorphismsOfExternalHom
-      1.5-15 AddPseudoComplementSubobject
-      1.5-16 AddRelativePseudoComplementSubobject
-      1.5-17 AddSubobjectClassifier
-      1.5-18 AddSubobjectOfClassifyingMorphism
-      1.5-19 AddTruthMorphismOfAnd
-      1.5-20 AddTruthMorphismOfAndWithGivenObjects
-      1.5-21 AddTruthMorphismOfFalse
-      1.5-22 AddTruthMorphismOfFalseWithGivenObjects
-      1.5-23 AddTruthMorphismOfImplies
-      1.5-24 AddTruthMorphismOfImpliesWithGivenObjects
-      1.5-25 AddTruthMorphismOfNot
-      1.5-26 AddTruthMorphismOfNotWithGivenObjects
-      1.5-27 AddTruthMorphismOfOr
-      1.5-28 AddTruthMorphismOfOrWithGivenObjects
-      1.5-29 AddTruthMorphismOfTrue
-      1.5-30 AddTruthMorphismOfTrueWithGivenObjects
-      1.5-31 AddUnionSubobject
+    1.5 [33X[0;0YPushout complements[133X
+      1.5-1 [33X[0;0YExample in FinSets[133X
+      1.5-2 [33X[0;0YExample in SkeletalFinSets[133X
+      1.5-3 HasPushoutComplement
+      1.5-4 PushoutComplement
+    1.6 [33X[0;0YDouble-pushout rewriting[133X
+      1.6-1 DPO
+    1.7 [33X[0;0YAdd-methods[133X
+      1.7-1 AddCartesianSquareOfSubobjectClassifier
+      1.7-2 AddClassifyingMorphismOfSubobject
+      1.7-3 AddClassifyingMorphismOfSubobjectWithGivenSubobjectClassifier
+      1.7-4 AddEmbeddingOfIntersectionSubobject
+      1.7-5 AddEmbeddingOfIntersectionSubobjectWithGivenIntersection
+      1.7-6 AddEmbeddingOfPseudoComplementSubobject
+      1.7-7 AddEmbeddingOfPseudoComplementSubobjectWithGivenPseudoComplement
+      1.7-8 AddEmbeddingOfRelativePseudoComplementSubobject
+      1.7-9 AddEmbeddingOfRelativePseudoComplementSubobjectWithGivenImplication
+      1.7-10 AddEmbeddingOfUnionSubobject
+      1.7-11 AddEmbeddingOfUnionSubobjectWithGivenUnion
+      1.7-12 AddHasPushoutComplement
+      1.7-13 AddIntersectionSubobject
+      1.7-14 AddListOfSubobjects
+      1.7-15 AddMorphismsOfExternalHom
+      1.7-16 AddPseudoComplementSubobject
+      1.7-17 AddPushoutComplement
+      1.7-18 AddRelativePseudoComplementSubobject
+      1.7-19 AddSubobjectClassifier
+      1.7-20 AddSubobjectOfClassifyingMorphism
+      1.7-21 AddTruthMorphismOfAnd
+      1.7-22 AddTruthMorphismOfAndWithGivenObjects
+      1.7-23 AddTruthMorphismOfFalse
+      1.7-24 AddTruthMorphismOfFalseWithGivenObjects
+      1.7-25 AddTruthMorphismOfImplies
+      1.7-26 AddTruthMorphismOfImpliesWithGivenObjects
+      1.7-27 AddTruthMorphismOfNot
+      1.7-28 AddTruthMorphismOfNotWithGivenObjects
+      1.7-29 AddTruthMorphismOfOr
+      1.7-30 AddTruthMorphismOfOrWithGivenObjects
+      1.7-31 AddTruthMorphismOfTrue
+      1.7-32 AddTruthMorphismOfTrueWithGivenObjects
+      1.7-33 AddUnionSubobject
   2 [33X[0;0YCategory of relations[133X
     2.1 [33X[0;0YGAP categories[133X
       2.1-1 IsCategoryOfRelations
