@@ -6,8 +6,9 @@
 
 LoadPackage( "Toposes", false );
 #! true
-LoadPackage( "FinSetsForCAP", ">= 2021.12-09", false );
+LoadPackage( "FinSetsForCAP", ">= 2022.06-02", false );
 #! true
+CapCategorySwitchLogicOn( SkeletalFinSets );
 op := Opposite( SkeletalFinSets );;
 ListKnownCategoricalProperties( op );
 #! [ "IsBicartesianCategory", "IsBicartesianCoclosedCategory",
