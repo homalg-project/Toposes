@@ -491,7 +491,7 @@ true
 
 
 <div class="example"><pre>
-<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">LoadPackage( "FinSetsForCAP" );</span>
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">LoadPackage( "FinSetsForCAP", "&gt;= 2022.06-02" );</span>
 true
 <span class="GAPprompt">gap&gt;</span> <span class="GAPinput">K := FinSet( 3 );</span>
 |3|
@@ -519,7 +519,7 @@ true
 true
 <span class="GAPprompt">gap&gt;</span> <span class="GAPinput">n := PushoutComplement( l, m );;</span>
 <span class="GAPprompt">gap&gt;</span> <span class="GAPinput">g := n[2];</span>
-|5| ↪ |8|
+|5| → |8|
 <span class="GAPprompt">gap&gt;</span> <span class="GAPinput">n := n[1];</span>
 |3| → |5|
 <span class="GAPprompt">gap&gt;</span> <span class="GAPinput">Display( g );</span>
