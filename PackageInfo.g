@@ -10,9 +10,9 @@ SetPackageInfo( rec(
 
 PackageName := "Toposes",
 Subtitle := "Elementary toposes",
-Version := "2022.09-03",
-Date := "14/09/2022",
-Date := "14/09/2022",
+Version := "2022.09-04",
+Date := "29/09/2022",
+Date := "29/09/2022",
 License := "GPL-2.0-or-later",
 
 Persons := [
@@ -113,7 +113,7 @@ Dependencies := rec(
   GAP := ">= 4.11.1",
   NeededOtherPackages := [
                    [ "GAPDoc", ">= 1.5" ],
-                   [ "CAP", ">= 2022.09-02" ],
+                   [ "CAP", ">= 2022.09-23" ],
                    [ "CartesianCategories", ">= 2022.09-03" ],
                    ],
   SuggestedOtherPackages := [
