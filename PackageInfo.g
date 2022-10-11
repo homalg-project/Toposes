@@ -10,7 +10,7 @@ SetPackageInfo( rec(
 
 PackageName := "Toposes",
 Subtitle := "Elementary toposes",
-Version := "2022.10-04",
+Version := "2022.10-05",
 Date := "11/10/2022",
 Date := "11/10/2022",
 License := "GPL-2.0-or-later",

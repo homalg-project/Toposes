@@ -351,19 +351,15 @@
     [4X[28X<A monomorphism in FinSets>[128X[104X
   [4X[32X[104X
   
-  [33X[0;0YNow    we    compute    the   pushout   complement   [23XK   \xrightarrow{n}   D
-  \stackrel{g}{\hookrightarrow}   G[123X   of   [23XK  \stackrel{l}{\hookrightarrow}  L
-  \stackrel{m}{\hookrightarrow} G[123X.[133X
+  [33X[0;0YNow we compute the pushout complement [23XD \stackrel{c}{\hookrightarrow} G[123X of [23XK
+  \stackrel{l}{\hookrightarrow} L \stackrel{m}{\hookrightarrow} G[123X:[133X
   
   [4X[32X  Example  [32X[104X
     [4X[25Xgap>[125X [27XHasPushoutComplement( l, m );[127X[104X
     [4X[28Xtrue[128X[104X
-    [4X[25Xgap>[125X [27Xn := PushoutComplement( l, m );;[127X[104X
-    [4X[25Xgap>[125X [27Xg := n[2][2];[127X[104X
+    [4X[25Xgap>[125X [27Xc := PushoutComplement( l, m );[127X[104X
     [4X[28X<A monomorphism in FinSets>[128X[104X
-    [4X[25Xgap>[125X [27Xn := n[2][1];[127X[104X
-    [4X[28X<A morphism in FinSets>[128X[104X
-    [4X[25Xgap>[125X [27XD := Range( n );;[127X[104X
+    [4X[25Xgap>[125X [27XD := Source( c );;[127X[104X
     [4X[25Xgap>[125X [27XDisplay( D );[127X[104X
     [4X[28X[ 2, 3, 4, 5, 10 ][128X[104X
   [4X[32X[104X
@@ -375,7 +371,7 @@
   \stackrel{m}{\hookrightarrow} G[123X in [10XSkeletalFinSets[110X:[133X
   
   [4X[32X  Example  [32X[104X
-    [4X[25Xgap>[125X [27XLoadPackage( "FinSetsForCAP", ">= 2022.06-02" );[127X[104X
+    [4X[25Xgap>[125X [27XLoadPackage( "FinSetsForCAP" );[127X[104X
     [4X[28Xtrue[128X[104X
     [4X[25Xgap>[125X [27XK := FinSet( 3 );[127X[104X
     [4X[28X|3|[128X[104X
@@ -395,19 +391,15 @@
     [4X[28X{ 0,..., 5 } ⱶ[ 0, 1, 2, 3, 5, 6 ]→ { 0,..., 7 }[128X[104X
   [4X[32X[104X
   
-  [33X[0;0YNow    we    compute    the   pushout   complement   [23XK   \xrightarrow{n}   D
-  \stackrel{g}{\hookrightarrow}   G[123X   of   [23XK  \stackrel{l}{\hookrightarrow}  L
-  \stackrel{m}{\hookrightarrow} G[123X[133X
+  [33X[0;0YNow we compute the pushout complement [23XD \stackrel{c}{\hookrightarrow} G[123X of [23XK
+  \stackrel{l}{\hookrightarrow} L \stackrel{m}{\hookrightarrow} G[123X:[133X
   
   [4X[32X  Example  [32X[104X
     [4X[25Xgap>[125X [27XHasPushoutComplement( l, m );[127X[104X
     [4X[28Xtrue[128X[104X
-    [4X[25Xgap>[125X [27Xn := PushoutComplement( l, m );;[127X[104X
-    [4X[25Xgap>[125X [27Xg := n[2][2];[127X[104X
+    [4X[25Xgap>[125X [27Xc := PushoutComplement( l, m );[127X[104X
     [4X[28X|5| → |8|[128X[104X
-    [4X[25Xgap>[125X [27Xn := n[2][1];[127X[104X
-    [4X[28X|3| → |5|[128X[104X
-    [4X[25Xgap>[125X [27XDisplay( g );[127X[104X
+    [4X[25Xgap>[125X [27XDisplay( c );[127X[104X
     [4X[28X{ 0,..., 4 } ⱶ[ 2, 3, 4, 5, 7 ]→ { 0,..., 7 }[128X[104X
   [4X[32X[104X
   
