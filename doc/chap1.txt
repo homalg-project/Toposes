@@ -54,7 +54,7 @@
   
   [1X1.2-3 ClassifyingMorphismOfSubobject[101X
   
-  [33X[1;0Y[29X[2XClassifyingMorphismOfSubobject[102X( [3Xm[103X ) [32X operation[133X
+  [33X[1;0Y[29X[2XClassifyingMorphismOfSubobject[102X( [3Xm[103X ) [32X attribute[133X
   [6XReturns:[106X  [33X[0;10Ya      morphism      in      [23X\mathrm{Hom}(      \mathrm{Range}(m),
             \mathrm{SubobjectClassifier} )[123X[133X
   
@@ -73,7 +73,7 @@
   
   [1X1.2-5 SubobjectOfClassifyingMorphism[101X
   
-  [33X[1;0Y[29X[2XSubobjectOfClassifyingMorphism[102X( [3Xchi[103X ) [32X operation[133X
+  [33X[1;0Y[29X[2XSubobjectOfClassifyingMorphism[102X( [3Xchi[103X ) [32X attribute[133X
   [6XReturns:[106X  [33X[0;10Ya monomorphism in [23X\mathrm{Hom}( A, S )[123X[133X
   
   [33X[0;0YThe  argument  is  a  classifying  morphism [23X\chi : S \rightarrow \Omega[123X. The
@@ -82,7 +82,7 @@
   
   [1X1.2-6 ListOfSubobjects[101X
   
-  [33X[1;0Y[29X[2XListOfSubobjects[102X( [3XA[103X ) [32X operation[133X
+  [33X[1;0Y[29X[2XListOfSubobjects[102X( [3XA[103X ) [32X attribute[133X
   [6XReturns:[106X  [33X[0;10Ya list of monomorphism[133X
   
   [33X[0;0YThe argument is an object [3XA[103X. The output is a list of all subobjects of [3XA[103X.[133X
@@ -92,7 +92,7 @@
   
   [1X1.3-1 TruthMorphismOfTrue[101X
   
-  [33X[1;0Y[29X[2XTruthMorphismOfTrue[102X( [3XC[103X ) [32X operation[133X
+  [33X[1;0Y[29X[2XTruthMorphismOfTrue[102X( [3XC[103X ) [32X attribute[133X
   [6XReturns:[106X  [33X[0;10Ya     morphism     in    [23X\mathrm{Hom}(    \mathrm{TerminalObject},
             \mathrm{SubobjectClassifier} )[123X[133X
   
@@ -111,7 +111,7 @@
   
   [1X1.3-3 TruthMorphismOfFalse[101X
   
-  [33X[1;0Y[29X[2XTruthMorphismOfFalse[102X( [3XC[103X ) [32X operation[133X
+  [33X[1;0Y[29X[2XTruthMorphismOfFalse[102X( [3XC[103X ) [32X attribute[133X
   [6XReturns:[106X  [33X[0;10Ya     morphism     in    [23X\mathrm{Hom}(    \mathrm{TerminalObject},
             \mathrm{SubobjectClassifier} )[123X[133X
   
@@ -130,7 +130,7 @@
   
   [1X1.3-5 TruthMorphismOfNot[101X
   
-  [33X[1;0Y[29X[2XTruthMorphismOfNot[102X( [3XC[103X ) [32X operation[133X
+  [33X[1;0Y[29X[2XTruthMorphismOfNot[102X( [3XC[103X ) [32X attribute[133X
   [6XReturns:[106X  [33X[0;10Ya    morphism   in   [23X\mathrm{Hom}(   \mathrm{SubobjectClassifier},
             \mathrm{SubobjectClassifier} )[123X[133X
   
@@ -149,7 +149,7 @@
   
   [1X1.3-7 TruthMorphismOfAnd[101X
   
-  [33X[1;0Y[29X[2XTruthMorphismOfAnd[102X( [3XC[103X ) [32X operation[133X
+  [33X[1;0Y[29X[2XTruthMorphismOfAnd[102X( [3XC[103X ) [32X attribute[133X
   [6XReturns:[106X  [33X[0;10Ya              morphism              in              [23X\mathrm{Hom}(
             \mathrm{CartesianSquareOfSubobjectClassifier},
             \mathrm{SubobjectClassifier} )[123X[133X
@@ -171,7 +171,7 @@
   
   [1X1.3-9 TruthMorphismOfOr[101X
   
-  [33X[1;0Y[29X[2XTruthMorphismOfOr[102X( [3XC[103X ) [32X operation[133X
+  [33X[1;0Y[29X[2XTruthMorphismOfOr[102X( [3XC[103X ) [32X attribute[133X
   [6XReturns:[106X  [33X[0;10Ya              morphism              in              [23X\mathrm{Hom}(
             \mathrm{CartesianSquareOfSubobjectClassifier},
             \mathrm{SubobjectClassifier} )[123X[133X
@@ -193,7 +193,7 @@
   
   [1X1.3-11 TruthMorphismOfImplies[101X
   
-  [33X[1;0Y[29X[2XTruthMorphismOfImplies[102X( [3XC[103X ) [32X operation[133X
+  [33X[1;0Y[29X[2XTruthMorphismOfImplies[102X( [3XC[103X ) [32X attribute[133X
   [6XReturns:[106X  [33X[0;10Ya              morphism              in              [23X\mathrm{Hom}(
             \mathrm{CartesianSquareOfSubobjectClassifier},
             \mathrm{SubobjectClassifier} )[123X[133X

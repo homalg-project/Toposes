@@ -182,7 +182,7 @@
 
 <h5>1.2-3 ClassifyingMorphismOfSubobject</h5>
 
-<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; ClassifyingMorphismOfSubobject</code>( <var class="Arg">m</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; ClassifyingMorphismOfSubobject</code>( <var class="Arg">m</var> )</td><td class="tdright">(&nbsp;attribute&nbsp;)</td></tr></table></div>
 <p>Returns: a morphism in <span class="Math">\mathrm{Hom}( \mathrm{Range}(m), \mathrm{SubobjectClassifier} )</span></p>
 
 <p>The argument is a monomorphism <span class="Math">m : A \rightarrow S</span>. The output is its classifying morphism <span class="Math">\chi_m : S \rightarrow \mathrm{SubobjectClassifier}</span>.</p>
@@ -200,7 +200,7 @@
 
 <h5>1.2-5 SubobjectOfClassifyingMorphism</h5>
 
-<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; SubobjectOfClassifyingMorphism</code>( <var class="Arg">chi</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; SubobjectOfClassifyingMorphism</code>( <var class="Arg">chi</var> )</td><td class="tdright">(&nbsp;attribute&nbsp;)</td></tr></table></div>
 <p>Returns: a monomorphism in <span class="Math">\mathrm{Hom}( A, S )</span></p>
 
 <p>The argument is a classifying morphism <span class="Math">\chi : S \rightarrow \Omega</span>. The output is the subobject monomorphism of the classifying morphism, <span class="Math">m : A \rightarrow S</span>.</p>
@@ -209,7 +209,7 @@
 
 <h5>1.2-6 ListOfSubobjects</h5>
 
-<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; ListOfSubobjects</code>( <var class="Arg">A</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; ListOfSubobjects</code>( <var class="Arg">A</var> )</td><td class="tdright">(&nbsp;attribute&nbsp;)</td></tr></table></div>
 <p>Returns: a list of monomorphism</p>
 
 <p>The argument is an object <var class="Arg">A</var>. The output is a list of all subobjects of <var class="Arg">A</var>.</p>
@@ -222,7 +222,7 @@
 
 <h5>1.3-1 TruthMorphismOfTrue</h5>
 
-<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; TruthMorphismOfTrue</code>( <var class="Arg">C</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; TruthMorphismOfTrue</code>( <var class="Arg">C</var> )</td><td class="tdright">(&nbsp;attribute&nbsp;)</td></tr></table></div>
 <p>Returns: a morphism in <span class="Math">\mathrm{Hom}( \mathrm{TerminalObject}, \mathrm{SubobjectClassifier} )</span></p>
 
 <p>The argument is a category <span class="Math">C</span>. The output is the truth morphism of true into the subobject classifier <span class="Math">\mathrm{true}: \mathrm{TerminalObject} \rightarrow \mathrm{SubobjectClassifier}</span>.</p>
@@ -240,7 +240,7 @@
 
 <h5>1.3-3 TruthMorphismOfFalse</h5>
 
-<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; TruthMorphismOfFalse</code>( <var class="Arg">C</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; TruthMorphismOfFalse</code>( <var class="Arg">C</var> )</td><td class="tdright">(&nbsp;attribute&nbsp;)</td></tr></table></div>
 <p>Returns: a morphism in <span class="Math">\mathrm{Hom}( \mathrm{TerminalObject}, \mathrm{SubobjectClassifier} )</span></p>
 
 <p>The argument is a category <span class="Math">C</span>. The output is the truth morphism of false into the subobject classifier <span class="Math">\mathrm{false}: \mathrm{TerminalObject} \rightarrow \mathrm{SubobjectClassifier}</span>.</p>
@@ -258,7 +258,7 @@
 
 <h5>1.3-5 TruthMorphismOfNot</h5>
 
-<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; TruthMorphismOfNot</code>( <var class="Arg">C</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; TruthMorphismOfNot</code>( <var class="Arg">C</var> )</td><td class="tdright">(&nbsp;attribute&nbsp;)</td></tr></table></div>
 <p>Returns: a morphism in <span class="Math">\mathrm{Hom}( \mathrm{SubobjectClassifier}, \mathrm{SubobjectClassifier} )</span></p>
 
 <p>The argument is a category <span class="Math">C</span>. The output is the truth morphism of "not" of the subobject classifier <span class="Math">\mathrm{not}: \mathrm{SubobjectClassifier} \rightarrow \mathrm{SubobjectClassifier}</span>.</p>
@@ -276,7 +276,7 @@
 
 <h5>1.3-7 TruthMorphismOfAnd</h5>
 
-<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; TruthMorphismOfAnd</code>( <var class="Arg">C</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; TruthMorphismOfAnd</code>( <var class="Arg">C</var> )</td><td class="tdright">(&nbsp;attribute&nbsp;)</td></tr></table></div>
 <p>Returns: a morphism in <span class="Math">\mathrm{Hom}( \mathrm{CartesianSquareOfSubobjectClassifier}, \mathrm{SubobjectClassifier} )</span></p>
 
 <p>The argument is a category <span class="Math">C</span>. The output is the truth morphism of "and" into the subobject classifier <span class="Math">\mathrm{and}: \mathrm{CartesianSquareOfSubobjectClassifier} \rightarrow \mathrm{SubobjectClassifier}</span>.</p>
@@ -294,7 +294,7 @@
 
 <h5>1.3-9 TruthMorphismOfOr</h5>
 
-<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; TruthMorphismOfOr</code>( <var class="Arg">C</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; TruthMorphismOfOr</code>( <var class="Arg">C</var> )</td><td class="tdright">(&nbsp;attribute&nbsp;)</td></tr></table></div>
 <p>Returns: a morphism in <span class="Math">\mathrm{Hom}( \mathrm{CartesianSquareOfSubobjectClassifier}, \mathrm{SubobjectClassifier} )</span></p>
 
 <p>The argument is a category <span class="Math">C</span>. The output is the truth morphism of "or" into the subobject classifier <span class="Math">\mathrm{or}: \mathrm{CartesianSquareOfSubobjectClassifier} \rightarrow \mathrm{SubobjectClassifier}</span>.</p>
@@ -312,7 +312,7 @@
 
 <h5>1.3-11 TruthMorphismOfImplies</h5>
 
-<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; TruthMorphismOfImplies</code>( <var class="Arg">C</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; TruthMorphismOfImplies</code>( <var class="Arg">C</var> )</td><td class="tdright">(&nbsp;attribute&nbsp;)</td></tr></table></div>
 <p>Returns: a morphism in <span class="Math">\mathrm{Hom}( \mathrm{CartesianSquareOfSubobjectClassifier}, \mathrm{SubobjectClassifier} )</span></p>
 
 <p>The argument is a category <span class="Math">C</span>. The output is the truth morphism of "implies" into the subobject classifier <span class="Math">\mathrm{implies}: \mathrm{CartesianSquareOfSubobjectClassifier} \rightarrow \mathrm{SubobjectClassifier}</span>.</p>
