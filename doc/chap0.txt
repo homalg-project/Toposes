@@ -6,7 +6,7 @@
                               [1X Elementary toposes [101X
   
   
-                                   2022.11-02
+                                   2022.11-03
   
   
                                 12 November 2022
@@ -63,87 +63,90 @@
   1 [33X[0;0YToposes[133X
     1.1 [33X[0;0YMorphisms of external Hom[133X
       1.1-1 MorphismsOfExternalHom
-    1.2 [33X[0;0YSubobject Classifier[133X
-      1.2-1 SubobjectClassifier
-      1.2-2 CartesianSquareOfSubobjectClassifier
-      1.2-3 ClassifyingMorphismOfSubobject
-      1.2-4 ClassifyingMorphismOfSubobjectWithGivenSubobjectClassifier
-      1.2-5 SubobjectOfClassifyingMorphism
-      1.2-6 ListOfSubobjects
-    1.3 [33X[0;0YTruth Morphisms[133X
-      1.3-1 TruthMorphismOfTrue
-      1.3-2 TruthMorphismOfTrueWithGivenObjects
-      1.3-3 TruthMorphismOfFalse
-      1.3-4 TruthMorphismOfFalseWithGivenObjects
-      1.3-5 TruthMorphismOfNot
-      1.3-6 TruthMorphismOfNotWithGivenObjects
-      1.3-7 TruthMorphismOfAnd
-      1.3-8 TruthMorphismOfAndWithGivenObjects
-      1.3-9 TruthMorphismOfOr
-      1.3-10 TruthMorphismOfOrWithGivenObjects
-      1.3-11 TruthMorphismOfImplies
-      1.3-12 TruthMorphismOfImpliesWithGivenObjects
-    1.4 [33X[0;0YHeyting Algebra of Subobjects[133X
-      1.4-1 PseudoComplementSubobject
-      1.4-2 EmbeddingOfPseudoComplementSubobject
-      1.4-3 EmbeddingOfPseudoComplementSubobjectWithGivenPseudoComplement
-      1.4-4 IntersectionSubobject
-      1.4-5 EmbeddingOfIntersectionSubobject
-      1.4-6 EmbeddingOfIntersectionSubobjectWithGivenIntersection
-      1.4-7 UnionSubobject
-      1.4-8 EmbeddingOfUnionSubobject
-      1.4-9 EmbeddingOfUnionSubobjectWithGivenUnion
-      1.4-10 RelativePseudoComplementSubobject
-      1.4-11 EmbeddingOfRelativePseudoComplementSubobject
-      1.4-12 EmbeddingOfRelativePseudoComplementSubobjectWithGivenImplication
-    1.5 [33X[0;0YLawvere-Tierney topologies[133X
-      1.5-1 LawvereTierneyLocalModalityOperators
-      1.5-2 LawvereTierneySubobjects
-      1.5-3 LawvereTierneyEmbeddingsOfSubobjectClassifiers
-    1.6 [33X[0;0YPushout complements[133X
-      1.6-1 [33X[0;0YExample in FinSets[133X
-      1.6-2 [33X[0;0YExample in SkeletalFinSets[133X
-      1.6-3 HasPushoutComplement
-      1.6-4 PushoutComplement
-    1.7 [33X[0;0YDouble-pushout rewriting[133X
-      1.7-1 DPO
-    1.8 [33X[0;0YAdd-methods[133X
-      1.8-1 AddCartesianSquareOfSubobjectClassifier
-      1.8-2 AddClassifyingMorphismOfSubobject
-      1.8-3 AddClassifyingMorphismOfSubobjectWithGivenSubobjectClassifier
-      1.8-4 AddEmbeddingOfIntersectionSubobject
-      1.8-5 AddEmbeddingOfIntersectionSubobjectWithGivenIntersection
-      1.8-6 AddEmbeddingOfPseudoComplementSubobject
-      1.8-7 AddEmbeddingOfPseudoComplementSubobjectWithGivenPseudoComplement
-      1.8-8 AddEmbeddingOfRelativePseudoComplementSubobject
-      1.8-9 AddEmbeddingOfRelativePseudoComplementSubobjectWithGivenImplication
-      1.8-10 AddEmbeddingOfUnionSubobject
-      1.8-11 AddEmbeddingOfUnionSubobjectWithGivenUnion
-      1.8-12 AddHasPushoutComplement
-      1.8-13 AddIntersectionSubobject
-      1.8-14 AddLawvereTierneyEmbeddingsOfSubobjectClassifiers
-      1.8-15 AddLawvereTierneyLocalModalityOperators
-      1.8-16 AddLawvereTierneySubobjects
-      1.8-17 AddListOfSubobjects
-      1.8-18 AddMorphismsOfExternalHom
-      1.8-19 AddPseudoComplementSubobject
-      1.8-20 AddPushoutComplement
-      1.8-21 AddRelativePseudoComplementSubobject
-      1.8-22 AddSubobjectClassifier
-      1.8-23 AddSubobjectOfClassifyingMorphism
-      1.8-24 AddTruthMorphismOfAnd
-      1.8-25 AddTruthMorphismOfAndWithGivenObjects
-      1.8-26 AddTruthMorphismOfFalse
-      1.8-27 AddTruthMorphismOfFalseWithGivenObjects
-      1.8-28 AddTruthMorphismOfImplies
-      1.8-29 AddTruthMorphismOfImpliesWithGivenObjects
-      1.8-30 AddTruthMorphismOfNot
-      1.8-31 AddTruthMorphismOfNotWithGivenObjects
-      1.8-32 AddTruthMorphismOfOr
-      1.8-33 AddTruthMorphismOfOrWithGivenObjects
-      1.8-34 AddTruthMorphismOfTrue
-      1.8-35 AddTruthMorphismOfTrueWithGivenObjects
-      1.8-36 AddUnionSubobject
+    1.2 [33X[0;0YExact cover with global elements[133X
+      1.2-1 ExactCoverWithGlobalElements
+    1.3 [33X[0;0YSubobject Classifier[133X
+      1.3-1 SubobjectClassifier
+      1.3-2 CartesianSquareOfSubobjectClassifier
+      1.3-3 ClassifyingMorphismOfSubobject
+      1.3-4 ClassifyingMorphismOfSubobjectWithGivenSubobjectClassifier
+      1.3-5 SubobjectOfClassifyingMorphism
+      1.3-6 ListOfSubobjects
+    1.4 [33X[0;0YTruth Morphisms[133X
+      1.4-1 TruthMorphismOfTrue
+      1.4-2 TruthMorphismOfTrueWithGivenObjects
+      1.4-3 TruthMorphismOfFalse
+      1.4-4 TruthMorphismOfFalseWithGivenObjects
+      1.4-5 TruthMorphismOfNot
+      1.4-6 TruthMorphismOfNotWithGivenObjects
+      1.4-7 TruthMorphismOfAnd
+      1.4-8 TruthMorphismOfAndWithGivenObjects
+      1.4-9 TruthMorphismOfOr
+      1.4-10 TruthMorphismOfOrWithGivenObjects
+      1.4-11 TruthMorphismOfImplies
+      1.4-12 TruthMorphismOfImpliesWithGivenObjects
+    1.5 [33X[0;0YHeyting Algebra of Subobjects[133X
+      1.5-1 PseudoComplementSubobject
+      1.5-2 EmbeddingOfPseudoComplementSubobject
+      1.5-3 EmbeddingOfPseudoComplementSubobjectWithGivenPseudoComplement
+      1.5-4 IntersectionSubobject
+      1.5-5 EmbeddingOfIntersectionSubobject
+      1.5-6 EmbeddingOfIntersectionSubobjectWithGivenIntersection
+      1.5-7 UnionSubobject
+      1.5-8 EmbeddingOfUnionSubobject
+      1.5-9 EmbeddingOfUnionSubobjectWithGivenUnion
+      1.5-10 RelativePseudoComplementSubobject
+      1.5-11 EmbeddingOfRelativePseudoComplementSubobject
+      1.5-12 EmbeddingOfRelativePseudoComplementSubobjectWithGivenImplication
+    1.6 [33X[0;0YLawvere-Tierney topologies[133X
+      1.6-1 LawvereTierneyLocalModalityOperators
+      1.6-2 LawvereTierneySubobjects
+      1.6-3 LawvereTierneyEmbeddingsOfSubobjectClassifiers
+    1.7 [33X[0;0YPushout complements[133X
+      1.7-1 [33X[0;0YExample in FinSets[133X
+      1.7-2 [33X[0;0YExample in SkeletalFinSets[133X
+      1.7-3 HasPushoutComplement
+      1.7-4 PushoutComplement
+    1.8 [33X[0;0YDouble-pushout rewriting[133X
+      1.8-1 DPO
+    1.9 [33X[0;0YAdd-methods[133X
+      1.9-1 AddCartesianSquareOfSubobjectClassifier
+      1.9-2 AddClassifyingMorphismOfSubobject
+      1.9-3 AddClassifyingMorphismOfSubobjectWithGivenSubobjectClassifier
+      1.9-4 AddEmbeddingOfIntersectionSubobject
+      1.9-5 AddEmbeddingOfIntersectionSubobjectWithGivenIntersection
+      1.9-6 AddEmbeddingOfPseudoComplementSubobject
+      1.9-7 AddEmbeddingOfPseudoComplementSubobjectWithGivenPseudoComplement
+      1.9-8 AddEmbeddingOfRelativePseudoComplementSubobject
+      1.9-9 AddEmbeddingOfRelativePseudoComplementSubobjectWithGivenImplication
+      1.9-10 AddEmbeddingOfUnionSubobject
+      1.9-11 AddEmbeddingOfUnionSubobjectWithGivenUnion
+      1.9-12 AddExactCoverWithGlobalElements
+      1.9-13 AddHasPushoutComplement
+      1.9-14 AddIntersectionSubobject
+      1.9-15 AddLawvereTierneyEmbeddingsOfSubobjectClassifiers
+      1.9-16 AddLawvereTierneyLocalModalityOperators
+      1.9-17 AddLawvereTierneySubobjects
+      1.9-18 AddListOfSubobjects
+      1.9-19 AddMorphismsOfExternalHom
+      1.9-20 AddPseudoComplementSubobject
+      1.9-21 AddPushoutComplement
+      1.9-22 AddRelativePseudoComplementSubobject
+      1.9-23 AddSubobjectClassifier
+      1.9-24 AddSubobjectOfClassifyingMorphism
+      1.9-25 AddTruthMorphismOfAnd
+      1.9-26 AddTruthMorphismOfAndWithGivenObjects
+      1.9-27 AddTruthMorphismOfFalse
+      1.9-28 AddTruthMorphismOfFalseWithGivenObjects
+      1.9-29 AddTruthMorphismOfImplies
+      1.9-30 AddTruthMorphismOfImpliesWithGivenObjects
+      1.9-31 AddTruthMorphismOfNot
+      1.9-32 AddTruthMorphismOfNotWithGivenObjects
+      1.9-33 AddTruthMorphismOfOr
+      1.9-34 AddTruthMorphismOfOrWithGivenObjects
+      1.9-35 AddTruthMorphismOfTrue
+      1.9-36 AddTruthMorphismOfTrueWithGivenObjects
+      1.9-37 AddUnionSubobject
   2 [33X[0;0YCategory of relations[133X
     2.1 [33X[0;0YGAP categories[133X
       2.1-1 IsCategoryOfRelations
