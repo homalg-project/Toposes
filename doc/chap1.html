@@ -35,12 +35,13 @@
 <div class="ContSect"><span class="tocline"><span class="nocss">&nbsp;</span><a href="chap1.html#X87DA77E487F951EF">1.3 <span class="Heading">Subobject Classifier</span></a>
 </span>
 <div class="ContSSBlock">
-<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap1.html#X7D33F6ED85FC23BC">1.3-1 SubobjectClassifier</a></span>
-<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap1.html#X795F4E368142FD05">1.3-2 CartesianSquareOfSubobjectClassifier</a></span>
-<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap1.html#X7E86ACBB830223AC">1.3-3 ClassifyingMorphismOfSubobject</a></span>
-<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap1.html#X874A09FD7A8FB706">1.3-4 ClassifyingMorphismOfSubobjectWithGivenSubobjectClassifier</a></span>
-<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap1.html#X85AA59EA7D780BAB">1.3-5 SubobjectOfClassifyingMorphism</a></span>
-<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap1.html#X829D00417AB42EA0">1.3-6 ListOfSubobjects</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap1.html#X82C1680F8759EC73">1.3-1 IsElementaryTopos</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap1.html#X7D33F6ED85FC23BC">1.3-2 SubobjectClassifier</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap1.html#X795F4E368142FD05">1.3-3 CartesianSquareOfSubobjectClassifier</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap1.html#X7E86ACBB830223AC">1.3-4 ClassifyingMorphismOfSubobject</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap1.html#X874A09FD7A8FB706">1.3-5 ClassifyingMorphismOfSubobjectWithGivenSubobjectClassifier</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap1.html#X85AA59EA7D780BAB">1.3-6 SubobjectOfClassifyingMorphism</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap1.html#X829D00417AB42EA0">1.3-7 ListOfSubobjects</a></span>
 </div></div>
 <div class="ContSect"><span class="tocline"><span class="nocss">&nbsp;</span><a href="chap1.html#X7E7B5D407DC75E7B">1.4 <span class="Heading">Truth Morphisms</span></a>
 </span>
@@ -175,14 +176,16 @@
 
 <h4>1.3 <span class="Heading">Subobject Classifier</span></h4>
 
-<p><a id="X7D33F6ED85FC23BC" name="X7D33F6ED85FC23BC"></a></p>
+<p><a id="X82C1680F8759EC73" name="X82C1680F8759EC73"></a></p>
 
-<h5>1.3-1 SubobjectClassifier</h5>
+<h5>1.3-1 IsElementaryTopos</h5>
 
-<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; SubobjectClassifier</code>( <var class="Arg">C</var> )</td><td class="tdright">(&nbsp;attribute&nbsp;)</td></tr></table></div>
-<p>Returns: an object</p>
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; IsElementaryTopos</code>( <var class="Arg">C</var> )</td><td class="tdright">(&nbsp;property&nbsp;)</td></tr></table></div>
+<p>Returns: <code class="keyw">true</code> or <code class="keyw">false</code></p>
 
-<p>The property of the category <var class="Arg">C</var> being an elementary topos. A subobject classifier object consists of three parts:</p>
+<p>The property of the category <var class="Arg">C</var> being an elementary topos.</p>
+
+<p>A subobject classifier object consists of three parts:</p>
 
 
 <ul>
@@ -196,11 +199,20 @@
 
 </li>
 </ul>
-<p>The triple <span class="Math">(\Omega,\mathrm{true},\chi)</span> is called a <em>subobject classifier</em> if for each monomorphism <span class="Math">i : A \to S</span>, the morphism <span class="Math">\chi_i : S \to \Omega</span> is the unique morphism such that <span class="Math">\chi_i \circ i = \mathrm{true} \circ \ast</span> determine a pullback diagram. The argument is a category <span class="Math">C</span>. The output is a subobject classifier object <span class="Math">\Omega</span> of <span class="Math">C</span>.</p>
+<p>The triple <span class="Math">(\Omega,\mathrm{true},\chi)</span> is called a <em>subobject classifier</em> if for each monomorphism <span class="Math">i : A \to S</span>, the morphism <span class="Math">\chi_i : S \to \Omega</span> is the unique morphism such that <span class="Math">\chi_i \circ i = \mathrm{true} \circ \ast</span> determine a pullback diagram.</p>
+
+<p><a id="X7D33F6ED85FC23BC" name="X7D33F6ED85FC23BC"></a></p>
+
+<h5>1.3-2 SubobjectClassifier</h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; SubobjectClassifier</code>( <var class="Arg">C</var> )</td><td class="tdright">(&nbsp;attribute&nbsp;)</td></tr></table></div>
+<p>Returns: an object</p>
+
+<p>The argument is a category <span class="Math">C</span>. The output is a subobject classifier object <span class="Math">\Omega</span> of <span class="Math">C</span>.</p>
 
 <p><a id="X795F4E368142FD05" name="X795F4E368142FD05"></a></p>
 
-<h5>1.3-2 CartesianSquareOfSubobjectClassifier</h5>
+<h5>1.3-3 CartesianSquareOfSubobjectClassifier</h5>
 
 <div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; CartesianSquareOfSubobjectClassifier</code>( <var class="Arg">C</var> )</td><td class="tdright">(&nbsp;attribute&nbsp;)</td></tr></table></div>
 <p>Returns: an object</p>
@@ -209,7 +221,7 @@
 
 <p><a id="X7E86ACBB830223AC" name="X7E86ACBB830223AC"></a></p>
 
-<h5>1.3-3 ClassifyingMorphismOfSubobject</h5>
+<h5>1.3-4 ClassifyingMorphismOfSubobject</h5>
 
 <div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; ClassifyingMorphismOfSubobject</code>( <var class="Arg">m</var> )</td><td class="tdright">(&nbsp;attribute&nbsp;)</td></tr></table></div>
 <p>Returns: a morphism in <span class="Math">\mathrm{Hom}( \mathrm{Range}(m), \mathrm{SubobjectClassifier} )</span></p>
@@ -218,7 +230,7 @@
 
 <p><a id="X874A09FD7A8FB706" name="X874A09FD7A8FB706"></a></p>
 
-<h5>1.3-4 ClassifyingMorphismOfSubobjectWithGivenSubobjectClassifier</h5>
+<h5>1.3-5 ClassifyingMorphismOfSubobjectWithGivenSubobjectClassifier</h5>
 
 <div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; ClassifyingMorphismOfSubobjectWithGivenSubobjectClassifier</code>( <var class="Arg">m</var>, <var class="Arg">omega</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
 <p>Returns: a morphism in <span class="Math">\mathrm{Hom}( \mathrm{Range}(m), \mathrm{SubobjectClassifier} )</span></p>
@@ -227,7 +239,7 @@
 
 <p><a id="X85AA59EA7D780BAB" name="X85AA59EA7D780BAB"></a></p>
 
-<h5>1.3-5 SubobjectOfClassifyingMorphism</h5>
+<h5>1.3-6 SubobjectOfClassifyingMorphism</h5>
 
 <div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; SubobjectOfClassifyingMorphism</code>( <var class="Arg">chi</var> )</td><td class="tdright">(&nbsp;attribute&nbsp;)</td></tr></table></div>
 <p>Returns: a monomorphism in <span class="Math">\mathrm{Hom}( A, S )</span></p>
@@ -236,7 +248,7 @@
 
 <p><a id="X829D00417AB42EA0" name="X829D00417AB42EA0"></a></p>
 
-<h5>1.3-6 ListOfSubobjects</h5>
+<h5>1.3-7 ListOfSubobjects</h5>
 
 <div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; ListOfSubobjects</code>( <var class="Arg">A</var> )</td><td class="tdright">(&nbsp;attribute&nbsp;)</td></tr></table></div>
 <p>Returns: a list of monomorphism</p>

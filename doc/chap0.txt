@@ -6,10 +6,10 @@
                               [1X Elementary toposes [101X
   
   
-                                   2022.11-05
+                                   2022.11-06
   
   
-                                22 November 2022
+                                25 November 2022
   
   
                                 Mohamed Barakat
@@ -66,12 +66,13 @@
     1.2 [33X[0;0YExact cover with global elements[133X
       1.2-1 ExactCoverWithGlobalElements
     1.3 [33X[0;0YSubobject Classifier[133X
-      1.3-1 SubobjectClassifier
-      1.3-2 CartesianSquareOfSubobjectClassifier
-      1.3-3 ClassifyingMorphismOfSubobject
-      1.3-4 ClassifyingMorphismOfSubobjectWithGivenSubobjectClassifier
-      1.3-5 SubobjectOfClassifyingMorphism
-      1.3-6 ListOfSubobjects
+      1.3-1 IsElementaryTopos
+      1.3-2 SubobjectClassifier
+      1.3-3 CartesianSquareOfSubobjectClassifier
+      1.3-4 ClassifyingMorphismOfSubobject
+      1.3-5 ClassifyingMorphismOfSubobjectWithGivenSubobjectClassifier
+      1.3-6 SubobjectOfClassifyingMorphism
+      1.3-7 ListOfSubobjects
     1.4 [33X[0;0YTruth Morphisms[133X
       1.4-1 TruthMorphismOfTrue
       1.4-2 TruthMorphismOfTrueWithGivenObjects
