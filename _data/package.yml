@@ -1,7 +1,7 @@
 name: Toposes
-version: "2022.11-06"
+version: "2022.11-07"
 license: "GPL-2.0-or-later"
-date: 2022-11-25
+date: 2022-11-29
 description: |
     Elementary toposes
 
@@ -38,28 +38,17 @@ needed-pkgs:
       version: ">= 2022.09-03"
       url: "https://homalg-project.github.io/pkg/CartesianCategories"
 
-suggested-pkgs:
-    - name: "CategoryConstructor"
-      version: ">= 2022.06-02"
-      url: "https://homalg-project.github.io/pkg/CategoryConstructor"
-    - name: "MonoidalCategories"
-      version: ">= 2022.05-03"
-      url: "https://homalg-project.github.io/pkg/MonoidalCategories"
-    - name: "Digraphs"
-      version: ">= 1.3.1"
-      url: "https://digraphs.github.io/Digraphs"
-
 www: https://homalg-project.github.io/pkg/Toposes
 readme: README.md
 packageinfo: https://homalg-project.github.io/Toposes/PackageInfo.g
 
 downloads:
     - name: .tar.gz
-      url: https://github.com/homalg-project/Toposes/releases/download/v2022.11-06/Toposes-2022.11-06.tar.gz
+      url: https://github.com/homalg-project/Toposes/releases/download/v2022.11-07/Toposes-2022.11-07.tar.gz
     - name: .zip
-      url: https://github.com/homalg-project/Toposes/releases/download/v2022.11-06/Toposes-2022.11-06.zip
+      url: https://github.com/homalg-project/Toposes/releases/download/v2022.11-07/Toposes-2022.11-07.zip
 
-pdf: https://github.com/homalg-project/Toposes/releases/download/v2022.11-06/Toposes-2022.11-06.pdf
+pdf: https://github.com/homalg-project/Toposes/releases/download/v2022.11-07/Toposes-2022.11-07.pdf
 
 abstract: |
 
@@ -72,7 +61,7 @@ citeas: |
     <p class='BibEntry'>
     [<span class='BibKey'>BZRK22</span>]   <b class='BibAuthor'>Barakat, M., Zickgraf, F., Román, M. and Kuhmichel, T.</b>,
      <i class='BibTitle'>Toposes, Elementary toposes,
-             Version 2022.11-06</i>
+             Version 2022.11-07</i>
      (<span class='BibYear'>2022</span>)<br />
     (<span class='BibNote'>GAP package</span>),
     <span class='BibHowpublished'><a href="https://homalg-project.github.io/pkg/Toposes">https://homalg-project.github.io/pkg/Toposes</a></span>.
@@ -80,10 +69,10 @@ citeas: |
     
 
 bibtex: |
-    @misc{ Toposes2022.11-06,
+    @misc{ Toposes2022.11-07,
       author =           {Barakat,  M.  and  Zickgraf, F. and Rom{\a'a}n, M. and
                           Kuhmichel, T.},
-      title =            {{Toposes}, Elementary toposes, {V}ersion 2022.11-06},
+      title =            {{Toposes}, Elementary toposes, {V}ersion 2022.11-07},
       month =            {Nov},
       year =             {2022},
       note =             {GAP package},
