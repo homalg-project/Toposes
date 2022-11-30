@@ -1,7 +1,7 @@
 name: Toposes
-version: "2022.11-07"
+version: "2022.11-08"
 license: "GPL-2.0-or-later"
-date: 2022-11-29
+date: 2022-11-30
 description: |
     Elementary toposes
 
@@ -38,17 +38,22 @@ needed-pkgs:
       version: ">= 2022.09-03"
       url: "https://homalg-project.github.io/pkg/CartesianCategories"
 
+suggested-pkgs:
+    - name: "CategoryConstructor"
+      version: ">= 2022.06-02"
+      url: "https://homalg-project.github.io/pkg/CategoryConstructor"
+
 www: https://homalg-project.github.io/pkg/Toposes
 readme: README.md
 packageinfo: https://homalg-project.github.io/Toposes/PackageInfo.g
 
 downloads:
     - name: .tar.gz
-      url: https://github.com/homalg-project/Toposes/releases/download/v2022.11-07/Toposes-2022.11-07.tar.gz
+      url: https://github.com/homalg-project/Toposes/releases/download/v2022.11-08/Toposes-2022.11-08.tar.gz
     - name: .zip
-      url: https://github.com/homalg-project/Toposes/releases/download/v2022.11-07/Toposes-2022.11-07.zip
+      url: https://github.com/homalg-project/Toposes/releases/download/v2022.11-08/Toposes-2022.11-08.zip
 
-pdf: https://github.com/homalg-project/Toposes/releases/download/v2022.11-07/Toposes-2022.11-07.pdf
+pdf: https://github.com/homalg-project/Toposes/releases/download/v2022.11-08/Toposes-2022.11-08.pdf
 
 abstract: |
 
@@ -61,7 +66,7 @@ citeas: |
     <p class='BibEntry'>
     [<span class='BibKey'>BZRK22</span>]   <b class='BibAuthor'>Barakat, M., Zickgraf, F., Román, M. and Kuhmichel, T.</b>,
      <i class='BibTitle'>Toposes, Elementary toposes,
-             Version 2022.11-07</i>
+             Version 2022.11-08</i>
      (<span class='BibYear'>2022</span>)<br />
     (<span class='BibNote'>GAP package</span>),
     <span class='BibHowpublished'><a href="https://homalg-project.github.io/pkg/Toposes">https://homalg-project.github.io/pkg/Toposes</a></span>.
@@ -69,10 +74,10 @@ citeas: |
     
 
 bibtex: |
-    @misc{ Toposes2022.11-07,
+    @misc{ Toposes2022.11-08,
       author =           {Barakat,  M.  and  Zickgraf, F. and Rom{\a'a}n, M. and
                           Kuhmichel, T.},
-      title =            {{Toposes}, Elementary toposes, {V}ersion 2022.11-07},
+      title =            {{Toposes}, Elementary toposes, {V}ersion 2022.11-08},
       month =            {Nov},
       year =             {2022},
       note =             {GAP package},
