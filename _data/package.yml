@@ -1,7 +1,7 @@
 name: Toposes
-version: "2023.01-02"
+version: "2023.01-03"
 license: "GPL-2.0-or-later"
-date: 2023-01-14
+date: 2023-01-17
 description: |
     Elementary toposes
 
@@ -52,11 +52,11 @@ packageinfo: https://homalg-project.github.io/Toposes/PackageInfo.g
 
 downloads:
     - name: .tar.gz
-      url: https://github.com/homalg-project/Toposes/releases/download/v2023.01-02/Toposes-2023.01-02.tar.gz
+      url: https://github.com/homalg-project/Toposes/releases/download/v2023.01-03/Toposes-2023.01-03.tar.gz
     - name: .zip
-      url: https://github.com/homalg-project/Toposes/releases/download/v2023.01-02/Toposes-2023.01-02.zip
+      url: https://github.com/homalg-project/Toposes/releases/download/v2023.01-03/Toposes-2023.01-03.zip
 
-pdf: https://github.com/homalg-project/Toposes/releases/download/v2023.01-02/Toposes-2023.01-02.pdf
+pdf: https://github.com/homalg-project/Toposes/releases/download/v2023.01-03/Toposes-2023.01-03.pdf
 
 abstract: |
 
@@ -69,7 +69,7 @@ citeas: |
     <p class='BibEntry'>
     [<span class='BibKey'>BZRK23</span>]   <b class='BibAuthor'>Barakat, M., Zickgraf, F., Román, M. and Kuhmichel, T.</b>,
      <i class='BibTitle'>Toposes, Elementary toposes,
-             Version 2023.01-02</i>
+             Version 2023.01-03</i>
      (<span class='BibYear'>2023</span>)<br />
     (<span class='BibNote'>GAP package</span>),
     <span class='BibHowpublished'><a href="https://homalg-project.github.io/pkg/Toposes">https://homalg-project.github.io/pkg/Toposes</a></span>.
@@ -77,10 +77,10 @@ citeas: |
     
 
 bibtex: |
-    @misc{ Toposes2023.01-02,
+    @misc{ Toposes2023.01-03,
       author =           {Barakat,  M.  and  Zickgraf, F. and Rom{\a'a}n, M. and
                           Kuhmichel, T.},
-      title =            {{Toposes}, Elementary toposes, {V}ersion 2023.01-02},
+      title =            {{Toposes}, Elementary toposes, {V}ersion 2023.01-03},
       month =            {Jan},
       year =             {2023},
       note =             {GAP package},
