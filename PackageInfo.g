@@ -10,9 +10,9 @@ SetPackageInfo( rec(
 
 PackageName := "Toposes",
 Subtitle := "Elementary toposes",
-Version := "2023.01-03",
-Date := "17/01/2023",
-Date := "17/01/2023",
+Version := "2023.01-04",
+Date := "20/01/2023",
+Date := "20/01/2023",
 License := "GPL-2.0-or-later",
 
 Persons := [
@@ -114,7 +114,7 @@ Dependencies := rec(
   NeededOtherPackages := [
                    [ "GAPDoc", ">= 1.5" ],
                    [ "CAP", ">= 2022.12-03" ],
-                   [ "CartesianCategories", ">= 2022.09-03" ],
+                   [ "CartesianCategories", ">= 2023.01-01" ],
                    ],
   SuggestedOtherPackages := [
                    [ "CategoryConstructor", ">= 2022.06-02" ],
